@@ -1,0 +1,143 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header, footer {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.my-header {
+  padding: 100px 30px 30px;
+}
+
+.menu-nav {
+  width: 100%;
+}
+
+.menu-ul {
+  list-style-type: none;
+  text-align: right;
+  font-size: 20px;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 0%;
+}  
+
+.menu-li {
+  display: inline-block;
+  margin: 0px 60px 0px 0px;
+}
+
+.presentation {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  letter-spacing: 1.10px;
+  padding: 120px 50px 180px;
+  height: 60%;
+  text-align: center;
+  background-color: #000;
+  color: whitesmoke;
+}
+
+.box-style {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first-section {
+  padding: 50px;
+  margin: 60px 0px 40px 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+}
+
+.img-section {
+  margin: 0px 10px 50px;
+  padding: 10px;
+}
+
+.secondary-tittle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  position: relative;
+  text-align: center;
+  color: #a239CA;
+}
+
+.images-dev {
+  width: 350px;
+  background-image: url(../images/webdev.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.images-news {
+  width: 350px;
+  background-image: url(../images/newsletters.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.images-photo {
+  width: 350px;
+  background-image: url(../images/photo.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+
+.my-works {
+  padding: 5px 60px;
+  margin: 0px 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+}
+
+.div-works {
+  padding: 40px;
+  margin: 5px 20px 15px;
+}
+
+.last-text {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.50px;
+  font-size: 35px;
+  padding: 120px 30px 60px;
+  margin: 40px;
+  text-align: left;
+  background-color: #fff;
+}
+
+.my-footer {
+  letter-spacing: 0.50px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 50px 70px;
+}
+
+ul {
+  list-style: none;
+}
+
+.createdby {
+  text-align: center;
+  font-size: 15px;
+  padding: 40px 40px 0px;
+}
