@@ -1,28 +1,39 @@
-* {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-
-header, footer {
-  font-family: 'Source Sans Pro', sans-serif;
+ 
+.container {
+  width: 100%;
+  height: 220vh;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(8, 3fr);
+  grid-template-areas:
+  "header header header"
+  "welcome welcome welcome"
+  "what what what"
+  "picture1 picture2 picture3"
+  "job job job"
+  "works1 works1 works1"
+  "phrase phrase phrase"
+  "footer footer footer";
+}
+ 
+.header {
   background-color: #000;
-  color: #fff;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.my-header {
-  padding: 100px 30px 30px;
+  grid-area: header;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+  padding: 100px 0px 5px;
 }
 
 .menu-nav {
   width: 100%;
 }
-
+   
 .menu-ul {
   list-style-type: none;
   text-align: right;
@@ -31,48 +42,50 @@ a {
   padding: 10px;
   margin-bottom: 0%;
 }  
-
+   
 .menu-li {
   display: inline-block;
   margin: 0px 60px 0px 0px;
 }
-
-.presentation {
+ 
+.welcome {
+  background-color: black;
+  grid-area: welcome;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
   letter-spacing: 1.10px;
   padding: 120px 50px 180px;
-  height: 60%;
+  height: 100%;
   text-align: center;
-  background-color: #000;
-  color: whitesmoke;
 }
-
-.box-style {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.first-section {
-  padding: 50px;
-  margin: 60px 0px 40px 15px;
+ 
+.what {
+  grid-area: what;
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  padding: 50px 80px;
+  margin: 0px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
+  color: #fff;
 }
-
-.img-section {
-  margin: 0px 10px 50px;
-  padding: 10px;
-}
-
+ 
 .secondary-tittle {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 25px;
-  position: relative;
   text-align: center;
+  position: relative;
   color: #a239CA;
 }
 
+/* Picture 1 */
+.picture1 {
+  background-color: #fff;
+  grid-area: picture1;
+  padding: 80px 20px;
+  margin: 10px; 
+}
+ 
 .images-dev {
   width: 350px;
   background-image: url(../images/webdev.jpg);
@@ -82,6 +95,14 @@ a {
   height: 250px;
 }
 
+/* Picture 2 */ 
+.picture2 {
+  background-color: #fff;
+  grid-area: picture2;
+  padding: 80px 20px;
+  margin: 10px;     
+}
+ 
 .images-news {
   width: 350px;
   background-image: url(../images/newsletters.jpg);
@@ -91,6 +112,15 @@ a {
   height: 250px;
 }
 
+/* Picture 3 */
+
+.picture3 {
+  background-color: #fff;
+  grid-area: picture3;
+  padding: 80px 20px;
+  margin: 10px;     
+}
+ 
 .images-photo {
   width: 350px;
   background-image: url(../images/photo.jpg);
@@ -99,45 +129,314 @@ a {
   background-repeat: no-repeat;
   height: 250px;
 }
-
-
-.my-works {
+ 
+.works1 {
+  background-color: #fff;
+  grid-area: works1;
+  padding: 40px 0px;
+  margin: 0px;
+}
+ 
+.other-tittle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  color: #000;
+}
+ 
+.flex-work {
   padding: 5px 60px;
   margin: 0px 30px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   display: flex;
-  text-align: center;
+  justify-content: space-evenly;
 }
-
+   
 .div-works {
   padding: 40px;
-  margin: 5px 20px 15px;
+  margin: 5px 50px 15px;
 }
-
-.last-text {
+ 
+.tittle-job {
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+ 
+.job {
+  grid-area: job;
+  padding: 50px 80px;
+  margin: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  color: #000;
+}
+ 
+.phrase {
+  background-color: #fff;
+  grid-area: phrase;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1.50px;
   font-size: 35px;
   padding: 120px 30px 60px;
   margin: 40px;
   text-align: left;
-  background-color: #fff;
 }
-
-.my-footer {
-  letter-spacing: 0.50px;
+ 
+a {
   text-decoration: none;
+  color: #fff;
+}
+ 
+li {
+  list-style-type: none;
+}
+ 
+.footer {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
+  grid-area: footer;
+  color: #fff;
+  letter-spacing: 0.50px;
   font-size: 18px;
   padding: 50px 70px;
 }
-
-ul {
-  list-style: none;
-}
-
-.createdby {
+ 
+.created {
   text-align: center;
   font-size: 15px;
-  padding: 40px 40px 0px;
+  padding: 20px 20px 0px;
 }
+
+/* Responsive */
+
+/* Very small devices */
+@media screen and (max-width: 576px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(10, 1fr);
+      grid-template-areas:
+      "header"
+      "welcome"
+      "what"
+      "picture1" 
+      "picture2" 
+      "picture3" 
+      "job"
+      "works1" 
+      "phrase" 
+      "footer";
+    }
+
+    .welcome {
+      font-size: 1.20rem;
+      letter-spacing: 0.90px;
+      padding: 30px 28px;
+      height: auto;
+      text-align: center;
+    }
+
+    .what {
+      font-size: 1.20rem;
+      padding: 5px 80px;
+      background-image: linear-gradient(to top, #df7fdf 0%, #97d9e1 100%);
+    }
+
+    .job {
+      font-size: 1.20rem;
+    }
+    
+    .other-tittle {
+      font-size: 0.80rem;
+      padding: 5px;
+    }
+
+    .tittle-job {
+      font-size: 0.80rem;
+      padding: 5px;
+    }
+
+    .phrase {
+      padding: 20px 5px 20px;
+      font-size: 1.20rem;
+      text-align: center;
+    }
+    
+    .body {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .secondary-tittle {
+      font-size: 1.10rem;
+      text-align: center;
+    }      
+
+    .picture1, .picture2, .picture3 {
+      padding: 30px;
+      margin: 0px 100px;
+    }
+
+    .footer {
+      background-color:#000;
+      color: rgb(255, 255, 255);
+      font-size: 0.80rem;
+    }
+
+    .created {
+      font-size: 0.60rem;
+    }
+
+}
+
+
+/* Mobile devices */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas:
+    "header"
+    "welcome"
+    "what"
+    "picture1" 
+    "picture2" 
+    "picture3" 
+    "job"
+    "works1" 
+    "phrase" 
+    "footer";
+  }
+  
+  .welcome {
+    font-size: 1.40rem;
+    letter-spacing: 0.90px;
+    padding: 30px 15px;
+    height: auto;
+    text-align: center;
+  }
+
+  .what {
+    font-size: 1.40rem;
+    padding: 10px 80px;
+    margin: 0px;
+  }
+
+  .job {
+    font-size: 1.40rem;
+  }
+  
+  .other-tittle {
+    font-size: 0.80rem;
+    padding: 5px;
+  }
+
+  .tittle-job {
+    font-size: 0.90rem;
+    padding: 5px;
+  }
+
+  .phrase {
+    padding: 20px 5px 20px;
+    font-size: 1.40rem;
+    text-align: center;
+  }
+
+  .body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .secondary-tittle {
+    font-size: 1.30rem;
+    text-align: center;
+  }      
+
+  .picture1, .picture2, .picture3 {
+    padding: 10px 100px;
+    margin: 0px 100px;
+  }
+
+  .footer {
+    background-color:#000;
+    color: rgb(255, 255, 255);
+    font-size: 0.90rem;
+  }
+
+  .created {
+    font-size: 0.70rem;
+  }
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas:
+    "header header"
+    "welcome welcome"
+    "what what"
+    "picture1 picture2" 
+    "picture3 picture3" 
+    "job job"
+    "works1 works1" 
+    "phrase phrase" 
+    "footer footer";
+  }
+
+  .welcome {
+    font-size: 1.90rem;
+    letter-spacing: 0.90px;
+    padding: 30px 15px;
+    height: auto;
+    text-align: center;
+  }
+
+  .phrase {
+    padding: 20px 5px 20px;
+    font-size: 1.70rem;
+    text-align: center;
+  }
+
+  .what {
+    font-size: 1.60rem;
+    padding: 10px 80px;
+    margin: 0px;
+  }
+
+  .job {
+    font-size: 1.60rem;
+  }
+  
+  .other-tittle {
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+
+  .tittle-job {
+    font-size: 0.90rem;
+    padding: 5px;
+  }
+
+  .images-dev {
+   margin: 0px 0px 0px 100px;
+  }
+  
+  .images-news {
+    margin: 0px 100px 0px 0px;
+  }
+
+  .images-photo {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+} 
