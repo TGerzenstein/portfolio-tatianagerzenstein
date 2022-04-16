@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -20,19 +21,20 @@
                    <a href="#">Home</a>
                 </li>
                 <li class="menu-li">
-                   <a href="pages/resume.html" title="Resume">Resume</a>
+                   <a href="resume.html" title="Resume">Resume</a>
                 </li>
                 <li class="menu-li">
-                   <a href="pages/contact.html" title="Contact">Contact</a>
+                   <a href="contact.html" title="Contact">Contact</a>
                 </li>
                 <li class="menu-li">
-                   <a href="pages/works.html" title="Works">Works</a></li>
+                   <a href="works.html" title="Works">Works</a></li>
              </ul>
           </nav>
        </header>
        <h1></h1>
-       <div class="welcome">Hi! I'm Tatiana Gerzenstein and
-            I'm web developer.</div>
+       <div class="welcome">
+          <p class="wow animate__animated animate__pulse">Hi! I'm Tatiana Gerzenstein and
+            I'm web developer.</p></div>
        <div class="what">What I do!</div>
        <div class="picture1">
           <p class="secondary-tittle">Web design</p>
@@ -58,7 +60,8 @@
               </div>
          </div>
        </div>
-         <div class="phrase">Let`s work together on your next project.
+         <div class="phrase">
+            <p class="wow animate__animated animate__pulse">Let`s work together on your next project.</p>
          </div>
        <footer class="footer">
          <ul>
@@ -69,5 +72,9 @@
          <p class="created">Created by Tatiana Gerzenstein.</p>
        </footer>
   </div>
+  <script src="wow.min.js"></script>
+  <script>
+      new WOW().init();
+  </script>  
 </body>
 </html>
