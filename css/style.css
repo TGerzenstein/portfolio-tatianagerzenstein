@@ -389,7 +389,7 @@ li {
 
 .containerind {
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 2fr);
   grid-template-areas:
   "header header"
   "welcome welcome"
@@ -976,7 +976,7 @@ label{
   text-align: center;
 }
 
-
+/* Responsive works */
 /* Very small devices */
 @media screen and (max-width: 36rem) {
 
