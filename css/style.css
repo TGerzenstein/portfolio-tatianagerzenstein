@@ -91,20 +91,18 @@ h1 {
 }
 
 /* Picture 1 */
+
+.img-center {
+  height: 238px;
+  width: 350px;
+  margin: 8px 0px;
+}
+
 .picture1 {
   background-color: #fff;
   grid-area: picture1;
   padding: 5rem 1.25rem;
   margin: 0.625rem; 
-}
- 
-.images-dev {
-  width: 21.875rem;
-  background-image: url(../images/webdev.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 15.625rem;
 }
 
 /* Picture 2 */ 
@@ -114,15 +112,6 @@ h1 {
   padding: 5rem 1.25rem;
   margin: 0.625rem;     
 }
- 
-.images-news {
-  width: 21.875rem;
-  background-image: url(../images/newsletters.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 15.625rem;
-}
 
 /* Picture 3 */
 
@@ -131,15 +120,6 @@ h1 {
   grid-area: picture3;
   padding: 5rem 1.25rem;
   margin: 0.625rem;     
-}
- 
-.images-photo {
-  width: 21.875rem;
-  background-image: url(../images/photo.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 15.625rem;
 }
  
 .works1 {
@@ -945,24 +925,6 @@ label{
   margin: 0rem 0.625rem 3.125rem;
   padding: 4rem 1rem 10rem;
   text-align: center;
-}
-
-.w-site-marea1 {
-  width: 21.875rem;
-  background-image: url(../images/SiteMarea.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 15.625rem;
-}
-
-.w-site-marea2 {
-  width: 21.875rem;
-  background-image: url(../images/many-cameras.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 15.625rem;
 }
 
 .w-secondary {
