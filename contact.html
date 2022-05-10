@@ -8,69 +8,69 @@
     Send me a message.">
     <meta name="keywords" content="portfolio, web developer, resume, 
     works">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Tatiana Gerzenstein | Contact</title>
 </head>
-<body class="containercont">
-    <header class="header">
-        <h1 class="contact">Contact</h1>
-        <nav class="menu-nav">
-            <ul class="menu-ul">
-               <li class="menu-li">
-                 <a href="index.html">Home</a>
-               </li>
-               <li class="menu-li">
-                 <a href="resume.html" title="Resume">Resume</a>
-               </li>
-               <li class="menu-li">
-                 <a href="works.html" title="Works">Works</a></li>    
-           </ul>
-        </nav>
-     </header>
-     <div class="first-box">
-          <h2 class="tittle">Get in touch with me</h2>
-          <ul class="info">
-            <li>E-mail: tatigerzens@gmail.com</li>
-            <li>Cel: 362 4 001100</li>
-            <li>Github: /TGerzenstein</li>
-            <li>Linkedin: /Tatigerzenstein</li>
-          </ul>
-     </div>
-     <div class="second-box">        
-          <!-- contact form -->  
-        <div class="form-box">
-            <form action="">
-                <div class="form-content">
-                    <div>
-                        <label for="names">Names</label>
-                        <input type="text" name="names">
-                    </div>
-                    <div>
-                        <label for="email">Email *</label>
-                        <input type="email" name="email" required>
-                    </div>
-                    <div>
-                        <label for="message">Message</label>
-                        <textarea name="message" id="" cols="20" rows="8">
-                        </textarea>
-                    </div>
-                    <button class="button-form" 
-                    type="submit">Enviar</button>
-                </div>   
-            </form>
-        </div>
-     </div>
-     <footer class="footer">
-         <ul>
-           <li>E-mail: tatigerzens@gmail.com</li>
-           <li>Cel: 362 4 001100</li>
-           <li>Github: /TGerzenstein</li>
-         </ul>        
-         <h4 class="created">Created by Tatiana Gerzenstein.</h4>    
-     </footer>   
+<body class="body-contact">
+  <header><h1>Contact</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html" title="Resume">Resume</a></li>
+        <li><a href="works.html" title="Works">Works</a></li>    
+      </ul>
+    </nav>
+  </header>
+  <main class="main-contact">
+    <h2 class="tittle">Get in touch with me</h2>
+    <div>
+      <p class="info">E-mail: tatigerzens@gmail.com</p>
+      <p class="info">Cel: 362 4 001100</p>
+      <p class="info">Github: /TGerzenstein</p>
+      <p class="info">Linkedin: /Tatigerzenstein</p>
+    </div>        
+    <!-- contact form -->  
+    <form class="contact-form" action="#">
+      <div>
+        <fieldset class="fieldset-w">
+          <span>* Datos requeridos</span>
+            <div class="contact-div">
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="nombre" 
+                placeholder="Nombre" required />
+            </div>
+            <div class="contact-div">
+              <label for="email">Email:</label>
+              <input type="email" name="email" 
+                placeholder="example@email.com" required />
+            </div>
+            <div class="contact-div">
+              <label for="website">Sitio web:</label>
+              <input type="url" name="website" 
+                placeholder="https://sercodigo.com" 
+                required pattern="(http|https)://.+" />
+            </div>
+            <div class="contact-div">
+                <label for="message">Mensaje:</label>
+                <textarea name="message" 
+                cols="40" rows="15" required></textarea>
+            </div>
+            <button class="submit" type="submit">Enviar</button>
+        </fieldset>
+      </div>
+    </form>
+  </main> 
+  <footer class="footer">
+      <ul>
+        <li>E-mail: tatigerzens@gmail.com</li>
+        <li>Cel: 362 4 001100</li>
+        <li>Github: /TGerzenstein</li>
+      </ul>        
+      <h4 class="created">Created by Tatiana Gerzenstein.</h4>    
+  </footer>   
 </body>
 </html>

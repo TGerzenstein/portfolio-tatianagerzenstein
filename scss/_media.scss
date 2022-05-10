@@ -1,0 +1,608 @@
+/* Responsive index */
+
+/* Very small devices */
+@media screen and (max-width: 36rem) {
+
+    body {
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+   
+        header {
+          background-color:#000;
+          color: rgb(255, 255, 255);
+
+            h1 {
+               font-size: 0.80rem;
+            }
+
+            nav {
+
+                .menu {
+                    
+                    li {
+                      
+                        a {
+                           font-size: 0.80rem;
+                        }
+                    }
+                }
+            }
+    
+        }
+
+        .main-index {
+
+            .welcome {
+                font-size: 1.20rem;
+                letter-spacing: 0.056rem;
+                padding: 1.875rem 1.75rem;
+                height: auto;
+                text-align: center;
+            }
+
+            .what {
+                font-size: 1.20rem;
+                padding: 0.313rem 5rem;
+                background-image: linear-gradient(to top, #df7fdf 0%, #97d9e1 100%);
+            }
+
+            .pictures-box {
+              display: block;
+              flex-direction: column;
+              margin: 0.10rem;
+
+                .picture1 {
+                    padding: 1.875rem;
+                    margin: 0rem 6.25rem;
+
+                   .secondary-tittle {
+                       font-size: 1.10rem;
+                       text-align: center;
+                    }
+
+                    .img-center {
+                        height: 138px;
+                        width: 250px;
+                        margin: 8px 35px;
+                    }
+
+                    .tittle-job {
+                        font-size: 0.80rem;
+                        padding: 0.313rem;
+                        text-align: center;
+                    }
+                }
+
+                .picture2 {
+                    padding: 1.875rem;
+                    margin: 0rem 6.25rem;
+
+                    .secondary-tittle {
+                        font-size: 1.10rem;
+                        text-align: center;
+                    }
+
+                    .img-center {
+                        height: 138px;
+                        width: 250px;
+                        margin: 8px 35px;
+                    }
+
+                    .tittle-job {
+                        font-size: 0.80rem;
+                        padding: 0.313rem;
+                        text-align: center;
+                    }
+                }
+
+                .picture3 {
+                    padding: 1.875rem;
+                    margin: 0rem 6.25rem;
+
+                    .secondary-tittle {
+                        font-size: 1.10rem;
+                        text-align: center;
+                    }
+
+                    .img-center {
+                        height: 138px;
+                        width: 250px;
+                        margin: 8px 35px;
+                    }
+
+                    .tittle-job {
+                        font-size: 0.80rem;
+                        padding: 0.313rem;
+                        text-align: center;
+                    }
+                }
+            }
+        
+            .job {
+                font-size: 1.20rem;
+            }
+
+            .works1 {
+
+                .flex-work {
+
+                    .div-works {
+
+                        .other-tittle {
+                            font-size: 0.80rem;
+                            padding: 0.313rem;
+                        }
+                    }
+                }
+            }
+
+            .phrase {
+                padding: 1.25rem 0.313rem 1.25rem;
+                font-size: 1.20rem;
+                text-align: center;
+            }
+        }
+    
+        .footer {
+           background-color:#000;
+           color: rgb(255, 255, 255); 
+           font-size: 0.80rem;
+
+           .created {
+               font-size: 0.60rem;
+           }
+        }
+    }  
+}
+
+/* Mobile devices */
+@media screen and (min-width: 36.063rem) and (max-width: 48rem) {
+    
+    body {
+        padding-left: 0.640rem;
+        padding-right: 0.640rem;
+   
+        header {
+          background-color:#000;
+          color: rgb(255, 255, 255);
+
+            h1 {
+             font-size: 1rem;
+             margin-left: 0.25rem;
+            }
+
+            nav {
+
+                .menu {
+                    
+                    li {
+                      
+                        a {
+                         font-size: 0.90rem;
+                         margin: 0.25rem;
+                        }
+                    }
+                }
+            }
+    
+        }
+
+        .main-index {
+
+            .welcome {
+                font-size: 1.40rem;
+                letter-spacing: 0.056rem;
+                padding: 1.875rem 0.938rem;
+                height: auto;
+                text-align: center;
+            }
+
+            .what {
+               font-size: 1.40rem;
+               padding: 0.625rem 5rem;
+               margin: 0rem;
+            }
+
+            .pictures-box {
+              display: block;
+              flex-direction: column;
+              justify-content: space-evenly;
+              margin: 0.30rem;
+
+                .picture1 {
+                   padding: 0.625rem 6.25rem;
+                   margin: 0rem 6.25rem;
+
+                   .secondary-tittle {
+                       font-size: 1.10rem;
+                       text-align: center;
+                    }
+                }
+
+                .picture2 {
+                   padding: 0.625rem 6.25rem;
+                   margin: 0rem 6.25rem;
+
+                   .secondary-tittle {
+                       font-size: 1.10rem;
+                       text-align: center;
+                    }
+                }
+
+                .picture3 {
+                   padding: 0.625rem 6.25rem;
+                   margin: 0rem 6.25rem;
+
+                    .secondary-tittle {
+                       font-size: 1.10rem;
+                       text-align: center;
+                    }
+                }
+            }
+        
+            .job {
+               font-size: 1.40rem;
+            }
+
+            .works1 {
+
+                .flex-work {
+
+                    .div-works {
+
+                        .other-tittle {
+                           font-size: 0.80rem;
+                           padding: 0.313rem;
+                        }
+                    }
+                }
+            }
+
+            .phrase {
+               padding: 1.25rem 0.313rem 1.25rem;
+               font-size: 1.40rem;
+               text-align: center;
+            }
+        }
+    
+        .footer {
+           background-color:#000;
+           color: rgb(255, 255, 255);
+           font-size: 0.90rem;
+
+           .created {
+            font-size: 0.70rem;
+           }
+        }
+    }
+}
+
+@media screen and (min-width: 48.063rem) and (max-width: 75rem) {
+  
+    body {
+   
+        header {
+          background-color:#000;
+          color: rgb(255, 255, 255);
+    
+        }
+
+        .main-index {
+
+            .welcome {
+                font-size: 1.90rem;
+                letter-spacing: 0.056rem;
+                padding: 1.875rem 0.938rem;
+                height: auto;
+                text-align: center;
+            }
+
+            .what {
+                font-size: 1.60rem;
+                padding: 0.625rem 5rem;
+                margin: 0rem;
+            }
+
+            .pictures-box {
+                 display: flex;
+                 flex-direction: column;
+                 margin: 0.220rem;
+                 width: 100%;
+
+                .picture1 {
+
+                   .secondary-tittle {
+                        text-align: center;
+                    }
+
+                    .img-center {
+                        height: 338px;
+                        width: 450px;
+                        margin: 0px;
+                        padding: 5px 300px;
+                    }
+
+                    .tittle-job {
+                        font-size: 1rem;
+                        padding: 0.313rem;
+                        text-align: center;
+                    }
+                }
+
+                .picture2 {
+
+                    .secondary-tittle {
+                        text-align: center;
+                    }
+
+                    .img-center {
+                        height: 338px;
+                        width: 450px;
+                        margin: 0px;
+                        padding: 5px 300px; 
+                    }
+
+                    .tittle-job {
+                        font-size: 1rem;
+                        padding: 0.313rem;
+                        text-align: center;
+                    }
+                }
+
+                .picture3 {
+
+                    .secondary-tittle {
+                        text-align: center;
+                    }
+
+                    .img-center {
+                        height: 338px;
+                        width: 450px;
+                        margin: 0px;
+                        padding: 5px 300px;
+                    }
+
+                    .tittle-job {
+                        font-size: 1rem;
+                        padding: 0.313rem;
+                        text-align: center;
+                    }
+                }
+            }
+        
+            .job {
+                font-size: 1.60rem;
+            }
+
+            .works1 {
+
+                .flex-work {
+
+                    .div-works {
+
+                        .other-tittle {
+                            font-size: 1.2rem;
+                            padding: 0.313rem;
+                        }
+                    }
+                }
+            }
+
+            .phrase {
+                padding: 1.25rem 0.313rem 1.25rem;
+                font-size: 1.70rem;
+                text-align: center;
+            }
+        }
+    
+        .footer {
+           background-color:#000;
+           color: rgb(255, 255, 255);
+        }
+    }
+} 
+
+
+/* Responsive contact */
+
+/* Very small devices */
+@media screen and (max-width: 36rem) {
+  
+    .body-contact {
+        padding-left: 0.313rem;
+        padding-right: 0.313rem;
+    
+        .main-contact {
+           
+            .tittle {
+                padding: 0.938rem 2.5rem;
+                color: lightseagreen;
+                font-size: 1.5rem;
+            }
+           
+            .info {
+                padding: 0.625rem 1.563rem;
+                color: rgb(0, 0, 0);
+                font-size: 1rem;
+                margin: 0rem 1.25rem;
+                width: 50%;
+            }
+           
+            .contact-form {
+                width: 60%;
+                padding: 1.875rem 1.875rem;
+                margin: 0.313rem 0.313rem 3.75rem;
+
+                .fieldset-w {
+                        
+                    .contact-div {
+
+                        label {
+                            color: #000;
+                            font-size: 1rem;
+                            padding: 0.625rem;
+                        }
+                    }
+
+                    .submit {
+                        background: #4717f6;
+                        display: block;
+                        width: 6.25rem;
+                        height: 1.875rem;
+                        border:none;
+                        color:#fff; 
+                        border-radius: 0.25rem;
+                        font-size: 0.90rem;
+                        margin: 0.625rem auto;
+                        cursor: pointer;
+                    }
+                }
+            }   
+        }    
+    }
+
+    .footer {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        font-size: 0.80rem;
+
+        .createdby {
+           font-size: 0.60rem;
+        }
+    }
+}
+  
+/* Mobile devices */
+@media screen and (min-width: 36.063rem) and (max-width: 48rem) {
+    
+    .body-contact {
+        padding-left: 0.625rem;
+        padding-right: 0.313rem;
+    
+        .main-contact {
+           
+            .tittle {
+                padding: 1.563rem 3.125rem;
+                color: #000;
+                font-size: 1.6rem;
+            }
+           
+            .info {
+                padding: 0.625rem 2.188rem;
+                color: #000;
+                font-size: 1rem;
+                margin: 0rem 1.25rem;
+                width: 50%;
+            }
+           
+            .contact-form {
+                width: 60%;
+                padding: 1.875rem 1.875rem;
+                margin: 0.313rem 0.313rem 3.75rem;
+
+                .fieldset-w {
+                        
+                    .contact-div {
+
+                        label {
+                            color: #000;
+                            font-size: 1.1rem;
+                            padding: 0.625rem;
+                        }
+                    }
+
+                    .submit {
+                        background: #4717f6;
+                        display: block;
+                        width: 6.25rem;
+                        height: 1.875rem;
+                        border:none;
+                        color:#fff; 
+                        border-radius: 0.25rem;
+                        font-size: 1rem;
+                        margin: 0.625rem auto;
+                        cursor: pointer;
+                    }
+                }
+            }   
+        }
+        
+        .footer {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            font-size: 0.80rem;
+    
+            .createdby {
+               font-size: 0.60rem;
+            }
+        }
+    }
+}
+
+
+/* Responsive resume */
+
+@media screen and (max-width: 36rem) {
+
+    .body-resume {
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+        
+        header {
+            background-color:#000;
+            color: rgb(255, 255, 255);
+  
+            h1 {
+                font-size: 0.80rem;
+            }
+  
+            nav {
+  
+                .menu {
+                      
+                    li {
+                        
+                        a {
+                          font-size: 0.80rem;
+                        }
+                      
+                    }
+                }
+            }
+        }
+
+        .main-resume {
+
+            .resum1 {
+
+                .content-resume {
+                    display: flex;
+                    flex-direction: column;
+
+                    h2 {
+                       font-size: 1.10rem;
+                       text-align: center; 
+                    }
+
+                    .rol {
+                        font-size: 0.80rem;
+                    }
+
+                    .years {
+                        font-size: 0.80rem;
+                    }
+
+                    .task {
+                        font-size: 0.80rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+  
+  

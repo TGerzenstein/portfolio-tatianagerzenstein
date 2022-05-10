@@ -21,50 +21,220 @@ header {
         text-decoration: none;
         font-size: 1.25rem; }
 
-main .main-box1 {
+.main-index .welcome {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.125rem;
+  letter-spacing: 0.069rem;
+  padding: 7.5rem 3.125rem 11.25rem;
+  height: 100%;
+  text-align: center; }
+
+.main-index .what {
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  padding: 3.125rem 5rem;
+  margin: 0rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.875rem;
+  color: #fff; }
+
+.main-index .pictures-box {
   display: flex; }
-  main .main-box1 h2 {
+  .main-index .pictures-box .picture1 {
+    background-color: #fff;
+    padding: 5rem 1.25rem;
+    margin: 0.625rem; }
+    .main-index .pictures-box .picture1 .secondary-tittle {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.563rem;
+      text-align: center;
+      position: relative;
+      color: #a239CA; }
+    .main-index .pictures-box .picture1 .img-center {
+      height: 238px;
+      width: 350px;
+      margin: 8px 0px; }
+  .main-index .pictures-box .picture2 {
+    background-color: #fff;
+    padding: 5rem 1.25rem;
+    margin: 0.625rem; }
+    .main-index .pictures-box .picture2 .secondary-tittle {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.563rem;
+      text-align: center;
+      position: relative;
+      color: #a239CA; }
+    .main-index .pictures-box .picture2 .img-center {
+      height: 238px;
+      width: 350px;
+      margin: 8px 0px; }
+  .main-index .pictures-box .picture3 {
+    background-color: #fff;
+    padding: 5rem 1.25rem;
+    margin: 0.625rem; }
+    .main-index .pictures-box .picture3 .secondary-tittle {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.563rem;
+      text-align: center;
+      position: relative;
+      color: #a239CA; }
+    .main-index .pictures-box .picture3 .img-center {
+      height: 238px;
+      width: 350px;
+      margin: 8px 0px; }
+
+.main-index .job {
+  padding: 3.125rem 5rem;
+  margin: 0rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.875rem;
+  color: #000; }
+
+.main-index .works1 {
+  background-color: #fff;
+  grid-area: works1;
+  padding: 2.5rem 0rem;
+  margin: 0rem; }
+  .main-index .works1 .flex-work {
+    padding: 0.313rem 3.75rem;
+    margin: 0rem 1.875rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-evenly; }
+    .main-index .works1 .flex-work .div-works {
+      padding: 2.5rem;
+      margin: 0.313rem 3.125 0.938rem; }
+      .main-index .works1 .flex-work .div-works .other-tittle {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.563rem;
+        text-align: center;
+        position: relative;
+        color: #000; }
+      .main-index .works1 .flex-work .div-works .tittle-job {
+        color: #000;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.25rem;
+        padding-top: 2.5rem;
+        display: flex;
+        justify-content: center; }
+
+.main-index .phrase {
+  background-color: #fff;
+  grid-area: phrase;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.094rem;
+  font-size: 2.188rem;
+  padding: 7.5rem 1.875rem 3.75rem;
+  margin: 2.5rem;
+  text-align: left; }
+
+.main-resume .resum1 {
+  display: flex; }
+  .main-resume .resum1 h2 {
     font-size: 1.25rem;
     padding: 1.375rem 0.625rem 0rem 2.5rem;
-    display: block;
-    flex-direction: column;
     color: #a239CA; }
-  main .main-box1 .content-box {
+  .main-resume .resum1 .content-resume {
     padding: 0.780rem 0.625rem 0.938rem 2.5rem;
     margin: 0.625rem 0rem 0.625rem 0.625rem;
-    display: block;
-    flex-direction: column;
     width: 45%; }
-    main .main-box1 .content-box .rol {
+    .main-resume .resum1 .content-resume .rol {
       font-weight: bold;
       margin: 2.100rem 0rem 0.413rem; }
-    main .main-box1 .content-box .years {
+    .main-resume .resum1 .content-resume .years {
       color: #b6b6b6;
       margin: 0.413rem 0.313rem; }
-    main .main-box1 .content-box .task {
+    .main-resume .resum1 .content-resume .task {
       text-align: justify;
       margin: 0rem; }
-    main .main-box1 .content-box .cour {
+    .main-resume .resum1 .content-resume .cour {
       margin: 0.313rem 0rem 0.625rem; }
 
-main .main-box2 {
+.main-resume .main-resume2 {
   display: flex; }
-  main .main-box2 h2 {
+  .main-resume .main-resume2 h2 {
     font-size: 1.25rem;
     padding: 1.375rem 0.625rem 0rem 2.5rem;
-    display: block;
-    flex-direction: column;
     color: #a239CA; }
-  main .main-box2 .content-cert {
-    font-size: 0.938rem;
+  .main-resume .main-resume2 .content-certificates {
+    font-size: 15px;
     font-weight: bold;
-    padding: 0.625rem 1.25rem;
-    margin: 0rem 0rem 2rem 1.875rem;
-    display: block;
+    padding: 0.780rem 0.625rem 0.938rem 2.5rem;
+    margin: 0.625rem 0rem 0.625rem 0.625rem;
+    width: 45%;
+    height: 60%; }
+
+.main-works {
+  display: flex;
+  flex-direction: column; }
+  .main-works .w-subti {
+    padding: 3.125rem 1.875rem 3.75rem;
+    margin: 0.625rem 0rem;
+    font-size: 1.813rem; }
+  .main-works .w-img-section {
+    margin: 0rem 0.625rem 3.125rem;
+    padding: 4rem 1rem 10rem;
+    text-align: center; }
+    .main-works .w-img-section .w-secondary {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.25rem; }
+    .main-works .w-img-section .img-center {
+      height: 238px;
+      width: 350px;
+      margin: 8px 0px; }
+    .main-works .w-img-section .w-text {
+      font-size: 0.938rem;
+      text-align: center; }
+
+.main-contact .tittle {
+  padding: 3.125rem 3.125rem 0.113rem 2rem;
+  margin: 0.325rem 2rem 0.100rem;
+  font-size: 1.75rem; }
+
+.main-contact .info {
+  padding: 0.080rem 3.125rem;
+  margin: 0.125rem 2rem;
+  width: 30%; }
+
+.main-contact .contact-form {
+  width: 40%;
+  height: 60%;
+  margin: 50px;
+  text-align: center; }
+  .main-contact .contact-form .fieldset-w .contact-div {
+    margin-top: 20px;
+    display: flex;
     flex-direction: column;
-    width: 50%; }
-    main .main-box2 .content-cert .course {
-      margin: 0.313rem 0rem 0.625rem; }
+    text-align: left;
+    margin-left: 50px; }
+    .main-contact .contact-form .fieldset-w .contact-div input, .main-contact .contact-form .fieldset-w .contact-div textarea {
+      border: 1px #000000 solid;
+      border-radius: 2px;
+      padding: 6px;
+      margin-left: 0px;
+      margin-right: 50px;
+      background: rgba(0, 0, 0, 0.1); }
+    .main-contact .contact-form .fieldset-w .contact-div input:focus, .main-contact .contact-form .fieldset-w .contact-div textarea:focus {
+      background: white;
+      color: black; }
+  .main-contact .contact-form .fieldset-w .submit {
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #a239CA;
+    border-radius: 10px;
+    border: 1px solid #ffabeb;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease; }
+    .main-contact .contact-form .fieldset-w .submit:hover {
+      color: #a239CA;
+      background-color: #ffffff;
+      cursor: pointer; }
 
 footer {
   background-color: #000;
@@ -81,6 +251,388 @@ footer {
     padding: 1.25rem 1.25rem 0rem;
     margin: 0rem;
     color: #fff; }
+
+/* Responsive index */
+/* Very small devices */
+@media screen and (max-width: 36rem) {
+  body {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    body header {
+      background-color: #000;
+      color: white; }
+      body header h1 {
+        font-size: 0.80rem; }
+      body header nav .menu li a {
+        font-size: 0.80rem; }
+    body .main-index .welcome {
+      font-size: 1.20rem;
+      letter-spacing: 0.056rem;
+      padding: 1.875rem 1.75rem;
+      height: auto;
+      text-align: center; }
+    body .main-index .what {
+      font-size: 1.20rem;
+      padding: 0.313rem 5rem;
+      background-image: linear-gradient(to top, #df7fdf 0%, #97d9e1 100%); }
+    body .main-index .pictures-box {
+      display: block;
+      flex-direction: column;
+      margin: 0.10rem; }
+      body .main-index .pictures-box .picture1 {
+        padding: 1.875rem;
+        margin: 0rem 6.25rem; }
+        body .main-index .pictures-box .picture1 .secondary-tittle {
+          font-size: 1.10rem;
+          text-align: center; }
+        body .main-index .pictures-box .picture1 .img-center {
+          height: 138px;
+          width: 250px;
+          margin: 8px 35px; }
+        body .main-index .pictures-box .picture1 .tittle-job {
+          font-size: 0.80rem;
+          padding: 0.313rem;
+          text-align: center; }
+      body .main-index .pictures-box .picture2 {
+        padding: 1.875rem;
+        margin: 0rem 6.25rem; }
+        body .main-index .pictures-box .picture2 .secondary-tittle {
+          font-size: 1.10rem;
+          text-align: center; }
+        body .main-index .pictures-box .picture2 .img-center {
+          height: 138px;
+          width: 250px;
+          margin: 8px 35px; }
+        body .main-index .pictures-box .picture2 .tittle-job {
+          font-size: 0.80rem;
+          padding: 0.313rem;
+          text-align: center; }
+      body .main-index .pictures-box .picture3 {
+        padding: 1.875rem;
+        margin: 0rem 6.25rem; }
+        body .main-index .pictures-box .picture3 .secondary-tittle {
+          font-size: 1.10rem;
+          text-align: center; }
+        body .main-index .pictures-box .picture3 .img-center {
+          height: 138px;
+          width: 250px;
+          margin: 8px 35px; }
+        body .main-index .pictures-box .picture3 .tittle-job {
+          font-size: 0.80rem;
+          padding: 0.313rem;
+          text-align: center; }
+    body .main-index .job {
+      font-size: 1.20rem; }
+    body .main-index .works1 .flex-work .div-works .other-tittle {
+      font-size: 0.80rem;
+      padding: 0.313rem; }
+    body .main-index .phrase {
+      padding: 1.25rem 0.313rem 1.25rem;
+      font-size: 1.20rem;
+      text-align: center; }
+    body .footer {
+      background-color: #000;
+      color: white;
+      font-size: 0.80rem; }
+      body .footer .created {
+        font-size: 0.60rem; } }
+
+/* Mobile devices */
+@media screen and (min-width: 36.063rem) and (max-width: 48rem) {
+  body {
+    padding-left: 0.640rem;
+    padding-right: 0.640rem; }
+    body header {
+      background-color: #000;
+      color: white; }
+      body header h1 {
+        font-size: 1rem;
+        margin-left: 0.25rem; }
+      body header nav .menu li a {
+        font-size: 0.90rem;
+        margin: 0.25rem; }
+    body .main-index .welcome {
+      font-size: 1.40rem;
+      letter-spacing: 0.056rem;
+      padding: 1.875rem 0.938rem;
+      height: auto;
+      text-align: center; }
+    body .main-index .what {
+      font-size: 1.40rem;
+      padding: 0.625rem 5rem;
+      margin: 0rem; }
+    body .main-index .pictures-box {
+      display: block;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin: 0.30rem; }
+      body .main-index .pictures-box .picture1 {
+        padding: 0.625rem 6.25rem;
+        margin: 0rem 6.25rem; }
+        body .main-index .pictures-box .picture1 .secondary-tittle {
+          font-size: 1.10rem;
+          text-align: center; }
+      body .main-index .pictures-box .picture2 {
+        padding: 0.625rem 6.25rem;
+        margin: 0rem 6.25rem; }
+        body .main-index .pictures-box .picture2 .secondary-tittle {
+          font-size: 1.10rem;
+          text-align: center; }
+      body .main-index .pictures-box .picture3 {
+        padding: 0.625rem 6.25rem;
+        margin: 0rem 6.25rem; }
+        body .main-index .pictures-box .picture3 .secondary-tittle {
+          font-size: 1.10rem;
+          text-align: center; }
+    body .main-index .job {
+      font-size: 1.40rem; }
+    body .main-index .works1 .flex-work .div-works .other-tittle {
+      font-size: 0.80rem;
+      padding: 0.313rem; }
+    body .main-index .phrase {
+      padding: 1.25rem 0.313rem 1.25rem;
+      font-size: 1.40rem;
+      text-align: center; }
+    body .footer {
+      background-color: #000;
+      color: white;
+      font-size: 0.90rem; }
+      body .footer .created {
+        font-size: 0.70rem; } }
+
+@media screen and (min-width: 48.063rem) and (max-width: 75rem) {
+  body header {
+    background-color: #000;
+    color: white; }
+  body .main-index .welcome {
+    font-size: 1.90rem;
+    letter-spacing: 0.056rem;
+    padding: 1.875rem 0.938rem;
+    height: auto;
+    text-align: center; }
+  body .main-index .what {
+    font-size: 1.60rem;
+    padding: 0.625rem 5rem;
+    margin: 0rem; }
+  body .main-index .pictures-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0.220rem;
+    width: 100%; }
+    body .main-index .pictures-box .picture1 .secondary-tittle {
+      text-align: center; }
+    body .main-index .pictures-box .picture1 .img-center {
+      height: 338px;
+      width: 450px;
+      margin: 0px;
+      padding: 5px 300px; }
+    body .main-index .pictures-box .picture1 .tittle-job {
+      font-size: 1rem;
+      padding: 0.313rem;
+      text-align: center; }
+    body .main-index .pictures-box .picture2 .secondary-tittle {
+      text-align: center; }
+    body .main-index .pictures-box .picture2 .img-center {
+      height: 338px;
+      width: 450px;
+      margin: 0px;
+      padding: 5px 300px; }
+    body .main-index .pictures-box .picture2 .tittle-job {
+      font-size: 1rem;
+      padding: 0.313rem;
+      text-align: center; }
+    body .main-index .pictures-box .picture3 .secondary-tittle {
+      text-align: center; }
+    body .main-index .pictures-box .picture3 .img-center {
+      height: 338px;
+      width: 450px;
+      margin: 0px;
+      padding: 5px 300px; }
+    body .main-index .pictures-box .picture3 .tittle-job {
+      font-size: 1rem;
+      padding: 0.313rem;
+      text-align: center; }
+  body .main-index .job {
+    font-size: 1.60rem; }
+  body .main-index .works1 .flex-work .div-works .other-tittle {
+    font-size: 1.2rem;
+    padding: 0.313rem; }
+  body .main-index .phrase {
+    padding: 1.25rem 0.313rem 1.25rem;
+    font-size: 1.70rem;
+    text-align: center; }
+  body .footer {
+    background-color: #000;
+    color: white; } }
+
+/* Responsive contact */
+/* Very small devices */
+@media screen and (max-width: 36rem) {
+  .body-contact {
+    padding-left: 0.313rem;
+    padding-right: 0.313rem; }
+    .body-contact .main-contact .tittle {
+      padding: 0.938rem 2.5rem;
+      color: lightseagreen;
+      font-size: 1.5rem; }
+    .body-contact .main-contact .info {
+      padding: 0.625rem 1.563rem;
+      color: black;
+      font-size: 1rem;
+      margin: 0rem 1.25rem;
+      width: 50%; }
+    .body-contact .main-contact .contact-form {
+      width: 60%;
+      padding: 1.875rem 1.875rem;
+      margin: 0.313rem 0.313rem 3.75rem; }
+      .body-contact .main-contact .contact-form .fieldset-w .contact-div label {
+        color: #000;
+        font-size: 1rem;
+        padding: 0.625rem; }
+      .body-contact .main-contact .contact-form .fieldset-w .submit {
+        background: #4717f6;
+        display: block;
+        width: 6.25rem;
+        height: 1.875rem;
+        border: none;
+        color: #fff;
+        border-radius: 0.25rem;
+        font-size: 0.90rem;
+        margin: 0.625rem auto;
+        cursor: pointer; }
+  .footer {
+    background-color: black;
+    color: white;
+    font-size: 0.80rem; }
+    .footer .createdby {
+      font-size: 0.60rem; } }
+
+/* Mobile devices */
+@media screen and (min-width: 36.063rem) and (max-width: 48rem) {
+  .body-contact {
+    padding-left: 0.625rem;
+    padding-right: 0.313rem; }
+    .body-contact .main-contact .tittle {
+      padding: 1.563rem 3.125rem;
+      color: #000;
+      font-size: 1.6rem; }
+    .body-contact .main-contact .info {
+      padding: 0.625rem 2.188rem;
+      color: #000;
+      font-size: 1rem;
+      margin: 0rem 1.25rem;
+      width: 50%; }
+    .body-contact .main-contact .contact-form {
+      width: 60%;
+      padding: 1.875rem 1.875rem;
+      margin: 0.313rem 0.313rem 3.75rem; }
+      .body-contact .main-contact .contact-form .fieldset-w .contact-div label {
+        color: #000;
+        font-size: 1.1rem;
+        padding: 0.625rem; }
+      .body-contact .main-contact .contact-form .fieldset-w .submit {
+        background: #4717f6;
+        display: block;
+        width: 6.25rem;
+        height: 1.875rem;
+        border: none;
+        color: #fff;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+        margin: 0.625rem auto;
+        cursor: pointer; }
+    .body-contact .footer {
+      background-color: black;
+      color: white;
+      font-size: 0.80rem; }
+      .body-contact .footer .createdby {
+        font-size: 0.60rem; } }
+
+/* Responsive resume */
+@media screen and (max-width: 36rem) {
+  .body-resume {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    .body-resume header {
+      background-color: #000;
+      color: white; }
+      .body-resume header h1 {
+        font-size: 0.80rem; }
+      .body-resume header nav .menu li a {
+        font-size: 0.80rem; }
+    .body-resume .main-resume .resum1 .content-resume {
+      display: flex;
+      flex-direction: column; }
+      .body-resume .main-resume .resum1 .content-resume h2 {
+        font-size: 1.10rem;
+        text-align: center; }
+      .body-resume .main-resume .resum1 .content-resume .rol {
+        font-size: 0.80rem; }
+      .body-resume .main-resume .resum1 .content-resume .years {
+        font-size: 0.80rem; }
+      .body-resume .main-resume .resum1 .content-resume .task {
+        font-size: 0.80rem; } }
+
+/* Responsive works */
+/* Very small devices */
+@media screen and (max-width: 36rem) {
+  .body {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+  .w-subti {
+    padding: 1.25rem;
+    color: lightseagreen;
+    font-size: 1.2rem; }
+  .w-img-section {
+    display: flexbox;
+    text-align: center; }
+  .w-site-marea1 {
+    padding: 1.25rem;
+    color: lightseagreen;
+    font-size: 1rem;
+    margin: 0rem 4.688rem; }
+  .w-site-marea2 {
+    padding: 1.25rem;
+    color: lightseagreen;
+    font-size: 1rem;
+    margin: 0rem 4.688rem; }
+  .w-secondary {
+    font-size: 1rem; }
+  .w-text {
+    font-size: 0.70rem; }
+  .footer {
+    background-color: black;
+    color: white;
+    font-size: 0.80rem; }
+  .created {
+    font-size: 0.60rem; } }
+
+/* Mobile devices */
+@media screen and (min-width: 36.063rem) and (max-width: 48rem) {
+  .body {
+    padding-left: 0.313rem;
+    padding-right: 0.313rem; }
+  .w-subti {
+    padding: 1.75rem;
+    color: lightseagreen;
+    font-size: 2rem; }
+  .w-img-section {
+    display: flexbox;
+    text-align: center; }
+  .w-site-marea1 {
+    padding: 0.625rem;
+    color: lightseagreen;
+    font-size: 1.22rem;
+    margin: 0rem 0.313rem; }
+  .w-site-marea2 {
+    padding: 0.625rem;
+    color: lightseagreen;
+    font-size: 1.22rem;
+    margin: 0rem 0.313rem; }
+  .w-secondary {
+    font-size: 1.22rem; }
+  .w-text {
+    font-size: 1.22rem; } }
 
 body {
   background-color: white;

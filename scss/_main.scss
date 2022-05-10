@@ -1,71 +1,312 @@
-main {
-    
-    .main-box1 {
-        display: flex;
-             
-            @mixin tittle-h2 {
-                font-size: $tittle;
-                padding: 1.375rem 0.625rem 0rem 2.5rem;
-                display: block;
-                flex-direction: column;
-                color: $tit-violet;
-            }
+@mixin picture-index {
+    background-color: #fff;
+    padding: 5rem 1.25rem;
+    margin: 0.625rem
+}
 
-            h2 {
-                @include tittle-h2;
-                }
+@mixin secondary-style {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.563rem;
+    text-align: center;
+    position: relative;
+    color: $tit-violet;
+}
 
-            @mixin boxes {
-                padding: 0.780rem 0.625rem 0.938rem 2.5rem;
-                margin: 0.625rem 0rem 0.625rem 0.625rem;
-                display: block;
-                flex-direction: column;
-                width: 45%;
-            }
+@mixin tittle-resume {
+    font-size: $tittle;
+    padding: 1.375rem 0.625rem 0rem 2.5rem;
+    color: $tit-violet;
+}
+
+@mixin boxes {
+    padding: 0.780rem 0.625rem 0.938rem 2.5rem;
+    margin: 0.625rem 0rem 0.625rem 0.625rem;
+    width: 45%;
+}
             
-            @mixin courses {
-                margin: 0.313rem 0rem 0.625rem;
-            } 
+@mixin university {
+    margin: 0.313rem 0rem 0.625rem;
+} 
 
-            .content-box {
+@mixin courses {
+    font-size: 0.938rem;
+    font-weight: bold;
+    padding: 0.780rem 0.625rem 0.938rem 2.5rem;
+    margin: 0.625rem 0rem 0.625rem 0.625rem;
+    width: 45%;
+    height: 60%;
+}
 
-                @include boxes;
-                
-                    .rol {
-                        font-weight: bold;
-                        margin: 2.100rem 0rem 0.413rem;
-                    }
-            
-                    .years {
-                        color: rgb(182, 182, 182);
-                        margin: 0.413rem 0.313rem;
-                    }
-            
-                    .task {
-                        text-align: justify;
-                        margin: 0rem;
-                    }
 
-                    .cour {
-                        @include curses;
-                    }
-                     
-                }
+.main-index {
+
+    .welcome {
+        background-color: $bg;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.125rem;
+        letter-spacing: 0.069rem;
+        padding: 7.5rem 3.125rem 11.25rem;
+        height: 100%;
+        text-align: center;
     }
 
-    .main-box2 {
+    .what {
+        background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+        padding: 3.125rem 5rem;
+        margin: 0rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.875rem;
+        color: #fff;
+    }
+
+
+    .pictures-box {
+        display: flex;
+    
+        .picture1 {
+            @include picture-index; 
+    
+            .secondary-tittle {
+                @include secondary-style;
+            }
+
+            .img-center {
+               height: 238px;
+               width: 350px;
+               margin: 0.5rem 0rem;
+            }
+        }
+
+        .picture2 {
+            @include picture-index;
+            
+            .secondary-tittle {
+                @include secondary-style;
+            }
+            
+            .img-center {
+               height: 238px;
+               width: 350px;
+               margin: 0.5rem 0rem;
+            }
+        }
+
+        .picture3 {
+            @include picture-index;
+
+            .secondary-tittle {
+                @include secondary-style;
+            }
+
+            .img-center {
+                height: 238px;
+                width: 350px;
+                margin: 0.5rem 0rem;
+            }
+        }
+    } 
+    
+    .job {
+        padding: 3.125rem 5rem;
+        margin: 0rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.875rem;
+        color: #000;
+    }
+
+    .works1 {
+        background-color: #fff;
+        padding: 2.5rem 0rem;
+        margin: 0rem;
+
+        .flex-work {
+            padding: 0.313rem 3.75rem;
+            margin: 0rem 1.875rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 1.25rem;
+            display: flex;
+            justify-content: space-evenly;
+        
+            .div-works {
+                padding: 2.5rem;
+                margin: 0.313rem 3.125 0.938rem;
+                
+                .other-tittle {
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-size: 1.563rem;
+                    text-align: center;
+                    position: relative;
+                    color: #000;
+                }
+
+                .tittle-job {
+                    color: #000;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-size: 1.25rem;
+                    padding-top: 2.5rem;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .phrase {
+        background-color: #fff;
+        grid-area: phrase;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.094rem;
+        font-size: 2.188rem;
+        padding: 7.5rem 1.875rem 3.75rem;
+        margin: 2.5rem;
+        text-align: left;
+    }
+}
+
+.main-resume {
+    
+    .resum1 {
+        display: flex;
+             
+        h2 {
+            @include tittle-resume; 
+        }
+
+        .content-resume {
+
+            @include boxes;
+                
+            .rol {
+                font-weight: bold;
+                margin: 2.100rem 0rem 0.413rem;
+            }
+            
+            .years {
+                color: rgb(182, 182, 182);
+                margin: 0.413rem 0.313rem;
+            }
+            
+            .task {
+                text-align: justify;
+                margin: 0rem;
+            }
+
+            .cour {
+                @include university;
+            }         
+        }
+    }
+
+    .main-resume2 {
         display: flex;
         
         h2 {
-            @include tittle-h2;
+            @include tittle-resume;
             }
 
-        .content-cert {
-            @include tittle-h2;
-        
-            .course {
-                @include curses;
-            }
+        .content-certificates {
+            @include courses;
         } 
     }    
+}
+
+.main-works {
+    display: flex;
+    flex-direction: column;
+
+    .w-subti {
+        padding: 3.125rem 1.875rem 3.75rem;
+        margin: 0.625rem 0rem;
+        font-size: 1.813rem;
+    }
+      
+    .w-img-section {
+        margin: 0rem 0.625rem 3.125rem;
+        padding: 4rem 1rem 10rem;
+        text-align: center;
+    
+        .w-secondary {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: $tittle;
+        }
+
+        .img-center {
+            height: 238px;
+            width: 350px;
+            margin: 8px 0px;
+        }
+          
+        .w-text {
+            font-size: 0.938rem;
+            text-align: center;
+        }
+    } 
+}
+
+.main-contact {
+    
+    .tittle {
+        padding: 3.125rem 3.125rem 0.113rem 2rem;
+        margin: 0.325rem 2rem 0.100rem;
+        font-size: 1.75rem;
+    }
+      
+    .info {
+        padding: 0.080rem 3.125rem;
+        margin: 0.125rem 2rem;  
+        width: 30%;
+    }
+
+    .contact-form {
+        width: 40%;
+        height: 60%;
+        margin: 50px;
+        text-align: center;
+        
+        .fieldset-w {
+        
+            .contact-div {
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                margin-left: 50px;
+          
+                input, textarea {
+                    border: 1px #000000 solid;
+                    border-radius: 2px;
+                    padding: 6px;
+                    margin-left: 0px;
+                    margin-right: 50px;
+                    background: rgba(0, 0, 0, 0.1);
+                }
+      
+                input:focus, textarea:focus {
+                    background: white;
+                    color: black;
+                }               
+            }  
+
+            .submit {
+                text-decoration: none;
+                padding: 0.313rem;
+                margin: 0.313rem;
+                font-weight: 600;
+                font-size: 0.938rem;
+                color: #ffffff;
+                background-color: $tit-violet;
+                border-radius: 0.625rem;
+                border: 1px solid #ffabeb;
+                transition: all 1s ease;
+                -webkit-transition: all 1s ease;
+
+                &:hover {
+                   color: $tit-violet;
+                   background-color: #ffffff;
+                   cursor: pointer;
+                }
+            }           
+        }
+    }  
 }
