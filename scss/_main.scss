@@ -72,8 +72,8 @@
             }
 
             .img-center {
-               height: 238px;
-               width: 350px;
+               height: 14.875rem;
+               width: 21.875rem;
                margin: 0.5rem 0rem;
             }
         }
@@ -86,8 +86,8 @@
             }
             
             .img-center {
-               height: 238px;
-               width: 350px;
+               height: 14.875rem; 
+               width: 21.875rem; 
                margin: 0.5rem 0rem;
             }
         }
@@ -100,8 +100,8 @@
             }
 
             .img-center {
-                height: 238px;
-                width: 350px;
+                height: 14.875rem;
+                width: 21.875rem; 
                 margin: 0.5rem 0rem;
             }
         }
@@ -164,19 +164,19 @@
     }
 }
 
+
 .main-resume {
     
     .resum1 {
         display: flex;
-             
-        h2 {
-            @include tittle-resume; 
-        }
 
-        .content-resume {
-
+        .content-resume1 {
             @include boxes;
-                
+
+            h2 {
+               @include tittle-resume; 
+            }
+
             .rol {
                 font-weight: bold;
                 margin: 2.100rem 0rem 0.413rem;
@@ -191,25 +191,34 @@
                 text-align: justify;
                 margin: 0rem;
             }
+        }
+
+        .content-resume2 {
+                @include boxes;
+
+            h2 {
+                @include tittle-resume; 
+            }
 
             .cour {
                 @include university;
-            }         
+            } 
         }
     }
-
-    .main-resume2 {
+    
+    .resum2 {
         display: flex;
-        
-        h2 {
-            @include tittle-resume;
-            }
 
         .content-certificates {
             @include courses;
+            
+            h2 {
+                @include tittle-resume;
+            }
         } 
-    }    
-}
+    }        
+}  
+
 
 .main-works {
     display: flex;
@@ -232,9 +241,9 @@
         }
 
         .img-center {
-            height: 238px;
-            width: 350px;
-            margin: 8px 0px;
+            height: 14.875rem;
+            width: 21.875rem;
+            margin: 0.5rem 0rem;
         }
           
         .w-text {
@@ -261,24 +270,24 @@
     .contact-form {
         width: 40%;
         height: 60%;
-        margin: 50px;
+        margin: 3.125rem;
         text-align: center;
         
         .fieldset-w {
         
             .contact-div {
-                margin-top: 20px;
+                margin-top: 1.25rem;
                 display: flex;
                 flex-direction: column;
                 text-align: left;
-                margin-left: 50px;
+                margin-left: 3.125rem;
           
                 input, textarea {
-                    border: 1px #000000 solid;
-                    border-radius: 2px;
-                    padding: 6px;
-                    margin-left: 0px;
-                    margin-right: 50px;
+                    border: 0.063rem #000000 solid;
+                    border-radius: 0.125rem;
+                    padding: 0.375rem;
+                    margin-left: 0rem;
+                    margin-right: 3.125rem;
                     background: rgba(0, 0, 0, 0.1);
                 }
       
@@ -297,7 +306,7 @@
                 color: #ffffff;
                 background-color: $tit-violet;
                 border-radius: 0.625rem;
-                border: 1px solid #ffabeb;
+                border: 0.063rem solid #ffabeb;
                 transition: all 1s ease;
                 -webkit-transition: all 1s ease;
 
