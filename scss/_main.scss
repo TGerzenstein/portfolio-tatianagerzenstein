@@ -1,7 +1,8 @@
 @mixin picture-index {
-    background-color: #fff;
+    background-color: $bg-headfot;
     padding: 5rem 1.25rem;
-    margin: 0.625rem
+    margin: 0.625rem;
+    text-align: center;
 }
 
 @mixin secondary-style {
@@ -14,7 +15,7 @@
 
 @mixin tittle-resume {
     font-size: $tittle;
-    padding: 1.375rem 0.625rem 0rem 2.5rem;
+    padding: 1.375rem 0.625rem 0.800rem 2.5rem;
     color: $tit-violet;
 }
 
@@ -23,10 +24,6 @@
     margin: 0.625rem 0rem 0.625rem 0.625rem;
     width: 45%;
 }
-            
-@mixin university {
-    margin: 0.313rem 0rem 0.625rem;
-} 
 
 @mixin courses {
     font-size: 0.938rem;
@@ -37,12 +34,18 @@
     height: 60%;
 }
 
+@mixin center-img {
+    height: 14.875rem;
+    width: 21.875rem;
+    margin: 0.5rem 0rem;
+}
+
 
 .main-index {
 
     .welcome {
         background-color: $bg;
-        color: #fff;
+        color: $bg-headfot;
         font-family: 'Roboto', sans-serif;
         font-size: 3.125rem;
         letter-spacing: 0.069rem;
@@ -57,13 +60,12 @@
         margin: 0rem;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 1.875rem;
-        color: #fff;
+        color: $bg-headfot;
     }
-
 
     .pictures-box {
         display: flex;
-    
+
         .picture1 {
             @include picture-index; 
     
@@ -72,9 +74,7 @@
             }
 
             .img-center {
-               height: 14.875rem;
-               width: 21.875rem;
-               margin: 0.5rem 0rem;
+                @include center-img;
             }
         }
 
@@ -86,9 +86,7 @@
             }
             
             .img-center {
-               height: 14.875rem; 
-               width: 21.875rem; 
-               margin: 0.5rem 0rem;
+               @include center-img;
             }
         }
 
@@ -100,56 +98,22 @@
             }
 
             .img-center {
-                height: 14.875rem;
-                width: 21.875rem; 
-                margin: 0.5rem 0rem;
+                @include center-img;
             }
         }
     } 
-    
-    .job {
-        padding: 3.125rem 5rem;
+
+    .bg-works-r {
+        padding: 8rem 5rem 0.80rem;
         margin: 0rem;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 1.875rem;
-        color: #000;
+        color: $bg;
+        font-size: 1.775rem;
     }
-
-    .works1 {
-        background-color: #fff;
-        padding: 2.5rem 0rem;
-        margin: 0rem;
-
-        .flex-work {
-            padding: 0.313rem 3.75rem;
-            margin: 0rem 1.875rem;
-            font-family: 'Source Sans Pro', sans-serif;
-            font-size: 1.25rem;
-            display: flex;
-            justify-content: space-evenly;
-        
-            .div-works {
-                padding: 2.5rem;
-                margin: 0.313rem 3.125 0.938rem;
-                
-                .other-tittle {
-                    font-family: 'Source Sans Pro', sans-serif;
-                    font-size: 1.563rem;
-                    text-align: center;
-                    position: relative;
-                    color: #000;
-                }
-
-                .tittle-job {
-                    color: #000;
-                    font-family: 'Source Sans Pro', sans-serif;
-                    font-size: 1.25rem;
-                    padding-top: 2.5rem;
-                    display: flex;
-                    justify-content: center;
-                }
-            }
-        }
+    
+    .carousel-inner > .item > img {
+        object-fit: scale-down;
+        height: 20vh;
+        width: 100%;
     }
 
     .phrase {
@@ -179,7 +143,7 @@
 
             .rol {
                 font-weight: bold;
-                margin: 2.100rem 0rem 0.413rem;
+                margin: 1.100rem 0rem 0.413rem;
             }
             
             .years {
@@ -200,22 +164,45 @@
                 @include tittle-resume; 
             }
 
-            .cour {
-                @include university;
-            } 
+            .rol {
+                font-weight: bold;
+                margin: 1.100rem 0rem 0.413rem;
+            }
+            
+            .years {
+                color: rgb(182, 182, 182);
+                margin: 0.413rem 0.313rem;
+            }
+            
+            .task {
+                text-align: justify;
+                margin: 0rem;
+            }
         }
     }
     
     .resum2 {
         display: flex;
 
-        .content-certificates {
-            @include courses;
+        .content-certificates1 {
+            
             
             h2 {
                 @include tittle-resume;
             }
+
+            @include courses;
         } 
+
+        .content-certificates2 {
+
+            h2 {
+                @include tittle-resume;
+            }
+
+            @include courses;
+
+        }
     }        
 }  
 
@@ -223,47 +210,51 @@
 .main-works {
     display: flex;
     flex-direction: column;
+    color: $bg;
 
     .w-subti {
-        padding: 3.125rem 1.875rem 3.75rem;
+        padding: 3.125rem 1.875rem 3.75rem 4rem;
         margin: 0.625rem 0rem;
         font-size: 1.813rem;
     }
       
     .w-img-section {
         margin: 0rem 0.625rem 3.125rem;
-        padding: 4rem 1rem 10rem;
-        text-align: center;
+        padding: 4rem 1rem 8rem 8rem;
+        text-align: left;
     
         .w-secondary {
             font-family: 'Source Sans Pro', sans-serif;
             font-size: $tittle;
+            text-align: center;
+            width: 30%;
         }
 
         .img-center {
-            height: 14.875rem;
-            width: 21.875rem;
-            margin: 0.5rem 0rem;
+            @include center-img;
         }
           
         .w-text {
             font-size: 0.938rem;
-            text-align: center;
+            width: 31%;
+            text-align: justify;
         }
     } 
 }
 
+
 .main-contact {
+    color: $bg;
     
     .tittle {
-        padding: 3.125rem 3.125rem 0.113rem 2rem;
-        margin: 0.325rem 2rem 0.100rem;
-        font-size: 1.75rem;
+        padding: 3.125rem 1.875rem 3.75rem 4rem;
+        margin: 0.625rem 0rem;
+        font-size: 1.813rem;
     }
       
     .info {
         padding: 0.080rem 3.125rem;
-        margin: 0.125rem 2rem;  
+        margin: 0.125rem 2.50rem;  
         width: 30%;
     }
 
@@ -303,7 +294,7 @@
                 margin: 0.313rem;
                 font-weight: 600;
                 font-size: 0.938rem;
-                color: #ffffff;
+                color: $bg-headfot;
                 background-color: $tit-violet;
                 border-radius: 0.625rem;
                 border: 0.063rem solid #ffabeb;

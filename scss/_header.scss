@@ -1,33 +1,33 @@
 header {
   background-color: $bg;
   padding: 0.313rem;
-  margin: 0rem;    
-     
+  margin: 0rem;
+  
   h1 {
-     padding: 2.5rem 2.5rem 0.625rem;
-     font-size: 1.875rem;
-     color: $bg-headfot;
+    padding: 2.5rem 2.5rem 0.625rem;
+    font-size: 1.875rem;
+    color: $bg-headfot;
+  }
+  
+  .bg-lig {
+    background-color: $bg;
+    color: $bg-headfot;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active,
+   .navbar-light .navbar-nav .show > .nav-link {
+    color: $bg-headfot;
+    padding: 1rem 1.30rem 0.12rem;
+    font-size: 1.25rem;
   }
 
-  nav { 
+  .navbar-light .navbar-nav .nav-link {
+    color: $bg-headfot;
+    padding: 1rem 1.30rem 0.12rem;
+    font-size: 1.25rem;
+  }
 
-    .menu {
-      font-family: 'Source Sans Pro', sans-serif;
-      width: 100%;
-      justify-content: right;
-      display: flex;
-      padding: 0.313rem;
-      list-style: none;
-      margin: 0rem;
-           
-      li {
-        margin: 0rem 3.75rem 0rem 0rem;
-          a{
-           color: $bg-headfot;
-           text-decoration: none;
-           font-size: 1.25rem;
-          }
-      }
-    }
+  .color-i {
+    background-color: $bg-headfot;
   }
 }
