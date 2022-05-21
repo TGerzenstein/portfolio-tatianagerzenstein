@@ -120,7 +120,7 @@ header {
       color: #a239CA; }
     .main-resume .resum1 .content-resume1 .rol {
       font-weight: bold;
-      margin: 1.100rem 0rem 0.413rem; }
+      margin: 1.100rem 0rem 0.413rem 0rem; }
     .main-resume .resum1 .content-resume1 .years {
       color: #b6b6b6;
       margin: 0.413rem 0.313rem; }
@@ -270,8 +270,9 @@ footer {
       background-color: #000;
       color: white; }
       body header h1 {
-        font-size: 0.80rem; }
-      body header nav .menu li a {
+        font-size: 1rem; }
+      body header .navbar .container-fluid .nav-link,
+      body header .navbar .container-fluid .active {
         font-size: 0.80rem; }
     body .main-index .welcome {
       font-size: 1.20rem;
@@ -329,11 +330,10 @@ footer {
           font-size: 0.80rem;
           padding: 0.313rem;
           text-align: center; }
-    body .main-index .job {
+    body .main-index .bg-works-r {
       font-size: 1.20rem; }
-    body .main-index .works1 .flex-work .div-works .other-tittle {
-      font-size: 0.80rem;
-      padding: 0.313rem; }
+    body .main-index .carousel-inner .carousel-item h5 {
+      font-size: 0.60rem; }
     body .main-index .phrase {
       padding: 1.25rem 0.313rem 1.25rem;
       font-size: 1.20rem;
@@ -354,11 +354,11 @@ footer {
       background-color: #000;
       color: white; }
       body header h1 {
-        font-size: 1rem;
+        font-size: 1.20rem;
         margin-left: 0.25rem; }
-      body header nav .menu li a {
-        font-size: 0.90rem;
-        margin: 0.25rem; }
+      body header .navbar .container-fluid .nav-link,
+      body header .navbar .container-fluid .active {
+        font-size: 0.90rem; }
     body .main-index .welcome {
       font-size: 1.40rem;
       letter-spacing: 0.056rem;
@@ -392,11 +392,8 @@ footer {
         body .main-index .pictures-box .picture3 .secondary-tittle {
           font-size: 1.10rem;
           text-align: center; }
-    body .main-index .job {
+    body .main-index .bg-works-r {
       font-size: 1.40rem; }
-    body .main-index .works1 .flex-work .div-works .other-tittle {
-      font-size: 0.80rem;
-      padding: 0.313rem; }
     body .main-index .phrase {
       padding: 1.25rem 0.313rem 1.25rem;
       font-size: 1.40rem;
@@ -460,11 +457,8 @@ footer {
       font-size: 1rem;
       padding: 0.313rem;
       text-align: center; }
-  body .main-index .job {
+  body .main-index .bg-works-r {
     font-size: 1.60rem; }
-  body .main-index .works1 .flex-work .div-works .other-tittle {
-    font-size: 1.2rem;
-    padding: 0.313rem; }
   body .main-index .phrase {
     padding: 1.25rem 0.313rem 1.25rem;
     font-size: 1.70rem;
@@ -479,6 +473,14 @@ footer {
   .body-contact {
     padding-left: 0.313rem;
     padding-right: 0.313rem; }
+    .body-contact header {
+      background-color: #000;
+      color: white; }
+      .body-contact header h1 {
+        font-size: 1rem; }
+      .body-contact header .navbar .container-fluid .nav-link,
+      .body-contact header .navbar .container-fluid .active {
+        font-size: 0.80rem; }
     .body-contact .main-contact .tittle {
       padding: 0.938rem 2.5rem;
       color: lightseagreen;
@@ -520,6 +522,15 @@ footer {
   .body-contact {
     padding-left: 0.625rem;
     padding-right: 0.313rem; }
+    .body-contact header {
+      background-color: #000;
+      color: white; }
+      .body-contact header h1 {
+        font-size: 1.20rem;
+        margin-left: 0.25rem; }
+      .body-contact header .navbar .container-fluid .nav-link,
+      .body-contact header .navbar .container-fluid .active {
+        font-size: 0.90rem; }
     .body-contact .main-contact .tittle {
       padding: 1.563rem 3.125rem;
       color: #000;
@@ -557,13 +568,15 @@ footer {
         font-size: 0.60rem; } }
 
 /* Responsive resume */
+/* Very small devices */
 @media screen and (max-width: 36rem) {
   .body-resume header {
     background-color: #000;
     color: white; }
     .body-resume header h1 {
       font-size: 0.80rem; }
-    .body-resume header nav .menu li a {
+    .body-resume header .navbar .container-fluid .nav-link,
+    .body-resume header .navbar .container-fluid .active {
       font-size: 0.80rem; }
   .body-resume .main-resume {
     display: flex;
@@ -585,15 +598,27 @@ footer {
       .body-resume .main-resume .resum1 .content-resume2 h2 {
         font-size: 1.10rem;
         text-align: center; }
-      .body-resume .main-resume .resum1 .content-resume2 .cour {
+      .body-resume .main-resume .resum1 .content-resume2 .rol {
         font-size: 0.80rem; }
-  .body-resume .main-resume2 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 1rem; }
-    .body-resume .main-resume2 .content-certificates .courses {
-      font-size: 0.80rem; } }
+      .body-resume .main-resume .resum1 .content-resume2 .years {
+        font-size: 0.80rem; }
+      .body-resume .main-resume .resum1 .content-resume2 .task {
+        font-size: 0.80rem; }
+    .body-resume .main-resume .resum2 {
+      display: flex;
+      flex-direction: column;
+      padding-left: 1rem;
+      padding-right: 1rem; }
+      .body-resume .main-resume .resum2 .content-certificates1 h2 {
+        font-size: 1.10rem;
+        text-align: center; }
+      .body-resume .main-resume .resum2 .content-certificates1 .courses {
+        font-size: 0.80rem; }
+      .body-resume .main-resume .resum2 .content-certificates2 h2 {
+        font-size: 1.10rem;
+        text-align: center; }
+      .body-resume .main-resume .resum2 .content-certificates2 .courses {
+        font-size: 0.80rem; } }
 
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
   .body-resume {
@@ -605,9 +630,9 @@ footer {
       .body-resume header h1 {
         font-size: 1rem;
         margin-left: 0.25rem; }
-      .body-resume header nav .menu li a {
-        font-size: 0.90rem;
-        margin: 0.25rem; }
+      .body-resume header .navbar .container-fluid .nav-link,
+      .body-resume header .navbar .container-fluid .active {
+        font-size: 0.90rem; }
     .body-resume .main-resume {
       display: flex;
       flex-direction: column;
@@ -629,15 +654,89 @@ footer {
         .body-resume .main-resume .resum1 .content-resume2 h2 {
           font-size: 1rem;
           text-align: center; }
-        .body-resume .main-resume .resum1 .content-resume2 .cour {
+        .body-resume .main-resume .resum1 .content-resume2 .rol {
+          font-size: 0.90rem; }
+        .body-resume .main-resume .resum1 .content-resume2 .years {
+          font-size: 0.90rem; }
+        .body-resume .main-resume .resum1 .content-resume2 .task {
           font-size: 0.90rem; }
       .body-resume .main-resume .resum2 {
         display: flex;
         flex-direction: column; }
-        .body-resume .main-resume .resum2 .content-certificates h2 {
+        .body-resume .main-resume .resum2 .content-certificates1 h2 {
           font-size: 1rem; }
-        .body-resume .main-resume .resum2 .content-certificates .courses {
+        .body-resume .main-resume .resum2 .content-certificates1 .courses {
+          font-size: 0.80rem; }
+        .body-resume .main-resume .resum2 .content-certificates2 h2 {
+          font-size: 1rem; }
+        .body-resume .main-resume .resum2 .content-certificates2 .courses {
           font-size: 0.80rem; } }
+
+/* Responsive works */
+/* Very small devices */
+@media screen and (max-width: 36rem) {
+  body {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    body header {
+      background-color: #000;
+      color: white; }
+      body header h1 {
+        font-size: 1rem; }
+    body .main-works .w-subti {
+      font-size: 1rem;
+      padding: 0.30rem; }
+    body .main-works .w-img-section .w-secondary {
+      font-size: 1.10rem; }
+    body .main-works .w-img-section .w-text {
+      font-size: 0.80rem;
+      text-align: justify;
+      width: 80%; }
+    body .footer {
+      background-color: #000;
+      color: white;
+      font-size: 0.80rem; }
+      body .footer .created {
+        font-size: 0.60rem; } }
+
+/* Mobile devices */
+@media screen and (min-width: 36.063rem) and (max-width: 48rem) {
+  body {
+    padding-left: 0.640rem;
+    padding-right: 0.640rem; }
+    body header {
+      background-color: #000;
+      color: white; }
+      body header h1 {
+        font-size: 1.20rem;
+        margin-left: 0.25rem; }
+      body header .navbar .container-fluid .nav-link,
+      body header .navbar .container-fluid .active {
+        font-size: 0.90rem; }
+    body .main-works .w-subti {
+      font-size: 1.9rem; }
+    body .main-works .w-img-section .w-secondary {
+      font-size: 1.60rem; }
+    body .main-works .w-img-section .w-text {
+      font-size: 1rem;
+      text-align: justify;
+      width: 70%; }
+    body .footer {
+      background-color: #000;
+      color: white;
+      font-size: 0.90rem; }
+      body .footer .created {
+        font-size: 0.70rem; } }
+
+@media screen and (min-width: 48.063rem) and (max-width: 75rem) {
+  body .main-works .w-subti {
+    font-size: 1.9rem; }
+  body .main-works .w-img-section .w-secondary {
+    font-size: 1.60rem; }
+  body .main-works .w-img-section .w-text {
+    font-size: 1rem;
+    text-align: justify;
+    width: 50%; } }
 
 body {
   background-color: white;

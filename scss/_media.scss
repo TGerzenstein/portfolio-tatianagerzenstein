@@ -12,22 +12,19 @@
           color: rgb(255, 255, 255);
 
             h1 {
-               font-size: 0.80rem;
+               font-size: 1rem;
             }
 
-            nav {
+            .navbar {
+               
+                .container-fluid {
 
-                .menu {
-                    
-                    li {
-                      
-                        a {
-                           font-size: 0.80rem;
-                        }
+                    .nav-link, 
+                    .active {
+                        font-size: 0.80rem;
                     }
-                }
+                }  
             }
-    
         }
 
         .main-index {
@@ -47,9 +44,9 @@
             }
 
             .pictures-box {
-              display: block;
-              flex-direction: column;
-              margin: 0.10rem;
+               display: block;
+               flex-direction: column;
+               margin: 0.10rem;
 
                 .picture1 {
                     padding: 1.875rem;
@@ -118,22 +115,18 @@
                 }
             }
         
-            .job {
+            .bg-works-r {
                 font-size: 1.20rem;
             }
 
-            .works1 {
+            .carousel-inner {
 
-                .flex-work {
+                .carousel-item {
 
-                    .div-works {
-
-                        .other-tittle {
-                            font-size: 0.80rem;
-                            padding: 0.313rem;
-                        }
-                    }
-                }
+                    h5 {
+                       font-size: 0.60rem;
+                    }  
+                }  
             }
 
             .phrase {
@@ -167,22 +160,19 @@
           color: rgb(255, 255, 255);
 
             h1 {
-             font-size: 1rem;
+             font-size: 1.20rem;
              margin-left: 0.25rem;
             }
 
-            nav {
+            .navbar {
+               
+                .container-fluid {
 
-                .menu {
-                    
-                    li {
-                      
-                        a {
-                         font-size: 0.90rem;
-                         margin: 0.25rem;
-                        }
+                    .nav-link, 
+                    .active {
+                        font-size: 0.90rem;
                     }
-                }
+                }  
             }
         }
 
@@ -239,22 +229,8 @@
                 }
             }
         
-            .job {
+            .bg-works-r {
                font-size: 1.40rem;
-            }
-
-            .works1 {
-
-                .flex-work {
-
-                    .div-works {
-
-                        .other-tittle {
-                           font-size: 0.80rem;
-                           padding: 0.313rem;
-                        }
-                    }
-                }
             }
 
             .phrase {
@@ -283,7 +259,6 @@
         header {
           background-color:#000;
           color: rgb(255, 255, 255);
-    
         }
 
         .main-index {
@@ -369,22 +344,8 @@
                 }
             }
         
-            .job {
+            .bg-works-r {
                 font-size: 1.60rem;
-            }
-
-            .works1 {
-
-                .flex-work {
-
-                    .div-works {
-
-                        .other-tittle {
-                            font-size: 1.2rem;
-                            padding: 0.313rem;
-                        }
-                    }
-                }
             }
 
             .phrase {
@@ -410,6 +371,26 @@
     .body-contact {
         padding-left: 0.313rem;
         padding-right: 0.313rem;
+
+        header {
+            background-color:#000;
+            color: rgb(255, 255, 255);
+  
+            h1 {
+                font-size: 1rem;
+            }
+  
+            .navbar {
+                 
+                .container-fluid {
+  
+                    .nav-link, 
+                    .active {
+                          font-size: 0.80rem;
+                    }
+                }  
+            }
+        } 
     
         .main-contact {
            
@@ -477,6 +458,28 @@
     .body-contact {
         padding-left: 0.625rem;
         padding-right: 0.313rem;
+
+        header {
+            background-color:#000;
+            color: rgb(255, 255, 255);
+  
+            h1 {
+               font-size: 1.20rem;
+               margin-left: 0.25rem;
+            }
+  
+            .navbar {
+                 
+                .container-fluid {
+  
+                    .nav-link, 
+                    .active {
+                        font-size: 0.90rem;
+                    }
+                }  
+            }
+        }
+  
     
         .main-contact {
            
@@ -541,6 +544,7 @@
 
 /* Responsive resume */
 
+/* Very small devices */
 @media screen and (max-width: 36rem) {
 
     .body-resume {
@@ -552,19 +556,16 @@
             h1 {
                 font-size: 0.80rem;
             }
-  
-            nav {
-  
-                .menu {
-                      
-                    li {
-                        
-                        a {
-                          font-size: 0.80rem;
-                        }
-                      
+
+            .navbar {
+               
+                .container-fluid {
+
+                    .nav-link, 
+                    .active {
+                        font-size: 0.80rem;
                     }
-                }
+                }  
             }
         }
 
@@ -605,24 +606,48 @@
                         text-align: center; 
                     }
 
-                    .cour {
+                    .rol {
+                        font-size: 0.80rem;
+                    }
+
+                    .years {
+                        font-size: 0.80rem;
+                    }
+
+                    .task {
                         font-size: 0.80rem;
                     }
                 }
             }
-        }
-
-        .main-resume2 {
-            display: flex;
-            flex-direction: column;
-            padding-left: 1rem;
-            padding-right: 1rem;
-
-            .content-certificates {
-
-                .courses {
-                    font-size: 0.80rem;
-
+        
+            .resum2 {
+                display: flex;
+                flex-direction: column;
+                padding-left: 1rem;
+                padding-right: 1rem;
+    
+                .content-certificates1 {
+    
+                    h2 {
+                        font-size: 1.10rem;
+                        text-align: center; 
+                    }
+    
+                    .courses {
+                        font-size: 0.80rem;
+                    }
+                }
+    
+                .content-certificates2 {
+                    
+                    h2 {
+                        font-size: 1.10rem;
+                        text-align: center; 
+                    }
+    
+                    .courses {
+                        font-size: 0.80rem;
+                    }
                 }
             }
         }
@@ -643,20 +668,16 @@
                 font-size: 1rem;
                 margin-left: 0.25rem;
             }
-  
-            nav {
-  
-                .menu {
-                      
-                    li {
-                        
-                        a {
-                          font-size: 0.90rem;
-                          margin: 0.25rem;
-                        }
-                      
+
+            .navbar {
+                     
+                .container-fluid {
+      
+                    .nav-link, 
+                    .active {
+                        font-size: 0.90rem;
                     }
-                }
+                }  
             }
         }
 
@@ -698,18 +719,25 @@
                         text-align: center; 
                     }
 
-                    .cour {
+                    .rol {
+                        font-size: 0.90rem;
+                    }
+
+                    .years {
+                        font-size: 0.90rem;
+                    }
+
+                    .task {
                         font-size: 0.90rem;
                     }
                 }
             }
         
-
             .resum2 {
                 display: flex;
                 flex-direction: column;
 
-                .content-certificates {
+                .content-certificates1 {
 
                     h2 {
                       font-size: 1rem;
@@ -719,12 +747,156 @@
                       font-size: 0.80rem;
                     }
                 }
+
+                .content-certificates2 {
+
+                    h2 {
+                      font-size: 1rem;
+                    }
+
+                    .courses {
+                      font-size: 0.80rem;  
+                    }
+                }
             }
         }    
     }
 }
 
 
+/* Responsive works */
 
+/* Very small devices */
+@media screen and (max-width: 36rem) {
+
+    body {
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+   
+        header {
+          background-color:#000;
+          color: rgb(255, 255, 255);
+
+            h1 {
+               font-size: 1rem;
+            }
+        }
+
+        .main-works {
+
+            .w-subti {
+                font-size: 1rem;
+                padding: 0.30rem;
+            }
+
+            .w-img-section {
+
+                .w-secondary {
+                    font-size: 1.10rem;
+                }
+
+                .w-text {
+                    font-size: 0.80rem;
+                    text-align: justify;
+                    width: 80%;
+                }
+            }
+        }
+            
+        .footer {
+           background-color:#000;
+           color: rgb(255, 255, 255); 
+           font-size: 0.80rem;
+
+           .created {
+               font-size: 0.60rem;
+           }
+        }
+    }  
+}
+
+/* Mobile devices */
+@media screen and (min-width: 36.063rem) and (max-width: 48rem) {
+    
+    body {
+        padding-left: 0.640rem;
+        padding-right: 0.640rem;
+   
+        header {
+          background-color:#000;
+          color: rgb(255, 255, 255);
+
+            h1 {
+             font-size: 1.20rem;
+             margin-left: 0.25rem;
+            }
+      
+            .navbar {
+                     
+                .container-fluid {
+      
+                    .nav-link, 
+                    .active {
+                        font-size: 0.90rem;
+                    }
+                }  
+            }
+        }
+
+        .main-works {
+
+            .w-subti {
+                font-size: 1.9rem;
+            }
+
+            .w-img-section {
+
+                .w-secondary {
+                    font-size: 1.60rem;
+                }
+
+                .w-text {
+                    font-size: 1rem;
+                    text-align: justify;
+                    width: 70%;
+                }
+            }
+        }
+           
+        .footer {
+           background-color:#000;
+           color: rgb(255, 255, 255);
+           font-size: 0.90rem;
+
+           .created {
+            font-size: 0.70rem;
+           }
+        }
+    }
+}
+
+@media screen and (min-width: 48.063rem) and (max-width: 75rem) {
   
-  
+    body {
+
+        .main-works {
+            
+            .w-subti {
+                font-size: 1.9rem;
+            }
+    
+            .w-img-section {
+    
+                .w-secondary {
+                    font-size: 1.60rem;
+                }
+    
+                .w-text {
+                    font-size: 1rem;
+                    text-align: justify;
+                    width: 50%;
+                }
+            }   
+        }
+    }
+} 
