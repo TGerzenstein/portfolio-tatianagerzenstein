@@ -40,52 +40,80 @@ header {
   color: #fff; }
 
 .main-index .pictures-box {
-  display: flex; }
+  display: flex;
+  justify-content: space-evenly; }
   .main-index .pictures-box .picture1 {
     background-color: #fff;
-    padding: 5rem 1.25rem;
+    padding: 5rem 1rem;
     margin: 0.625rem;
-    text-align: center; }
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
     .main-index .pictures-box .picture1 .secondary-tittle {
       font-family: 'Source Sans Pro', sans-serif;
-      font-size: 1.563rem;
+      font-size: 1.600rem;
       text-align: center;
       position: relative;
-      color: #a239CA; }
+      color: #000; }
     .main-index .pictures-box .picture1 .img-center {
       height: 14.875rem;
       width: 21.875rem;
       margin: 0.5rem 0rem; }
+    .main-index .pictures-box .picture1 .tittle {
+      width: 90%;
+      color: black;
+      padding: 1rem;
+      margin: 0rem 0rem;
+      text-align: center;
+      font-size: 1.10rem; }
   .main-index .pictures-box .picture2 {
     background-color: #fff;
-    padding: 5rem 1.25rem;
+    padding: 5rem 1rem;
     margin: 0.625rem;
-    text-align: center; }
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
     .main-index .pictures-box .picture2 .secondary-tittle {
       font-family: 'Source Sans Pro', sans-serif;
-      font-size: 1.563rem;
+      font-size: 1.600rem;
       text-align: center;
       position: relative;
-      color: #a239CA; }
+      color: #000; }
     .main-index .pictures-box .picture2 .img-center {
       height: 14.875rem;
       width: 21.875rem;
       margin: 0.5rem 0rem; }
+    .main-index .pictures-box .picture2 .tittle {
+      width: 90%;
+      color: black;
+      padding: 1rem;
+      margin: 0rem 0rem;
+      text-align: center;
+      font-size: 1.10rem; }
   .main-index .pictures-box .picture3 {
     background-color: #fff;
-    padding: 5rem 1.25rem;
+    padding: 5rem 1rem;
     margin: 0.625rem;
-    text-align: center; }
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
     .main-index .pictures-box .picture3 .secondary-tittle {
       font-family: 'Source Sans Pro', sans-serif;
-      font-size: 1.563rem;
+      font-size: 1.600rem;
       text-align: center;
       position: relative;
-      color: #a239CA; }
+      color: #000; }
     .main-index .pictures-box .picture3 .img-center {
       height: 14.875rem;
       width: 21.875rem;
       margin: 0.5rem 0rem; }
+    .main-index .pictures-box .picture3 .tittle {
+      width: 90%;
+      color: black;
+      padding: 1rem;
+      margin: 0rem 0rem;
+      text-align: center;
+      font-size: 1.10rem; }
 
 .main-index .bg-works-r {
   padding: 8rem 5rem 0.80rem;
@@ -171,8 +199,6 @@ header {
       color: #a239CA; }
 
 .main-works {
-  display: flex;
-  flex-direction: column;
   color: #000; }
   .main-works .w-subti {
     padding: 3.125rem 1.875rem 3.75rem 4rem;
@@ -180,21 +206,25 @@ header {
     font-size: 1.813rem; }
   .main-works .w-img-section {
     margin: 0rem 0.625rem 3.125rem;
-    padding: 4rem 1rem 8rem 8rem;
-    text-align: left; }
+    padding: 4rem 0rem;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
     .main-works .w-img-section .w-secondary {
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 1.25rem;
-      text-align: center;
-      width: 30%; }
+      width: 30%;
+      background-color: #fff;
+      text-align: center; }
     .main-works .w-img-section .img-center {
       height: 14.875rem;
       width: 21.875rem;
       margin: 0.5rem 0rem; }
     .main-works .w-img-section .w-text {
       font-size: 0.938rem;
-      width: 31%;
-      text-align: justify; }
+      width: 30%;
+      text-align: center; }
 
 .main-contact {
   color: #000; }
@@ -207,9 +237,9 @@ header {
     margin: 0.125rem 2.50rem;
     width: 30%; }
   .main-contact .contact-form {
-    width: 40%;
-    height: 60%;
-    margin: 3.125rem;
+    width: 30%;
+    height: 45%;
+    margin: 2.125rem;
     text-align: center; }
     .main-contact .contact-form .fieldset-w .contact-div {
       margin-top: 1.25rem;
@@ -229,7 +259,7 @@ header {
         color: black; }
     .main-contact .contact-form .fieldset-w .submit {
       text-decoration: none;
-      padding: 0.313rem;
+      padding: 0.313rem 1.300rem;
       margin: 0.313rem;
       font-weight: 600;
       font-size: 0.938rem;

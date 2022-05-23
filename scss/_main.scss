@@ -1,16 +1,18 @@
 @mixin picture-index {
     background-color: $bg-headfot;
-    padding: 5rem 1.25rem;
+    padding: 5rem 1rem;
     margin: 0.625rem;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @mixin secondary-style {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.563rem;
+    font-size: 1.600rem;
     text-align: center;
     position: relative;
-    color: $tit-violet;
+    color: #000;
 }
 
 @mixin tittle-resume {
@@ -23,6 +25,15 @@
     padding: 0.780rem 0.625rem 0.938rem 2.5rem;
     margin: 0.625rem 0rem 0.625rem 0.625rem;
     width: 45%;
+}
+
+@mixin tittle-job {
+    width: 90%;
+    color: black;
+    padding: 1rem;
+    margin: 0rem 0rem;
+    text-align: center;
+    font-size: 1.10rem;
 }
 
 @mixin courses {
@@ -65,6 +76,7 @@
 
     .pictures-box {
         display: flex;
+        justify-content: space-evenly;
 
         .picture1 {
             @include picture-index; 
@@ -75,6 +87,10 @@
 
             .img-center {
                 @include center-img;
+            }
+
+            .tittle {
+                @include tittle-job;
             }
         }
 
@@ -88,6 +104,10 @@
             .img-center {
                @include center-img;
             }
+            
+            .tittle {
+                @include tittle-job;
+            }
         }
 
         .picture3 {
@@ -99,6 +119,10 @@
 
             .img-center {
                 @include center-img;
+            }
+
+            .tittle {
+                @include tittle-job;
             }
         }
     } 
@@ -208,8 +232,6 @@
 
 
 .main-works {
-    display: flex;
-    flex-direction: column;
     color: $bg;
 
     .w-subti {
@@ -220,14 +242,19 @@
       
     .w-img-section {
         margin: 0rem 0.625rem 3.125rem;
-        padding: 4rem 1rem 8rem 8rem;
-        text-align: left;
+        padding: 4rem 0rem;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     
         .w-secondary {
             font-family: 'Source Sans Pro', sans-serif;
             font-size: $tittle;
-            text-align: center;
             width: 30%;
+            background-color: #fff;
+            text-align: center;
         }
 
         .img-center {
@@ -236,8 +263,8 @@
           
         .w-text {
             font-size: 0.938rem;
-            width: 31%;
-            text-align: justify;
+            width: 30%;
+            text-align: center;
         }
     } 
 }
@@ -259,9 +286,9 @@
     }
 
     .contact-form {
-        width: 40%;
-        height: 60%;
-        margin: 3.125rem;
+        width: 30%;
+        height: 45%;
+        margin: 2.125rem;
         text-align: center;
         
         .fieldset-w {
@@ -290,7 +317,7 @@
 
             .submit {
                 text-decoration: none;
-                padding: 0.313rem;
+                padding: 0.313rem 1.300rem;
                 margin: 0.313rem;
                 font-weight: 600;
                 font-size: 0.938rem;
