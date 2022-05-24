@@ -3,12 +3,12 @@
 /* Very small devices */
 @media screen and (max-width: 36rem) {
 
-    body {
+    .body-index {
         padding-left: 0.625rem;
         padding-right: 0.625rem;
    
         header {
-          background-color:#000;
+          background-color: $bg;
           color: rgb(255, 255, 255);
 
             h1 {
@@ -49,8 +49,8 @@
                margin: 0.10rem;
 
                 .picture1 {
-                    padding: 1.875rem;
-                    margin: 0rem 6.25rem;
+                    padding: 1rem;
+                    margin: 0rem 1rem;
 
                    .secondary-tittle {
                        font-size: 1.10rem;
@@ -63,16 +63,17 @@
                         margin: 0.5rem 2.188rem;
                     }
 
-                    .tittle-job {
+                    .tittle {
                         font-size: 0.80rem;
                         padding: 0.313rem;
                         text-align: center;
+                        width: 40%;
                     }
                 }
 
                 .picture2 {
                     padding: 1.875rem;
-                    margin: 0rem 6.25rem;
+                    margin: 0rem 1rem;
 
                     .secondary-tittle {
                         font-size: 1.10rem;
@@ -85,16 +86,17 @@
                         margin: 0.5rem 2.188rem;
                     }
 
-                    .tittle-job {
+                    .tittle {
                         font-size: 0.80rem;
                         padding: 0.313rem;
                         text-align: center;
+                        width: 40%;
                     }
                 }
 
                 .picture3 {
                     padding: 1.875rem;
-                    margin: 0rem 6.25rem;
+                    margin: 0rem 1rem;
 
                     .secondary-tittle {
                         font-size: 1.10rem;
@@ -107,10 +109,11 @@
                         margin: 0.5rem 2.188rem;
                     }
 
-                    .tittle-job {
+                    .tittle {
                         font-size: 0.80rem;
                         padding: 0.313rem;
                         text-align: center;
+                        width: 40%;
                     }
                 }
             }
@@ -151,7 +154,7 @@
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
     
-    body {
+    .body-index {
         padding-left: 0.640rem;
         padding-right: 0.640rem;
    
@@ -200,31 +203,64 @@
 
                 .picture1 {
                    padding: 0.625rem 6.25rem;
-                   margin: 0rem 6.25rem;
+                   margin: 0rem 2rem;
 
                    .secondary-tittle {
                        font-size: 1.10rem;
                        text-align: center;
+                    }
+                    
+                    .img-center {
+                        height: 21.125rem;
+                        width: 28.125rem;
+                        margin: 0rem;
+                        padding: 0.313rem 18.75rem;
+                    }
+
+                    .tittle {
+                        font-size: 0.90rem;
                     }
                 }
 
                 .picture2 {
                    padding: 0.625rem 6.25rem;
-                   margin: 0rem 6.25rem;
+                   margin: 0rem 2rem;
 
                    .secondary-tittle {
                        font-size: 1.10rem;
                        text-align: center;
                     }
+
+                    .img-center {
+                        height: 21.125rem;
+                        width: 28.125rem;
+                        margin: 0rem;
+                        padding: 0.313rem 18.75rem;
+                    }
+
+                    .tittle {
+                        font-size: 0.90rem;
+                    }
                 }
 
                 .picture3 {
                    padding: 0.625rem 6.25rem;
-                   margin: 0rem 6.25rem;
+                   margin: 0rem 2rem;
 
                     .secondary-tittle {
                        font-size: 1.10rem;
                        text-align: center;
+                    }
+
+                      .img-center {
+                        height: 21.125rem;
+                        width: 28.125rem;
+                        margin: 0rem;
+                        padding: 0.313rem 18.75rem;
+                    }
+
+                    .tittle {
+                        font-size: 0.90rem;
                     }
                 }
             }
@@ -241,7 +277,7 @@
         }
     
         .footer {
-           background-color:#000;
+           background-color: $bg;
            color: rgb(255, 255, 255);
            font-size: 0.90rem;
 
@@ -254,7 +290,7 @@
 
 @media screen and (min-width: 48.063rem) and (max-width: 75rem) {
   
-    body {
+    .body-index {
    
         header {
           background-color:#000;
@@ -281,7 +317,7 @@
                  display: flex;
                  flex-direction: column;
                  margin: 0.220rem;
-                 width: 100%;
+
 
                 .picture1 {
 
@@ -296,7 +332,7 @@
                         padding: 0.313rem 18.75rem;
                     }
 
-                    .tittle-job {
+                    .tittle {
                         font-size: 1rem;
                         padding: 0.313rem;
                         text-align: center;
@@ -316,7 +352,7 @@
                         padding: 0.313rem 18.75rem; 
                     }
 
-                    .tittle-job {
+                    .tittle {
                         font-size: 1rem;
                         padding: 0.313rem;
                         text-align: center;
@@ -336,7 +372,7 @@
                         padding: 0.313rem 18.75rem; 
                     }
 
-                    .tittle-job {
+                    .tittle {
                         font-size: 1rem;
                         padding: 0.313rem;
                         text-align: center;
