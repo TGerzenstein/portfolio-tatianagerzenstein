@@ -431,23 +431,23 @@
         .main-contact {
            
             .tittle {
-                padding: 0.938rem 2.5rem;
+                padding: 2rem 2.8rem 0.80rem;
                 color: lightseagreen;
                 font-size: 1.5rem;
             }
            
             .info {
-                padding: 0.625rem 1.563rem;
+                padding: 0.625rem 1.763rem;
                 color: rgb(0, 0, 0);
-                font-size: 1rem;
-                margin: 0rem 1.25rem;
-                width: 50%;
+                font-size: 0.80rem;
+                margin: 0rem 0.90rem;
+                width: 78%;
             }
            
             .contact-form {
-                width: 60%;
-                padding: 1.875rem 1.875rem;
-                margin: 0.313rem 0.313rem 3.75rem;
+                width: 90%;
+                padding: 1.875rem 0.475rem;
+                margin: 0.313rem 0rem 3.75rem;
 
                 .fieldset-w {
                         
@@ -455,8 +455,12 @@
 
                         label {
                             color: #000;
-                            font-size: 1rem;
+                            font-size: 0.80rem;
                             padding: 0.625rem;
+                        }
+
+                        input, textarea {
+                            font-size: 0.80rem;
                         }
                     }
 
@@ -608,14 +612,15 @@
         .main-resume {
             display: flex;
             flex-direction: column;
-            padding-left: 1.50rem;
-            padding-right: 1.50rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
 
             .resum1 {
                 display: flex;
                 flex-direction: column;
 
                 .content-resume1 {
+                    width: 90%;
 
                     h2 {
                        font-size: 1.10rem;
@@ -636,6 +641,7 @@
                 }
 
                 .content-resume2 {
+                    width: 90%;
 
                     h2 {
                         font-size: 1.10rem;
@@ -659,10 +665,9 @@
             .resum2 {
                 display: flex;
                 flex-direction: column;
-                padding-left: 1rem;
-                padding-right: 1rem;
     
                 .content-certificates1 {
+                    width: 90%;
     
                     h2 {
                         font-size: 1.10rem;
@@ -675,6 +680,7 @@
                 }
     
                 .content-certificates2 {
+                    width: 90%;
                     
                     h2 {
                         font-size: 1.10rem;
@@ -805,7 +811,7 @@
 /* Very small devices */
 @media screen and (max-width: 36rem) {
 
-    body {
+    .body-works {
         padding-left: 0.625rem;
         padding-right: 0.625rem;
    
@@ -819,16 +825,21 @@
         }
 
         .main-works {
+            display: block;
+            flex-direction: column;
+            align-items: center;
 
             .w-subti {
                 font-size: 1rem;
-                padding: 0.30rem;
+                padding: 0.60rem;
             }
 
             .w-img-section {
+                margin: 0rem 0.80rem;
 
                 .w-secondary {
                     font-size: 1.10rem;
+                    padding: 0rem 0.20rem;
                 }
 
                 .w-text {

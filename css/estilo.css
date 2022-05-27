@@ -535,23 +535,25 @@ footer {
       .body-contact header .navbar .container-fluid .active {
         font-size: 0.80rem; }
     .body-contact .main-contact .tittle {
-      padding: 0.938rem 2.5rem;
+      padding: 2rem 2.8rem 0.80rem;
       color: lightseagreen;
       font-size: 1.5rem; }
     .body-contact .main-contact .info {
-      padding: 0.625rem 1.563rem;
+      padding: 0.625rem 1.763rem;
       color: black;
-      font-size: 1rem;
-      margin: 0rem 1.25rem;
-      width: 50%; }
+      font-size: 0.80rem;
+      margin: 0rem 0.90rem;
+      width: 78%; }
     .body-contact .main-contact .contact-form {
-      width: 60%;
-      padding: 1.875rem 1.875rem;
-      margin: 0.313rem 0.313rem 3.75rem; }
+      width: 90%;
+      padding: 1.875rem 0.475rem;
+      margin: 0.313rem 0rem 3.75rem; }
       .body-contact .main-contact .contact-form .fieldset-w .contact-div label {
         color: #000;
-        font-size: 1rem;
+        font-size: 0.80rem;
         padding: 0.625rem; }
+      .body-contact .main-contact .contact-form .fieldset-w .contact-div input, .body-contact .main-contact .contact-form .fieldset-w .contact-div textarea {
+        font-size: 0.80rem; }
       .body-contact .main-contact .contact-form .fieldset-w .submit {
         background: #4717f6;
         display: block;
@@ -634,44 +636,50 @@ footer {
   .body-resume .main-resume {
     display: flex;
     flex-direction: column;
-    padding-left: 1.50rem;
-    padding-right: 1.50rem; }
+    padding-left: 1rem;
+    padding-right: 1rem; }
     .body-resume .main-resume .resum1 {
       display: flex;
       flex-direction: column; }
-      .body-resume .main-resume .resum1 .content-resume1 h2 {
-        font-size: 1.10rem;
-        text-align: center; }
-      .body-resume .main-resume .resum1 .content-resume1 .rol {
-        font-size: 0.80rem; }
-      .body-resume .main-resume .resum1 .content-resume1 .years {
-        font-size: 0.80rem; }
-      .body-resume .main-resume .resum1 .content-resume1 .task {
-        font-size: 0.80rem; }
-      .body-resume .main-resume .resum1 .content-resume2 h2 {
-        font-size: 1.10rem;
-        text-align: center; }
-      .body-resume .main-resume .resum1 .content-resume2 .rol {
-        font-size: 0.80rem; }
-      .body-resume .main-resume .resum1 .content-resume2 .years {
-        font-size: 0.80rem; }
-      .body-resume .main-resume .resum1 .content-resume2 .task {
-        font-size: 0.80rem; }
+      .body-resume .main-resume .resum1 .content-resume1 {
+        width: 90%; }
+        .body-resume .main-resume .resum1 .content-resume1 h2 {
+          font-size: 1.10rem;
+          text-align: center; }
+        .body-resume .main-resume .resum1 .content-resume1 .rol {
+          font-size: 0.80rem; }
+        .body-resume .main-resume .resum1 .content-resume1 .years {
+          font-size: 0.80rem; }
+        .body-resume .main-resume .resum1 .content-resume1 .task {
+          font-size: 0.80rem; }
+      .body-resume .main-resume .resum1 .content-resume2 {
+        width: 90%; }
+        .body-resume .main-resume .resum1 .content-resume2 h2 {
+          font-size: 1.10rem;
+          text-align: center; }
+        .body-resume .main-resume .resum1 .content-resume2 .rol {
+          font-size: 0.80rem; }
+        .body-resume .main-resume .resum1 .content-resume2 .years {
+          font-size: 0.80rem; }
+        .body-resume .main-resume .resum1 .content-resume2 .task {
+          font-size: 0.80rem; }
     .body-resume .main-resume .resum2 {
       display: flex;
-      flex-direction: column;
-      padding-left: 1rem;
-      padding-right: 1rem; }
-      .body-resume .main-resume .resum2 .content-certificates1 h2 {
-        font-size: 1.10rem;
-        text-align: center; }
-      .body-resume .main-resume .resum2 .content-certificates1 .courses {
-        font-size: 0.80rem; }
-      .body-resume .main-resume .resum2 .content-certificates2 h2 {
-        font-size: 1.10rem;
-        text-align: center; }
-      .body-resume .main-resume .resum2 .content-certificates2 .courses {
-        font-size: 0.80rem; } }
+      flex-direction: column; }
+      .body-resume .main-resume .resum2 .content-certificates1 {
+        width: 90%; }
+        .body-resume .main-resume .resum2 .content-certificates1 h2 {
+          font-size: 1.10rem;
+          text-align: center; }
+        .body-resume .main-resume .resum2 .content-certificates1 .courses {
+          font-size: 0.80rem; }
+      .body-resume .main-resume .resum2 .content-certificates2 {
+        width: 90%; }
+        .body-resume .main-resume .resum2 .content-certificates2 h2 {
+          font-size: 1.10rem;
+          text-align: center; }
+        .body-resume .main-resume .resum2 .content-certificates2 .courses {
+          font-size: 0.80rem; } }
 
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
   .body-resume {
@@ -728,28 +736,35 @@ footer {
 /* Responsive works */
 /* Very small devices */
 @media screen and (max-width: 36rem) {
-  body {
+  .body-works {
     padding-left: 0.625rem;
     padding-right: 0.625rem; }
-    body header {
+    .body-works header {
       background-color: #000;
       color: white; }
-      body header h1 {
+      .body-works header h1 {
         font-size: 1rem; }
-    body .main-works .w-subti {
-      font-size: 1rem;
-      padding: 0.30rem; }
-    body .main-works .w-img-section .w-secondary {
-      font-size: 1.10rem; }
-    body .main-works .w-img-section .w-text {
-      font-size: 0.80rem;
-      text-align: justify;
-      width: 80%; }
-    body .footer {
+    .body-works .main-works {
+      display: block;
+      flex-direction: column;
+      align-items: center; }
+      .body-works .main-works .w-subti {
+        font-size: 1rem;
+        padding: 0.60rem; }
+      .body-works .main-works .w-img-section {
+        margin: 0rem 0.80rem; }
+        .body-works .main-works .w-img-section .w-secondary {
+          font-size: 1.10rem;
+          padding: 0rem 0.20rem; }
+        .body-works .main-works .w-img-section .w-text {
+          font-size: 0.80rem;
+          text-align: justify;
+          width: 80%; }
+    .body-works .footer {
       background-color: #000;
       color: white;
       font-size: 0.80rem; }
-      body .footer .created {
+      .body-works .footer .created {
         font-size: 0.60rem; } }
 
 /* Mobile devices */
