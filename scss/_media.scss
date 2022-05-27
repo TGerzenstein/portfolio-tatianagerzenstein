@@ -59,7 +59,7 @@
 
                     .img-center {
                         height: 8.625rem;
-                        width: 15.625rem;
+                        width: 12.625rem;
                         margin: 0.5rem 2.188rem;
                     }
 
@@ -82,7 +82,7 @@
 
                     .img-center {
                         height: 8.625rem;
-                        width: 15.625rem;
+                        width: 12.625rem;
                         margin: 0.5rem 2.188rem;
                     }
 
@@ -105,7 +105,7 @@
 
                     .img-center {
                         height: 8.625rem;
-                        width: 15.625rem;
+                        width: 12.625rem;
                         margin: 0.5rem 2.188rem;
                     }
 
@@ -211,10 +211,10 @@
                     }
                     
                     .img-center {
-                        height: 21.125rem;
-                        width: 28.125rem;
+                        height: 12.125rem;
+                        width: 18.125rem;
                         margin: 0rem;
-                        padding: 0.313rem 18.75rem;
+                        padding: 0.313rem 0.75rem;
                     }
 
                     .tittle {
@@ -232,10 +232,10 @@
                     }
 
                     .img-center {
-                        height: 21.125rem;
-                        width: 28.125rem;
+                        height: 12.125rem;
+                        width: 18.125rem;
                         margin: 0rem;
-                        padding: 0.313rem 18.75rem;
+                        padding: 0.313rem 0.75rem;
                     }
 
                     .tittle {
@@ -252,11 +252,11 @@
                        text-align: center;
                     }
 
-                      .img-center {
-                        height: 21.125rem;
-                        width: 28.125rem;
+                    .img-center {
+                        height: 12.125rem;
+                        width: 18.125rem;
                         margin: 0rem;
-                        padding: 0.313rem 18.75rem;
+                        padding: 0.313rem 0.75rem;
                     }
 
                     .tittle {
@@ -271,7 +271,7 @@
 
             .phrase {
                padding: 1.25rem 0.313rem 1.25rem;
-               font-size: 1.40rem;
+               font-size: 1.30rem;
                text-align: center;
             }
         }
@@ -431,16 +431,17 @@
         .main-contact {
            
             .tittle {
-                padding: 2rem 2.8rem 0.80rem;
-                color: lightseagreen;
-                font-size: 1.5rem;
+                padding: 2rem 2.10rem 0.80rem;
+                margin: 0rem 1rem;
+                color: $tittle;
+                font-size: 1.20rem;
             }
            
             .info {
                 padding: 0.625rem 1.763rem;
                 color: rgb(0, 0, 0);
                 font-size: 0.80rem;
-                margin: 0rem 0.90rem;
+                margin: 0rem 1.40rem;
                 width: 78%;
             }
            
@@ -465,7 +466,7 @@
                     }
 
                     .submit {
-                        background: #4717f6;
+                        background: $tit-violet;
                         display: block;
                         width: 6.25rem;
                         height: 1.875rem;
@@ -822,30 +823,49 @@
             h1 {
                font-size: 1rem;
             }
+ 
+            .navbar {
+
+                .container-fluid {
+ 
+                    .nav-link, 
+                    .active {
+                        font-size: 0.80rem;
+                    }
+                }  
+            }
         }
 
         .main-works {
-            display: block;
-            flex-direction: column;
-            align-items: center;
 
             .w-subti {
-                font-size: 1rem;
-                padding: 0.60rem;
+                font-size: 1.20rem;
+                padding: 2rem 2.10rem 0.80rem;
+                margin: 0rem 1rem;
             }
 
             .w-img-section {
-                margin: 0rem 0.80rem;
+                margin: 0rem 1rem;
+                padding: 1rem 2rem;
+                display: block;
+                flex-direction: column;
+                width: 90%;
+
 
                 .w-secondary {
-                    font-size: 1.10rem;
-                    padding: 0rem 0.20rem;
+                    font-size: 1rem;
+                    padding: 0rem 2rem;
+                    width: 50%;
+                }
+
+                .img-center {
+                    height: 8.625rem;
+                    width: 12.625rem;
                 }
 
                 .w-text {
                     font-size: 0.80rem;
-                    text-align: justify;
-                    width: 80%;
+                    width: 60%;
                 }
             }
         }
@@ -865,7 +885,7 @@
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
     
-    body {
+    .body-works {
         padding-left: 0.640rem;
         padding-right: 0.640rem;
    

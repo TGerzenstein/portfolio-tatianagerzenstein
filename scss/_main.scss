@@ -18,7 +18,7 @@
 @mixin tittle-resume {
     font-size: $tittle;
     padding: 1.375rem 0.625rem 0.800rem 2.5rem;
-    color: gray;
+    color: rgb(0, 0, 0);
 }
 
 @mixin boxes {
@@ -240,7 +240,7 @@
     }
       
     .w-img-section {
-        margin: 0rem 0.625rem 3.125rem;
+        margin: 0rem 0.30rem 3.125rem;
         padding: 4rem 0rem;
         width: 45%;
         display: flex;
@@ -273,8 +273,8 @@
     color: $bg;
     
     .tittle {
-        padding: 3.125rem 1.875rem 3.75rem 4rem;
-        margin: 0.625rem 0rem;
+        padding: 3.125rem 3.125rem 1.50rem;
+        margin: 0.625rem 2.50rem;
         font-size: 1.813rem;
     }
       
@@ -316,8 +316,8 @@
 
             .submit {
                 text-decoration: none;
-                padding: 0.313rem 1.300rem;
-                margin: 0.313rem;
+                padding: 0.413rem 1rem;
+                margin: 1rem;
                 font-weight: 600;
                 font-size: 0.938rem;
                 color: $bg-headfot;

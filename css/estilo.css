@@ -145,7 +145,7 @@ header {
     .main-resume .resum1 .content-resume1 h2 {
       font-size: 1.25rem;
       padding: 1.375rem 0.625rem 0.800rem 2.5rem;
-      color: gray; }
+      color: black; }
     .main-resume .resum1 .content-resume1 .rol {
       font-weight: bold;
       margin: 1.100rem 0rem 0.413rem 0rem; }
@@ -162,7 +162,7 @@ header {
     .main-resume .resum1 .content-resume2 h2 {
       font-size: 1.25rem;
       padding: 1.375rem 0.625rem 0.800rem 2.5rem;
-      color: gray; }
+      color: black; }
     .main-resume .resum1 .content-resume2 .rol {
       font-weight: bold;
       margin: 1.100rem 0rem 0.413rem; }
@@ -185,7 +185,7 @@ header {
     .main-resume .resum2 .content-certificates1 h2 {
       font-size: 1.25rem;
       padding: 1.375rem 0.625rem 0.800rem 2.5rem;
-      color: gray; }
+      color: black; }
   .main-resume .resum2 .content-certificates2 {
     font-size: 0.938rem;
     font-weight: bold;
@@ -196,7 +196,7 @@ header {
     .main-resume .resum2 .content-certificates2 h2 {
       font-size: 1.25rem;
       padding: 1.375rem 0.625rem 0.800rem 2.5rem;
-      color: gray; }
+      color: black; }
 
 .main-works {
   color: #000; }
@@ -205,7 +205,7 @@ header {
     margin: 0.625rem 0rem;
     font-size: 1.813rem; }
   .main-works .w-img-section {
-    margin: 0rem 0.625rem 3.125rem;
+    margin: 0rem 0.30rem 3.125rem;
     padding: 4rem 0rem;
     width: 45%;
     display: flex;
@@ -229,8 +229,8 @@ header {
 .main-contact {
   color: #000; }
   .main-contact .tittle {
-    padding: 3.125rem 1.875rem 3.75rem 4rem;
-    margin: 0.625rem 0rem;
+    padding: 3.125rem 3.125rem 1.50rem;
+    margin: 0.625rem 2.50rem;
     font-size: 1.813rem; }
   .main-contact .info {
     padding: 0.080rem 3.125rem;
@@ -259,8 +259,8 @@ header {
         color: black; }
     .main-contact .contact-form .fieldset-w .submit {
       text-decoration: none;
-      padding: 0.313rem 1.300rem;
-      margin: 0.313rem;
+      padding: 0.413rem 1rem;
+      margin: 1rem;
       font-weight: 600;
       font-size: 0.938rem;
       color: #fff;
@@ -326,7 +326,7 @@ footer {
           text-align: center; }
         .body-index .main-index .pictures-box .picture1 .img-center {
           height: 8.625rem;
-          width: 15.625rem;
+          width: 12.625rem;
           margin: 0.5rem 2.188rem; }
         .body-index .main-index .pictures-box .picture1 .tittle {
           font-size: 0.80rem;
@@ -341,7 +341,7 @@ footer {
           text-align: center; }
         .body-index .main-index .pictures-box .picture2 .img-center {
           height: 8.625rem;
-          width: 15.625rem;
+          width: 12.625rem;
           margin: 0.5rem 2.188rem; }
         .body-index .main-index .pictures-box .picture2 .tittle {
           font-size: 0.80rem;
@@ -356,7 +356,7 @@ footer {
           text-align: center; }
         .body-index .main-index .pictures-box .picture3 .img-center {
           height: 8.625rem;
-          width: 15.625rem;
+          width: 12.625rem;
           margin: 0.5rem 2.188rem; }
         .body-index .main-index .pictures-box .picture3 .tittle {
           font-size: 0.80rem;
@@ -414,10 +414,10 @@ footer {
           font-size: 1.10rem;
           text-align: center; }
         .body-index .main-index .pictures-box .picture1 .img-center {
-          height: 21.125rem;
-          width: 28.125rem;
+          height: 12.125rem;
+          width: 18.125rem;
           margin: 0rem;
-          padding: 0.313rem 18.75rem; }
+          padding: 0.313rem 0.75rem; }
         .body-index .main-index .pictures-box .picture1 .tittle {
           font-size: 0.90rem; }
       .body-index .main-index .pictures-box .picture2 {
@@ -427,10 +427,10 @@ footer {
           font-size: 1.10rem;
           text-align: center; }
         .body-index .main-index .pictures-box .picture2 .img-center {
-          height: 21.125rem;
-          width: 28.125rem;
+          height: 12.125rem;
+          width: 18.125rem;
           margin: 0rem;
-          padding: 0.313rem 18.75rem; }
+          padding: 0.313rem 0.75rem; }
         .body-index .main-index .pictures-box .picture2 .tittle {
           font-size: 0.90rem; }
       .body-index .main-index .pictures-box .picture3 {
@@ -440,17 +440,17 @@ footer {
           font-size: 1.10rem;
           text-align: center; }
         .body-index .main-index .pictures-box .picture3 .img-center {
-          height: 21.125rem;
-          width: 28.125rem;
+          height: 12.125rem;
+          width: 18.125rem;
           margin: 0rem;
-          padding: 0.313rem 18.75rem; }
+          padding: 0.313rem 0.75rem; }
         .body-index .main-index .pictures-box .picture3 .tittle {
           font-size: 0.90rem; }
     .body-index .main-index .bg-works-r {
       font-size: 1.40rem; }
     .body-index .main-index .phrase {
       padding: 1.25rem 0.313rem 1.25rem;
-      font-size: 1.40rem;
+      font-size: 1.30rem;
       text-align: center; }
     .body-index .footer {
       background-color: #000;
@@ -535,14 +535,15 @@ footer {
       .body-contact header .navbar .container-fluid .active {
         font-size: 0.80rem; }
     .body-contact .main-contact .tittle {
-      padding: 2rem 2.8rem 0.80rem;
-      color: lightseagreen;
-      font-size: 1.5rem; }
+      padding: 2rem 2.10rem 0.80rem;
+      margin: 0rem 1rem;
+      color: 1.25rem;
+      font-size: 1.20rem; }
     .body-contact .main-contact .info {
       padding: 0.625rem 1.763rem;
       color: black;
       font-size: 0.80rem;
-      margin: 0rem 0.90rem;
+      margin: 0rem 1.40rem;
       width: 78%; }
     .body-contact .main-contact .contact-form {
       width: 90%;
@@ -555,7 +556,7 @@ footer {
       .body-contact .main-contact .contact-form .fieldset-w .contact-div input, .body-contact .main-contact .contact-form .fieldset-w .contact-div textarea {
         font-size: 0.80rem; }
       .body-contact .main-contact .contact-form .fieldset-w .submit {
-        background: #4717f6;
+        background: #a239CA;
         display: block;
         width: 6.25rem;
         height: 1.875rem;
@@ -744,22 +745,29 @@ footer {
       color: white; }
       .body-works header h1 {
         font-size: 1rem; }
-    .body-works .main-works {
+      .body-works header .navbar .container-fluid .nav-link,
+      .body-works header .navbar .container-fluid .active {
+        font-size: 0.80rem; }
+    .body-works .main-works .w-subti {
+      font-size: 1.20rem;
+      padding: 2rem 2.10rem 0.80rem;
+      margin: 0rem 1rem; }
+    .body-works .main-works .w-img-section {
+      margin: 0rem 1rem;
+      padding: 1rem 2rem;
       display: block;
       flex-direction: column;
-      align-items: center; }
-      .body-works .main-works .w-subti {
+      width: 90%; }
+      .body-works .main-works .w-img-section .w-secondary {
         font-size: 1rem;
-        padding: 0.60rem; }
-      .body-works .main-works .w-img-section {
-        margin: 0rem 0.80rem; }
-        .body-works .main-works .w-img-section .w-secondary {
-          font-size: 1.10rem;
-          padding: 0rem 0.20rem; }
-        .body-works .main-works .w-img-section .w-text {
-          font-size: 0.80rem;
-          text-align: justify;
-          width: 80%; }
+        padding: 0rem 2rem;
+        width: 50%; }
+      .body-works .main-works .w-img-section .img-center {
+        height: 8.625rem;
+        width: 12.625rem; }
+      .body-works .main-works .w-img-section .w-text {
+        font-size: 0.80rem;
+        width: 60%; }
     .body-works .footer {
       background-color: #000;
       color: white;
@@ -769,31 +777,31 @@ footer {
 
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
-  body {
+  .body-works {
     padding-left: 0.640rem;
     padding-right: 0.640rem; }
-    body header {
+    .body-works header {
       background-color: #000;
       color: white; }
-      body header h1 {
+      .body-works header h1 {
         font-size: 1.20rem;
         margin-left: 0.25rem; }
-      body header .navbar .container-fluid .nav-link,
-      body header .navbar .container-fluid .active {
+      .body-works header .navbar .container-fluid .nav-link,
+      .body-works header .navbar .container-fluid .active {
         font-size: 0.90rem; }
-    body .main-works .w-subti {
+    .body-works .main-works .w-subti {
       font-size: 1.9rem; }
-    body .main-works .w-img-section .w-secondary {
+    .body-works .main-works .w-img-section .w-secondary {
       font-size: 1.60rem; }
-    body .main-works .w-img-section .w-text {
+    .body-works .main-works .w-img-section .w-text {
       font-size: 1rem;
       text-align: justify;
       width: 70%; }
-    body .footer {
+    .body-works .footer {
       background-color: #000;
       color: white;
       font-size: 0.90rem; }
-      body .footer .created {
+      .body-works .footer .created {
         font-size: 0.70rem; } }
 
 @media screen and (min-width: 48.063rem) and (max-width: 75rem) {
