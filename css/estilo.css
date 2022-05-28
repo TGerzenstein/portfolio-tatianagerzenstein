@@ -419,7 +419,8 @@ footer {
           margin: 0rem;
           padding: 0.313rem 0.75rem; }
         .body-index .main-index .pictures-box .picture1 .tittle {
-          font-size: 0.90rem; }
+          font-size: 0.90rem;
+          width: 60%; }
       .body-index .main-index .pictures-box .picture2 {
         padding: 0.625rem 6.25rem;
         margin: 0rem 2rem; }
@@ -432,7 +433,8 @@ footer {
           margin: 0rem;
           padding: 0.313rem 0.75rem; }
         .body-index .main-index .pictures-box .picture2 .tittle {
-          font-size: 0.90rem; }
+          font-size: 0.90rem;
+          width: 60%; }
       .body-index .main-index .pictures-box .picture3 {
         padding: 0.625rem 6.25rem;
         margin: 0rem 2rem; }
@@ -445,7 +447,8 @@ footer {
           margin: 0rem;
           padding: 0.313rem 0.75rem; }
         .body-index .main-index .pictures-box .picture3 .tittle {
-          font-size: 0.90rem; }
+          font-size: 0.90rem;
+          width: 60%; }
     .body-index .main-index .bg-works-r {
       font-size: 1.40rem; }
     .body-index .main-index .phrase {
@@ -480,10 +483,10 @@ footer {
     .body-index .main-index .pictures-box .picture1 .secondary-tittle {
       text-align: center; }
     .body-index .main-index .pictures-box .picture1 .img-center {
-      height: 21.125rem;
-      width: 28.125rem;
+      height: 20.125rem;
+      width: 27.125rem;
       margin: 0rem;
-      padding: 0.313rem 18.75rem; }
+      padding: 0.313rem 0.75rem; }
     .body-index .main-index .pictures-box .picture1 .tittle {
       font-size: 1rem;
       padding: 0.313rem;
@@ -491,10 +494,10 @@ footer {
     .body-index .main-index .pictures-box .picture2 .secondary-tittle {
       text-align: center; }
     .body-index .main-index .pictures-box .picture2 .img-center {
-      height: 24.25rem;
-      width: 28.125rem;
+      height: 20.125rem;
+      width: 27.125rem;
       margin: 0rem;
-      padding: 0.313rem 18.75rem; }
+      padding: 0.313rem 0.75rem; }
     .body-index .main-index .pictures-box .picture2 .tittle {
       font-size: 1rem;
       padding: 0.313rem;
@@ -502,10 +505,10 @@ footer {
     .body-index .main-index .pictures-box .picture3 .secondary-tittle {
       text-align: center; }
     .body-index .main-index .pictures-box .picture3 .img-center {
-      height: 24.25rem;
-      width: 28.125rem;
+      height: 20.125rem;
+      width: 27.125rem;
       margin: 0rem;
-      padding: 0.313rem 18.75rem; }
+      padding: 0.313rem 0.75rem; }
     .body-index .main-index .pictures-box .picture3 .tittle {
       font-size: 1rem;
       padding: 0.313rem;
@@ -592,11 +595,10 @@ footer {
       color: #000;
       font-size: 1.6rem; }
     .body-contact .main-contact .info {
-      padding: 0.625rem 2.188rem;
+      padding: 0.30rem 3.125rem;
       color: #000;
       font-size: 1rem;
-      margin: 0rem 1.25rem;
-      width: 50%; }
+      width: 70%; }
     .body-contact .main-contact .contact-form {
       width: 60%;
       padding: 1.875rem 1.875rem;
@@ -614,7 +616,7 @@ footer {
         color: #fff;
         border-radius: 0.25rem;
         font-size: 1rem;
-        margin: 0.625rem auto;
+        margin: 0.725rem auto;
         cursor: pointer; }
     .body-contact .footer {
       background-color: black;
@@ -700,7 +702,7 @@ footer {
       flex-direction: column;
       padding-left: 1rem;
       padding-right: 0.50rem;
-      margin: 0 auto; }
+      margin: 0rem auto; }
       .body-resume .main-resume .resum1 {
         display: flex;
         flex-direction: column; }
@@ -791,12 +793,18 @@ footer {
         font-size: 0.90rem; }
     .body-works .main-works .w-subti {
       font-size: 1.9rem; }
-    .body-works .main-works .w-img-section .w-secondary {
-      font-size: 1.60rem; }
-    .body-works .main-works .w-img-section .w-text {
-      font-size: 1rem;
-      text-align: justify;
-      width: 70%; }
+    .body-works .main-works .w-img-section {
+      margin: 0rem 3rem;
+      padding: 1rem 2rem; }
+      .body-works .main-works .w-img-section .w-secondary {
+        font-size: 1.60rem; }
+      .body-works .main-works .w-img-section .img-center {
+        height: 12.125rem;
+        width: 18.125rem; }
+      .body-works .main-works .w-img-section .w-text {
+        font-size: 1rem;
+        text-align: center;
+        width: 80%; }
     .body-works .footer {
       background-color: #000;
       color: white;
@@ -805,13 +813,13 @@ footer {
         font-size: 0.70rem; } }
 
 @media screen and (min-width: 48.063rem) and (max-width: 75rem) {
-  body .main-works .w-subti {
+  .body-works .main-works .w-subti {
     font-size: 1.9rem; }
-  body .main-works .w-img-section .w-secondary {
+  .body-works .main-works .w-img-section .w-secondary {
     font-size: 1.60rem; }
-  body .main-works .w-img-section .w-text {
+  .body-works .main-works .w-img-section .w-text {
     font-size: 1rem;
-    text-align: justify;
+    text-align: center;
     width: 50%; } }
 
 body {
