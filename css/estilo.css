@@ -205,7 +205,7 @@ header {
     margin: 0.625rem 0rem;
     font-size: 1.813rem; }
   .main-works .w-img-section {
-    margin: 0rem 0.30rem 3.125rem;
+    margin: 0rem 2rem 3.125rem 20rem;
     padding: 4rem 0rem;
     width: 45%;
     display: flex;
@@ -223,7 +223,7 @@ header {
       margin: 0.5rem 0rem; }
     .main-works .w-img-section .w-text {
       font-size: 0.938rem;
-      width: 30%;
+      width: 35%;
       text-align: center; }
 
 .main-contact {
