@@ -54,24 +54,29 @@
 
 .main-index {
 
-    .redondo {
-        border: 1px solid;
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-        border-radius: 150px;
+        
+    .front {
+        display: flex;
+
+        .redondo {
+            margin: 0px;
+            background-color: #000;
+            padding-left: 200px;
+            padding-right: 40px;
+            padding-top: 75px;
+            padding-bottom: 8rem;
         }
 
-    .welcome {
-        background-color: $bg;
-        color: $bg-headfot;
-        font-family: 'Roboto', sans-serif;
-        font-size: 2.80rem;
-        letter-spacing: 0.069rem;
-        padding: 7.5rem 3.125rem 11.25rem;
-        height: 100%;
-        text-align: center;
+        .welcome {
+            background-color: $bg;
+            color: $bg-headfot;
+            font-family: 'Roboto', sans-serif;
+            font-size: 3rem;
+            letter-spacing: 0.069rem;
+            padding: 7.5rem 3.125rem 11.25rem;
+            height: 80%;
+            text-align: left;
+        }
     }
 
     .what {
