@@ -61,14 +61,14 @@
 
         .front-black {
             background-color: $bg;
-            padding: 3rem 0.30rem 0rem 6.50rem;
+            padding: 4rem 0.30rem 0rem 14rem;
 
             .redondo {
-                margin: 0px auto;
+                margin: 0rem auto;
                 background-image: url(/images/perfil.jpg);
                 background-size: cover;
-                width: 280px;
-                height: 280px;
+                width: 15rem;
+                height: 15rem;
                 border-radius: 50%;
             }
         }
@@ -77,11 +77,12 @@
             background-color: $bg;
             color: $bg-headfot;
             font-family: 'Roboto', sans-serif;
-            font-size: 2.80rem;
+            font-size: 2.60rem;
             letter-spacing: 0.069rem;
-            padding: 7.5rem 5rem 12rem 0.30rem;
+            padding: 7.5rem 11rem 12rem 0.30rem;
             height: 80%;
             text-align: left;
+            width: 100%;
         }
     }
 
