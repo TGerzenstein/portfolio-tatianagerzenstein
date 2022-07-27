@@ -29,14 +29,33 @@
 
         .main-index {
 
-            .welcome {
-                font-size: 1.20rem;
-                letter-spacing: 0.056rem;
-                padding: 1.875rem 1.75rem;
-                height: auto;
-                text-align: center;
-            }
-
+            .front {
+                display: flex;
+                flex-direction: column;
+        
+                .front-black {
+                    background-color: $bg;
+                    padding: 2rem 0rem 0rem 8.50rem;                      
+                    
+                    .redondo {
+                        margin: 0rem;
+                        background-image: url(/images/perfil.jpg);
+                        background-size: cover;
+                        width: 6.5rem;
+                        height: 6.5rem;
+                        border-radius: 50%;
+                    }
+                }
+        
+                .welcome {
+                    font-size: 1.20rem;
+                    letter-spacing: 0.056rem;
+                    padding: 1.875rem 1.75rem;
+                    height: auto;
+                    text-align: center;
+                }
+            }    
+            
             .what {
                 font-size: 1.20rem;
                 padding: 0.313rem 5rem;
