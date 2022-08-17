@@ -26,7 +26,7 @@ header {
   flex-direction: row; }
   .main-index .front .front-black {
     background-color: #000;
-    padding: 4rem 0.30rem 0rem 14rem; }
+    padding: 4.10rem 0.30rem 0rem 14rem; }
     .main-index .front .front-black .redondo {
       margin: 0rem auto;
       background-image: url(/images/perfil.jpg);
@@ -41,7 +41,7 @@ header {
     font-size: 2.70rem;
     letter-spacing: 0.069rem;
     padding: 7.5rem 11rem 12rem 0.30rem;
-    height: 80%;
+    height: 82%;
     text-align: left;
     width: 100%; }
 
@@ -145,8 +145,8 @@ header {
   grid-area: phrase;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.094rem;
-  font-size: 2.188rem;
-  padding: 7.5rem 1.875rem 3.75rem;
+  font-size: 2.100rem;
+  padding: 7.4rem 1.875rem 3.75rem;
   margin: 2.5rem;
   text-align: left; }
 
