@@ -343,7 +343,7 @@
              
             .front {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
         
                 .front-black {
                     background-color: $bg;
@@ -353,9 +353,10 @@
                         margin: 0rem;
                         background-image: url(/images/perfil.jpg);
                         background-size: cover;
-                        width: 7.5rem;
-                        height: 7.5rem;
+                        width: 10.30rem;
+                        height: 10.30rem;
                         border-radius: 50%;
+                        padding-top: 5rem;
                     }
 
                 }
@@ -363,7 +364,7 @@
                 .welcome {
                   font-size: 1.90rem;
                   letter-spacing: 0.056rem;
-                  padding: 1.875rem 0.938rem;
+                  padding: 5rem 2rem;
                   height: auto;
                   text-align: center;
                 }
@@ -449,7 +450,7 @@
             .phrase {
                 padding: 1.25rem 0.313rem 1.25rem;
                 font-size: 1.70rem;
-                text-align: center;
+                text-align: left;
             }
         }
     
@@ -898,11 +899,14 @@
         }
 
         .main-works {
+            display: flex;
+            flex-direction: column;
 
             .w-subti {
                 font-size: 1.20rem;
                 padding: 2rem 2.10rem 0.80rem;
                 margin: 0rem 1rem;
+                text-align: left;
             }
 
             .w-img-section {
@@ -912,10 +916,9 @@
                 flex-direction: column;
                 width: 90%;
 
-
                 .w-secondary {
                     font-size: 1rem;
-                    padding: 0rem 2rem;
+                    padding: 0rem 3rem;
                     width: 50%;
                 }
 
@@ -926,7 +929,10 @@
 
                 .w-text {
                     font-size: 0.80rem;
-                    width: 60%;
+                    width: 65%;
+                    text-align: justify;
+                    padding: 0rem;
+                    margin: 0rem 0.80rem;
                 }
             }
         }
@@ -972,17 +978,21 @@
         }
 
         .main-works {
+            display: flex;
+            flex-direction: column;
 
             .w-subti {
                 font-size: 1.9rem;
             }
 
             .w-img-section {
+                display: flex;
+                text-align: center;
                 margin: 0rem 3rem;
-                padding: 1rem 2rem;
+                padding: 1rem 0rem;
 
                 .w-secondary {
-                    font-size: 1.60rem;
+                    font-size: 1.40rem;
                 }
 
                 .img-center {
@@ -993,7 +1003,7 @@
                 .w-text {
                     font-size: 1rem;
                     text-align: center;
-                    width: 80%;
+                    width: 70%;
                 }
             }
         }
