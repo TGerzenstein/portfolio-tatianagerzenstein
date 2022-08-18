@@ -419,12 +419,25 @@ footer {
       .body-index header .navbar .container-fluid .nav-link,
       .body-index header .navbar .container-fluid .active {
         font-size: 0.90rem; }
-    .body-index .main-index .welcome {
-      font-size: 1.40rem;
-      letter-spacing: 0.056rem;
-      padding: 1.875rem 0.938rem;
-      height: auto;
-      text-align: center; }
+    .body-index .main-index .front {
+      display: flex;
+      flex-direction: row; }
+      .body-index .main-index .front .front-black {
+        background-color: #000;
+        padding: 2rem 0.30rem 0rem 8.50rem; }
+        .body-index .main-index .front .front-black .redondo {
+          margin: 0rem auto;
+          background-image: url(/images/perfil.jpg);
+          background-size: cover;
+          width: 7.5rem;
+          height: 7.5rem;
+          border-radius: 50%; }
+      .body-index .main-index .front .welcome {
+        font-size: 1.40rem;
+        letter-spacing: 0.056rem;
+        padding: 3.50rem 2rem;
+        height: auto;
+        text-align: left; }
     .body-index .main-index .what {
       font-size: 1.40rem;
       padding: 0.625rem 5rem;
@@ -493,12 +506,25 @@ footer {
   .body-index header {
     background-color: #000;
     color: white; }
-  .body-index .main-index .welcome {
-    font-size: 1.90rem;
-    letter-spacing: 0.056rem;
-    padding: 1.875rem 0.938rem;
-    height: auto;
-    text-align: center; }
+  .body-index .main-index .front {
+    display: flex;
+    flex-direction: column; }
+    .body-index .main-index .front .front-black {
+      background-color: #000;
+      padding: 2rem 0rem 0rem 8.50rem; }
+      .body-index .main-index .front .front-black .redondo {
+        margin: 0rem;
+        background-image: url(/images/perfil.jpg);
+        background-size: cover;
+        width: 7.5rem;
+        height: 7.5rem;
+        border-radius: 50%; }
+    .body-index .main-index .front .welcome {
+      font-size: 1.90rem;
+      letter-spacing: 0.056rem;
+      padding: 1.875rem 0.938rem;
+      height: auto;
+      text-align: center; }
   .body-index .main-index .what {
     font-size: 1.60rem;
     padding: 0.625rem 5rem;

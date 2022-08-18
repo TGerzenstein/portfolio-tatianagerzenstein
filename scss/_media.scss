@@ -178,7 +178,7 @@
         padding-right: 0.640rem;
    
         header {
-          background-color:#000;
+          background-color: $bg;
           color: rgb(255, 255, 255);
 
             h1 {
@@ -199,13 +199,33 @@
         }
 
         .main-index {
+            
+            .front {
+                display: flex;
+                flex-direction: row;
+        
+                .front-black {
+                    background-color: $bg;
+                    padding: 2rem 0.30rem 0rem 8.50rem;                      
+                    
+                    .redondo {
+                        margin: 0rem auto;
+                        background-image: url(/images/perfil.jpg);
+                        background-size: cover;
+                        width: 7.5rem;
+                        height: 7.5rem;
+                        border-radius: 50%;
+                    }
 
-            .welcome {
-                font-size: 1.40rem;
-                letter-spacing: 0.056rem;
-                padding: 1.875rem 0.938rem;
-                height: auto;
-                text-align: center;
+                }
+
+                .welcome {
+                    font-size: 1.40rem;
+                    letter-spacing: 0.056rem;
+                    padding: 3.50rem 2rem;
+                    height: auto;
+                    text-align: left;
+                }
             }
 
             .what {
@@ -320,13 +340,33 @@
         }
 
         .main-index {
+             
+            .front {
+                display: flex;
+                flex-direction: column;
+        
+                .front-black {
+                    background-color: $bg;
+                    padding: 2rem 0rem 0rem 8.50rem;                      
+                    
+                    .redondo {
+                        margin: 0rem;
+                        background-image: url(/images/perfil.jpg);
+                        background-size: cover;
+                        width: 7.5rem;
+                        height: 7.5rem;
+                        border-radius: 50%;
+                    }
 
-            .welcome {
-                font-size: 1.90rem;
-                letter-spacing: 0.056rem;
-                padding: 1.875rem 0.938rem;
-                height: auto;
-                text-align: center;
+                }
+
+                .welcome {
+                  font-size: 1.90rem;
+                  letter-spacing: 0.056rem;
+                  padding: 1.875rem 0.938rem;
+                  height: auto;
+                  text-align: center;
+                }
             }
 
             .what {
