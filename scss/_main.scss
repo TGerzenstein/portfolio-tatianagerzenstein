@@ -87,12 +87,25 @@
     }
 
     .what {
+        display: flex;
         background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
-        padding: 3.125rem 5rem;
+        padding: 3.125rem 15rem;
         margin: 0rem;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 1.875rem;
-        color: $bg-headfot;
+        justify-content: right;
+
+        .but-res {
+            font-size: 24px;
+            font-family: 'Source Sans Pro', sans-serif;
+            border: #fff;
+            padding: 0.20rem 0.70rem;
+            border-radius: 0.625rem;
+            background-color: #fff;
+
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
     }
 
     .pictures-box {
