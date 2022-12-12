@@ -79,15 +79,31 @@
             font-family: 'Roboto', sans-serif;
             font-size: 2.60rem;
             letter-spacing: 0.069rem;
-            padding: 7.5rem 11rem 12rem 0.30rem;
+            padding: 7.5rem 11rem 9rem 0.30rem;
             height: 82%;
             text-align: left;
             width: 100%;
 
             .main-welcome {
                 color: #fff;
-                width: 65%;
+                width: 80%;
+                padding: 0rem 1rem;
 
+            }
+
+            .but-res {
+                font-size: 1.875rem;
+                font-family: 'Source Sans Pro', sans-serif;
+                border: #fff;
+                padding: 0.40rem 1rem;
+                border-radius: 0.625rem;
+                background-color: #fff;
+                margin: 0rem 1rem;
+                
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
             }
         }
     }
@@ -99,19 +115,6 @@
         margin: 0rem;
         justify-content: right;
 
-        .but-res {
-            font-size: 24px;
-            font-family: 'Source Sans Pro', sans-serif;
-            border: #fff;
-            padding: 0.20rem 0.80rem;
-            border-radius: 0.625rem;
-            background-color: #fff;
-
-            a {
-                text-decoration: none;
-                color: #000;
-            }
-        }
     }
 
     .pictures-box {
