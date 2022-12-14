@@ -337,23 +337,38 @@ footer {
       flex-direction: column; }
       .body-index .main-index .front .front-black {
         background-color: #000;
-        padding: 2rem 0rem 0rem 8.50rem; }
-        .body-index .main-index .front .front-black .redondo {
-          margin: 0rem;
+        padding: 1rem 7rem 0rem 7rem; }
+        .body-index .main-index .front .front-black .ball {
           background-image: url(/images/perfil.jpg);
           background-size: cover;
           width: 6.5rem;
           height: 6.5rem;
-          border-radius: 50%; }
+          border-radius: 50%;
+          margin: 0rem auto; }
       .body-index .main-index .front .welcome {
         font-size: 1.20rem;
         letter-spacing: 0.056rem;
-        padding: 1.875rem 1.75rem;
-        height: auto;
+        padding: 1.875rem 0rem;
         text-align: center; }
+      .body-index .main-index .front .main-welcome {
+        color: #fff;
+        width: 90%;
+        padding: 0rem 3rem;
+        margin: 0rem auto 0.50rem; }
+      .body-index .main-index .front .but-res {
+        font-size: 0.85rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        border: #fff;
+        padding: 0.20rem 0.50rem;
+        border-radius: 0.625rem;
+        background-color: #fff;
+        margin: 0rem 1rem; }
+        .body-index .main-index .front .but-res a {
+          text-decoration: none;
+          color: #000; }
     .body-index .main-index .what {
       font-size: 1.20rem;
-      padding: 0.313rem 5rem;
+      padding: 0.80rem 5rem;
       background-image: linear-gradient(to top, #df7fdf 0%, #97d9e1 100%); }
     .body-index .main-index .pictures-box {
       display: block;
