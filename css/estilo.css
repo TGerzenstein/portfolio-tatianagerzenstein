@@ -454,22 +454,37 @@ footer {
       .body-index .main-index .front .front-black {
         background-color: #000;
         padding: 2rem 0.30rem 0rem 8.50rem; }
-        .body-index .main-index .front .front-black .redondo {
+        .body-index .main-index .front .front-black .ball {
           margin: 0rem auto;
           background-image: url(/images/perfil.jpg);
           background-size: cover;
-          width: 7.5rem;
-          height: 7.5rem;
+          width: 8.5rem;
+          height: 8.5rem;
           border-radius: 50%; }
       .body-index .main-index .front .welcome {
         font-size: 1.40rem;
         letter-spacing: 0.056rem;
-        padding: 3.50rem 2rem;
-        height: auto;
+        padding: 3.50rem 0.10rem;
         text-align: left; }
+      .body-index .main-index .front .main-welcome {
+        color: #fff;
+        width: 80%;
+        padding: 0rem 1rem 0rem 0rem;
+        margin: 0rem 0rem; }
+      .body-index .main-index .front .but-res {
+        font-size: 1rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        border: #fff;
+        padding: 0.20rem 0.50rem;
+        border-radius: 0.625rem;
+        background-color: #fff;
+        margin: 0rem; }
+        .body-index .main-index .front .but-res a {
+          text-decoration: none;
+          color: #000; }
     .body-index .main-index .what {
       font-size: 1.40rem;
-      padding: 0.625rem 5rem;
+      padding: 1.30rem 0rem;
       margin: 0rem; }
     .body-index .main-index .pictures-box {
       display: block;
@@ -541,7 +556,7 @@ footer {
     .body-index .main-index .front .front-black {
       background-color: #000;
       padding: 2rem 0rem 0rem 8.50rem; }
-      .body-index .main-index .front .front-black .redondo {
+      .body-index .main-index .front .front-black .ball {
         margin: 0rem;
         background-image: url(/images/perfil.jpg);
         background-size: cover;
@@ -550,14 +565,30 @@ footer {
         border-radius: 50%;
         padding-top: 5rem; }
     .body-index .main-index .front .welcome {
-      font-size: 1.90rem;
+      font-size: 1.70rem;
       letter-spacing: 0.056rem;
-      padding: 5rem 2rem;
+      padding: 4rem 0rem 6rem 0.50rem;
       height: auto;
       text-align: center; }
+    .body-index .main-index .front .main-welcome {
+      color: #fff;
+      width: 80%;
+      padding: 0rem;
+      margin: 0rem auto 0.50rem; }
+    .body-index .main-index .front .but-res {
+      font-size: 1.20rem;
+      font-family: 'Source Sans Pro', sans-serif;
+      border: #fff;
+      padding: 0.40rem 0.60rem;
+      border-radius: 0.625rem;
+      background-color: #fff;
+      margin: 0rem 1rem; }
+      .body-index .main-index .front .but-res a {
+        text-decoration: none;
+        color: #000; }
   .body-index .main-index .what {
     font-size: 1.60rem;
-    padding: 0.625rem 5rem;
+    padding: 2rem 0rem;
     margin: 0rem; }
   .body-index .main-index .pictures-box {
     display: flex;

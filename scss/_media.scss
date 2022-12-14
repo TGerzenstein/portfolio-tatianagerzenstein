@@ -55,26 +55,26 @@
                 }
 
                 .main-welcome {
-                color: #fff;
-                width: 90%;
-                padding: 0rem 3rem; 
-                margin: 0rem auto 0.50rem;
+                   color: #fff;
+                   width: 90%;
+                   padding: 0rem 3rem; 
+                   margin: 0rem auto 0.50rem;
                 }
 
                 .but-res {
-                font-size: 0.85rem;
-                font-family: 'Source Sans Pro', sans-serif;
-                border: #fff;
-                padding: 0.20rem 0.50rem;
-                border-radius: 0.625rem;
-                background-color: #fff;
-                margin: 0rem 1rem;
+                    font-size: 0.85rem;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    border: #fff;
+                    padding: 0.20rem 0.50rem;
+                    border-radius: 0.625rem;
+                    background-color: #fff;
+                    margin: 0rem 1rem;
                 
-                a {
-                    text-decoration: none;
-                    color: #000;
+                   a {
+                       text-decoration: none;
+                       color: #000;
+                    }
                 }
-            }
 
             }    
             
@@ -230,12 +230,12 @@
                     background-color: $bg;
                     padding: 2rem 0.30rem 0rem 8.50rem;                      
                     
-                    .redondo {
+                    .ball {
                         margin: 0rem auto;
                         background-image: url(/images/perfil.jpg);
                         background-size: cover;
-                        width: 7.5rem;
-                        height: 7.5rem;
+                        width: 8.5rem;
+                        height: 8.5rem;
                         border-radius: 50%;
                     }
 
@@ -244,110 +244,131 @@
                 .welcome {
                     font-size: 1.40rem;
                     letter-spacing: 0.056rem;
-                    padding: 3.50rem 2rem;
-                    height: auto;
+                    padding: 3.50rem 0.10rem;
                     text-align: left;
                 }
+
+                .main-welcome {
+                   color: #fff;
+                   width: 80%;
+                   padding: 0rem 1rem 0rem 0rem; 
+                   margin: 0rem 0rem;
+                }
+
+                .but-res {
+                    font-size: 1rem;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    border: #fff;
+                    padding: 0.20rem 0.50rem;
+                    border-radius: 0.625rem;
+                    background-color: #fff;
+                    margin: 0rem;
+                
+                    a {
+                       text-decoration: none;
+                       color: #000;
+                    }
+                }        
             }
 
             .what {
-               font-size: 1.40rem;
-               padding: 0.625rem 5rem;
-               margin: 0rem;
+                font-size: 1.40rem;
+                padding: 1.30rem 0rem;
+                margin: 0rem;
             }
-
+ 
             .pictures-box {
-              display: block;
-              flex-direction: column;
-              justify-content: space-evenly;
-              margin: 0.30rem;
-
+                display: block;
+                flex-direction: column;
+                justify-content: space-evenly;
+                margin: 0.30rem;
+ 
                 .picture1 {
-                   padding: 0.625rem 6.25rem;
-                   margin: 0rem 2rem;
-
-                   .secondary-tittle {
-                       font-size: 1.10rem;
-                       text-align: center;
-                    }
-                    
-                    .img-center {
-                        height: 12.125rem;
-                        width: 18.125rem;
-                        margin: 0rem;
-                        padding: 0.313rem 0.75rem;
-                    }
-
-                    .tittle {
-                        font-size: 0.90rem;
-                        width: 60%;
-                    }
-                }
-
-                .picture2 {
-                   padding: 0.625rem 6.25rem;
-                   margin: 0rem 2rem;
-
-                   .secondary-tittle {
-                       font-size: 1.10rem;
-                       text-align: center;
-                    }
-
-                    .img-center {
-                        height: 12.125rem;
-                        width: 18.125rem;
-                        margin: 0rem;
-                        padding: 0.313rem 0.75rem;
-                    }
-
-                    .tittle {
-                        font-size: 0.90rem;
-                        width: 60%;
-                    }
-                }
-
-                .picture3 {
-                   padding: 0.625rem 6.25rem;
-                   margin: 0rem 2rem;
-
+                     padding: 0.625rem 6.25rem;
+                     margin: 0rem 2rem;
+ 
                     .secondary-tittle {
-                       font-size: 1.10rem;
-                       text-align: center;
+                        font-size: 1.10rem;
+                        text-align: center;
                     }
-
+                     
                     .img-center {
                         height: 12.125rem;
                         width: 18.125rem;
                         margin: 0rem;
                         padding: 0.313rem 0.75rem;
                     }
-
+ 
+                    .tittle {
+                        font-size: 0.90rem;
+                        width: 60%;
+                    }
+                }
+ 
+                .picture2 {
+                    padding: 0.625rem 6.25rem;
+                    margin: 0rem 2rem;
+ 
+                    .secondary-tittle {
+                        font-size: 1.10rem;
+                        text-align: center;
+                    }
+ 
+                    .img-center {
+                        height: 12.125rem;
+                        width: 18.125rem;
+                        margin: 0rem;
+                        padding: 0.313rem 0.75rem;
+                    }
+ 
+                    .tittle {
+                        font-size: 0.90rem;
+                        width: 60%;
+                    }
+                }
+ 
+                .picture3 {
+                    padding: 0.625rem 6.25rem;
+                    margin: 0rem 2rem;
+ 
+                    .secondary-tittle {
+                        font-size: 1.10rem;
+                        text-align: center;
+                    }
+ 
+                    .img-center {
+                        height: 12.125rem;
+                        width: 18.125rem;
+                        margin: 0rem;
+                        padding: 0.313rem 0.75rem;
+                    }
+ 
                     .tittle {
                         font-size: 0.90rem;
                         width: 60%;
                     }
                 }
             }
-        
+         
             .bg-works-r {
-               font-size: 1.40rem;
+                font-size: 1.40rem;
             }
-
+ 
             .phrase {
-               padding: 1.25rem 0.313rem 1.25rem;
-               font-size: 1.30rem;
-               text-align: center;
+                padding: 1.25rem 0.313rem 1.25rem;
+                font-size: 1.30rem;
+                text-align: center;
             }
         }
-    
-        .footer {
-           background-color: $bg;
-           color: rgb(255, 255, 255);
-           font-size: 0.90rem;
 
-           .created {
-            font-size: 0.70rem;
-           }
+        .footer {
+            background-color: $bg;
+            color: rgb(255, 255, 255);
+            font-size: 0.90rem;
+ 
+            .created {
+             font-size: 0.70rem;
+            }
         }
     }
 }
@@ -371,7 +392,7 @@
                     background-color: $bg;
                     padding: 2rem 0rem 0rem 8.50rem;                      
                     
-                    .redondo {
+                    .ball {
                         margin: 0rem;
                         background-image: url(/images/perfil.jpg);
                         background-size: cover;
@@ -384,17 +405,39 @@
                 }
 
                 .welcome {
-                  font-size: 1.90rem;
-                  letter-spacing: 0.056rem;
-                  padding: 5rem 2rem;
-                  height: auto;
-                  text-align: center;
+                    font-size: 1.70rem;
+                    letter-spacing: 0.056rem;
+                    padding: 4rem 0rem 6rem 0.50rem;
+                    height: auto;
+                    text-align: center;
+                }
+
+                .main-welcome {
+                    color: #fff;
+                    width: 80%;
+                    padding: 0rem; 
+                    margin: 0rem auto 0.50rem;
+                }
+
+                .but-res {
+                    font-size: 1.20rem;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    border: #fff;
+                    padding: 0.40rem 0.60rem;
+                    border-radius: 0.625rem;
+                    background-color: #fff;
+                    margin: 0rem 1rem;
+                
+                   a {
+                       text-decoration: none;
+                       color: #000;
+                    }
                 }
             }
 
             .what {
                 font-size: 1.60rem;
-                padding: 0.625rem 5rem;
+                padding: 2rem 0rem;
                 margin: 0rem;
             }
 
