@@ -4,7 +4,7 @@ header {
   margin: 0rem;
   
   h1 {
-    padding: 2.5rem 2.5rem 0.625rem;
+    padding: 1.60rem 2.5rem 0.625rem;
     font-size: 1.375rem;
     color: $bg-headfot;
   }
@@ -17,13 +17,13 @@ header {
   .navbar-light .navbar-nav .nav-link.active,
    .navbar-light .navbar-nav .show > .nav-link {
     color: $bg-headfot;
-    padding: 0.10rem 1.30rem 0.12rem;
+    padding: 0rem 1.30rem 0.12rem;
     font-size: 1.05rem;
   }
 
   .navbar-light .navbar-nav .nav-link {
     color: $bg-headfot;
-    padding: 0.10rem 1.30rem 0.12rem;
+    padding: 0rem 1.30rem 0.12rem;
     font-size: 1.05rem;
   }
 
