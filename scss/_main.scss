@@ -121,7 +121,7 @@
         padding: 30px;
         display: flex;
         justify-content: center;
-
+        color: #000;
 
         .contenedor {
             max-width: 600px;
@@ -140,28 +140,33 @@
     } 
 
     .experience {
-        padding: 40px ;
+        padding: 40px 40px 60px 40px;
 
         .experience-title {
             font-size: 25px;
             font-weight: bold;
             margin: 10px 0;
         }
-    }
-    
-    .experience .row div {
-        height: 250px;
-        border: #000 solid 1px;
-    }
 
-    .experience i {
-        font-size: 2rem;
-        color: white;
-        background-color: #000000;
-        padding: 8px 19px;
-        border-radius: 50%;
+        i {
+            font-size: 2rem;
+            color: white;
+            background-color: #000000;
+            padding: 8px 19px;
+            border-radius: 50%;
+        }
+
+        .badges-content {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+           
+            .badge-1 {
+                color: #000;
+                margin: 5px;
+            } 
+        }
     }
-    
 
     .phrase {
         background-color: #fff;

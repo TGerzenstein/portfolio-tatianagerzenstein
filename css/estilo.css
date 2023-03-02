@@ -70,7 +70,8 @@ header {
   height: 500px;
   padding: 30px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  color: #000; }
   .main-index .about-me .contenedor {
     max-width: 600px;
     text-align: center; }
@@ -82,22 +83,24 @@ header {
       font-size: 1.2rem; }
 
 .main-index .experience {
-  padding: 40px; }
+  padding: 40px 40px 60px 40px; }
   .main-index .experience .experience-title {
     font-size: 25px;
     font-weight: bold;
     margin: 10px 0; }
-
-.main-index .experience .row div {
-  height: 250px;
-  border: #000 solid 1px; }
-
-.main-index .experience i {
-  font-size: 2rem;
-  color: white;
-  background-color: #000000;
-  padding: 8px 19px;
-  border-radius: 50%; }
+  .main-index .experience i {
+    font-size: 2rem;
+    color: white;
+    background-color: #000000;
+    padding: 8px 19px;
+    border-radius: 50%; }
+  .main-index .experience .badges-content {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0; }
+    .main-index .experience .badges-content .badge-1 {
+      color: #000;
+      margin: 5px; }
 
 .main-index .phrase {
   background-color: #fff;
