@@ -119,6 +119,7 @@
     .about-me {
         height: 500px;
         padding: 30px;
+        margin-top: 30px;
         display: flex;
         justify-content: center;
         color: #000;
@@ -166,6 +167,15 @@
                 margin: 5px;
             } 
         }
+    }
+
+    .experience , .colum {
+      padding: 20px;
+      border: 1px solid #8080804d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
     }
 
     .phrase {
