@@ -116,71 +116,28 @@
 
     }
 
-    .pictures-box {
+    .about-me {
+        height: 500px;
+        padding: 30px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
 
-        .picture1 {
-            @include picture-index; 
-    
-            .secondary-tittle {
-                @include secondary-style;
-            }
 
-            .img-center {
-                @include center-img;
-            }
+        .contenedor {
+            max-width: 600px;
+            text-align: center;
 
-            .tittle {
-                @include tittle-job;
-            }
-        }
-
-        .picture2 {
-            @include picture-index;
-            
-            .secondary-tittle {
-                @include secondary-style;
-            }
-            
-            .img-center {
-               @include center-img;
-            }
-            
-            .tittle {
-                @include tittle-job;
-            }
-        }
-
-        .picture3 {
-            @include picture-index;
-
-            .secondary-tittle {
-                @include secondary-style;
+            .section-title {
+                font-size: 2rem;
+                padding: 15px 0;
+                font-family: 'Roboto', sans-serif;
             }
 
-            .img-center {
-                @include center-img;
+            .section-text {
+                font-size: 1.2rem;
             }
-
-            .tittle {
-                @include tittle-job;
-            }
-        }
+        }  
     } 
-
-    .bg-works-r {
-        padding: 8rem 5rem 0.80rem;
-        margin: 0rem;
-        color: $bg;
-        font-size: 1.775rem;
-    }
-    
-    .carousel-inner > .item > img {
-        object-fit: scale-down;
-        height: 20vh;
-        width: 100%;
-    }
 
     .phrase {
         background-color: #fff;
