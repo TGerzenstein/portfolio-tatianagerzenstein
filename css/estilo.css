@@ -81,6 +81,24 @@ header {
     .main-index .about-me .contenedor .section-text {
       font-size: 1.2rem; }
 
+.main-index .experience {
+  padding: 40px; }
+  .main-index .experience .experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0; }
+
+.main-index .experience .row div {
+  height: 250px;
+  border: #000 solid 1px; }
+
+.main-index .experience i {
+  font-size: 2rem;
+  color: white;
+  background-color: #000000;
+  padding: 8px 19px;
+  border-radius: 50%; }
+
 .main-index .phrase {
   background-color: #fff;
   grid-area: phrase;

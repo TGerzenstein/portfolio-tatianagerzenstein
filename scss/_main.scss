@@ -139,6 +139,30 @@
         }  
     } 
 
+    .experience {
+        padding: 40px ;
+
+        .experience-title {
+            font-size: 25px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+    }
+    
+    .experience .row div {
+        height: 250px;
+        border: #000 solid 1px;
+    }
+
+    .experience i {
+        font-size: 2rem;
+        color: white;
+        background-color: #000000;
+        padding: 8px 19px;
+        border-radius: 50%;
+    }
+    
+
     .phrase {
         background-color: #fff;
         grid-area: phrase;
