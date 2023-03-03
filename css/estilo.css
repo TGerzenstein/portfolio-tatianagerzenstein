@@ -421,7 +421,16 @@ footer {
       font-size: 1.40rem;
       padding: 1.30rem 0rem;
       margin: 0rem; }
-    .body-index .main-index .bg-works-r {
+    .body-index .main-index .about-me {
+      display: flex;
+      justify-content: center;
+      margin: 0.10rem; }
+      .body-index .main-index .about-me .section-title {
+        font-size: 1.40rem;
+        text-align: center; }
+      .body-index .main-index .about-me .section-text {
+        font-size: 0.90rem; }
+    .body-index .main-index .experience-title {
       font-size: 1.40rem; }
     .body-index .main-index .phrase {
       padding: 1.25rem 0.313rem 1.25rem;
@@ -478,7 +487,16 @@ footer {
     font-size: 1.60rem;
     padding: 2rem 0rem;
     margin: 0rem; }
-  .body-index .main-index .bg-works-r {
+  .body-index .main-index .about-me {
+    display: flex;
+    justify-content: center;
+    margin: 0.10rem; }
+    .body-index .main-index .about-me .section-title {
+      font-size: 1.60rem;
+      text-align: center; }
+    .body-index .main-index .about-me .section-text {
+      font-size: 1rem; }
+  .body-index .main-index .experience-title {
     font-size: 1.60rem; }
   .body-index .main-index .phrase {
     padding: 1.25rem 0.313rem 1.25rem;

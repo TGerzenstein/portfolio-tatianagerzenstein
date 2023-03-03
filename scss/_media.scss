@@ -207,8 +207,23 @@
                 padding: 1.30rem 0rem;
                 margin: 0rem;
             }
+
+            .about-me {
+                display: flex;
+                justify-content: center;
+                margin: 0.10rem;
+ 
+                 .section-title {
+                     font-size: 1.40rem;
+                     text-align: center;
+                 }
+ 
+                 .section-text {
+                     font-size: 0.90rem;
+                 }
+            }
          
-            .bg-works-r {
+            .experience-title {
                 font-size: 1.40rem;
             }
  
@@ -298,8 +313,24 @@
                 padding: 2rem 0rem;
                 margin: 0rem;
             }
-        
-            .bg-works-r {
+
+            .about-me {
+                display: flex;
+                justify-content: center;
+                margin: 0.10rem;
+ 
+                 .section-title {
+                     font-size: 1.60rem;
+                     text-align: center;
+                 }
+ 
+                 .section-text {
+                     font-size: 1rem;
+                 }
+            }
+
+
+            .experience-title {
                 font-size: 1.60rem;
             }
 
