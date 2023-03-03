@@ -347,59 +347,17 @@ footer {
       font-size: 1.20rem;
       padding: 0.80rem 5rem;
       background-image: linear-gradient(to top, #df7fdf 0%, #97d9e1 100%); }
-    .body-index .main-index .pictures-box {
+    .body-index .main-index .about-me {
       display: block;
       flex-direction: column;
       margin: 0.10rem; }
-      .body-index .main-index .pictures-box .picture1 {
-        padding: 1rem;
-        margin: 0rem 1rem; }
-        .body-index .main-index .pictures-box .picture1 .secondary-tittle {
-          font-size: 1.10rem;
-          text-align: center; }
-        .body-index .main-index .pictures-box .picture1 .img-center {
-          height: 8.625rem;
-          width: 12.625rem;
-          margin: 0.5rem 2.188rem; }
-        .body-index .main-index .pictures-box .picture1 .tittle {
-          font-size: 0.80rem;
-          padding: 0.313rem;
-          text-align: center;
-          width: 40%; }
-      .body-index .main-index .pictures-box .picture2 {
-        padding: 1.875rem;
-        margin: 0rem 1rem; }
-        .body-index .main-index .pictures-box .picture2 .secondary-tittle {
-          font-size: 1.10rem;
-          text-align: center; }
-        .body-index .main-index .pictures-box .picture2 .img-center {
-          height: 8.625rem;
-          width: 12.625rem;
-          margin: 0.5rem 2.188rem; }
-        .body-index .main-index .pictures-box .picture2 .tittle {
-          font-size: 0.80rem;
-          padding: 0.313rem;
-          text-align: center;
-          width: 40%; }
-      .body-index .main-index .pictures-box .picture3 {
-        padding: 1.875rem;
-        margin: 0rem 1rem; }
-        .body-index .main-index .pictures-box .picture3 .secondary-tittle {
-          font-size: 1.10rem;
-          text-align: center; }
-        .body-index .main-index .pictures-box .picture3 .img-center {
-          height: 8.625rem;
-          width: 12.625rem;
-          margin: 0.5rem 2.188rem; }
-        .body-index .main-index .pictures-box .picture3 .tittle {
-          font-size: 0.80rem;
-          padding: 0.313rem;
-          text-align: center;
-          width: 40%; }
-    .body-index .main-index .bg-works-r {
+      .body-index .main-index .about-me .section-title {
+        font-size: 1.10rem;
+        text-align: center; }
+      .body-index .main-index .about-me .section-text {
+        font-size: 0.90rem; }
+    .body-index .main-index .experience-title {
       font-size: 1.20rem; }
-    .body-index .main-index .carousel-inner .carousel-item h5 {
-      font-size: 0.60rem; }
     .body-index .main-index .phrase {
       padding: 1.25rem 0.313rem 1.25rem;
       font-size: 1.20rem;
@@ -463,53 +421,6 @@ footer {
       font-size: 1.40rem;
       padding: 1.30rem 0rem;
       margin: 0rem; }
-    .body-index .main-index .pictures-box {
-      display: block;
-      flex-direction: column;
-      justify-content: space-evenly;
-      margin: 0.30rem; }
-      .body-index .main-index .pictures-box .picture1 {
-        padding: 0.625rem 6.25rem;
-        margin: 0rem 2rem; }
-        .body-index .main-index .pictures-box .picture1 .secondary-tittle {
-          font-size: 1.10rem;
-          text-align: center; }
-        .body-index .main-index .pictures-box .picture1 .img-center {
-          height: 12.125rem;
-          width: 18.125rem;
-          margin: 0rem;
-          padding: 0.313rem 0.75rem; }
-        .body-index .main-index .pictures-box .picture1 .tittle {
-          font-size: 0.90rem;
-          width: 60%; }
-      .body-index .main-index .pictures-box .picture2 {
-        padding: 0.625rem 6.25rem;
-        margin: 0rem 2rem; }
-        .body-index .main-index .pictures-box .picture2 .secondary-tittle {
-          font-size: 1.10rem;
-          text-align: center; }
-        .body-index .main-index .pictures-box .picture2 .img-center {
-          height: 12.125rem;
-          width: 18.125rem;
-          margin: 0rem;
-          padding: 0.313rem 0.75rem; }
-        .body-index .main-index .pictures-box .picture2 .tittle {
-          font-size: 0.90rem;
-          width: 60%; }
-      .body-index .main-index .pictures-box .picture3 {
-        padding: 0.625rem 6.25rem;
-        margin: 0rem 2rem; }
-        .body-index .main-index .pictures-box .picture3 .secondary-tittle {
-          font-size: 1.10rem;
-          text-align: center; }
-        .body-index .main-index .pictures-box .picture3 .img-center {
-          height: 12.125rem;
-          width: 18.125rem;
-          margin: 0rem;
-          padding: 0.313rem 0.75rem; }
-        .body-index .main-index .pictures-box .picture3 .tittle {
-          font-size: 0.90rem;
-          width: 60%; }
     .body-index .main-index .bg-works-r {
       font-size: 1.40rem; }
     .body-index .main-index .phrase {
@@ -567,43 +478,6 @@ footer {
     font-size: 1.60rem;
     padding: 2rem 0rem;
     margin: 0rem; }
-  .body-index .main-index .pictures-box {
-    display: flex;
-    flex-direction: column;
-    margin: 0.220rem; }
-    .body-index .main-index .pictures-box .picture1 .secondary-tittle {
-      text-align: center; }
-    .body-index .main-index .pictures-box .picture1 .img-center {
-      height: 20.125rem;
-      width: 27.125rem;
-      margin: 0rem;
-      padding: 0.313rem 0.75rem; }
-    .body-index .main-index .pictures-box .picture1 .tittle {
-      font-size: 1rem;
-      padding: 0.313rem;
-      text-align: center; }
-    .body-index .main-index .pictures-box .picture2 .secondary-tittle {
-      text-align: center; }
-    .body-index .main-index .pictures-box .picture2 .img-center {
-      height: 20.125rem;
-      width: 27.125rem;
-      margin: 0rem;
-      padding: 0.313rem 0.75rem; }
-    .body-index .main-index .pictures-box .picture2 .tittle {
-      font-size: 1rem;
-      padding: 0.313rem;
-      text-align: center; }
-    .body-index .main-index .pictures-box .picture3 .secondary-tittle {
-      text-align: center; }
-    .body-index .main-index .pictures-box .picture3 .img-center {
-      height: 20.125rem;
-      width: 27.125rem;
-      margin: 0rem;
-      padding: 0.313rem 0.75rem; }
-    .body-index .main-index .pictures-box .picture3 .tittle {
-      font-size: 1rem;
-      padding: 0.313rem;
-      text-align: center; }
   .body-index .main-index .bg-works-r {
     font-size: 1.60rem; }
   .body-index .main-index .phrase {

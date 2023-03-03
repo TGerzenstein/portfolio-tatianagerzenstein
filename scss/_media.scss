@@ -84,93 +84,24 @@
                 background-image: linear-gradient(to top, #df7fdf 0%, #97d9e1 100%);
             }
 
-            .pictures-box {
+            .about-me {
                display: block;
                flex-direction: column;
                margin: 0.10rem;
 
-                .picture1 {
-                    padding: 1rem;
-                    margin: 0rem 1rem;
-
-                   .secondary-tittle {
-                       font-size: 1.10rem;
-                       text-align: center;
-                    }
-
-                    .img-center {
-                        height: 8.625rem;
-                        width: 12.625rem;
-                        margin: 0.5rem 2.188rem;
-                    }
-
-                    .tittle {
-                        font-size: 0.80rem;
-                        padding: 0.313rem;
-                        text-align: center;
-                        width: 40%;
-                    }
+                .section-title {
+                    font-size: 1.10rem;
+                    text-align: center;
                 }
 
-                .picture2 {
-                    padding: 1.875rem;
-                    margin: 0rem 1rem;
-
-                    .secondary-tittle {
-                        font-size: 1.10rem;
-                        text-align: center;
-                    }
-
-                    .img-center {
-                        height: 8.625rem;
-                        width: 12.625rem;
-                        margin: 0.5rem 2.188rem;
-                    }
-
-                    .tittle {
-                        font-size: 0.80rem;
-                        padding: 0.313rem;
-                        text-align: center;
-                        width: 40%;
-                    }
-                }
-
-                .picture3 {
-                    padding: 1.875rem;
-                    margin: 0rem 1rem;
-
-                    .secondary-tittle {
-                        font-size: 1.10rem;
-                        text-align: center;
-                    }
-
-                    .img-center {
-                        height: 8.625rem;
-                        width: 12.625rem;
-                        margin: 0.5rem 2.188rem;
-                    }
-
-                    .tittle {
-                        font-size: 0.80rem;
-                        padding: 0.313rem;
-                        text-align: center;
-                        width: 40%;
-                    }
+                .section-text {
+                    font-size: 0.90rem;
                 }
             }
+            
         
-            .bg-works-r {
+            .experience-title {
                 font-size: 1.20rem;
-            }
-
-            .carousel-inner {
-
-                .carousel-item {
-
-                    h5 {
-                       font-size: 0.60rem;
-                    }  
-                }  
             }
 
             .phrase {
@@ -276,79 +207,6 @@
                 padding: 1.30rem 0rem;
                 margin: 0rem;
             }
- 
-            .pictures-box {
-                display: block;
-                flex-direction: column;
-                justify-content: space-evenly;
-                margin: 0.30rem;
- 
-                .picture1 {
-                     padding: 0.625rem 6.25rem;
-                     margin: 0rem 2rem;
- 
-                    .secondary-tittle {
-                        font-size: 1.10rem;
-                        text-align: center;
-                    }
-                     
-                    .img-center {
-                        height: 12.125rem;
-                        width: 18.125rem;
-                        margin: 0rem;
-                        padding: 0.313rem 0.75rem;
-                    }
- 
-                    .tittle {
-                        font-size: 0.90rem;
-                        width: 60%;
-                    }
-                }
- 
-                .picture2 {
-                    padding: 0.625rem 6.25rem;
-                    margin: 0rem 2rem;
- 
-                    .secondary-tittle {
-                        font-size: 1.10rem;
-                        text-align: center;
-                    }
- 
-                    .img-center {
-                        height: 12.125rem;
-                        width: 18.125rem;
-                        margin: 0rem;
-                        padding: 0.313rem 0.75rem;
-                    }
- 
-                    .tittle {
-                        font-size: 0.90rem;
-                        width: 60%;
-                    }
-                }
- 
-                .picture3 {
-                    padding: 0.625rem 6.25rem;
-                    margin: 0rem 2rem;
- 
-                    .secondary-tittle {
-                        font-size: 1.10rem;
-                        text-align: center;
-                    }
- 
-                    .img-center {
-                        height: 12.125rem;
-                        width: 18.125rem;
-                        margin: 0rem;
-                        padding: 0.313rem 0.75rem;
-                    }
- 
-                    .tittle {
-                        font-size: 0.90rem;
-                        width: 60%;
-                    }
-                }
-            }
          
             .bg-works-r {
                 font-size: 1.40rem;
@@ -439,73 +297,6 @@
                 font-size: 1.60rem;
                 padding: 2rem 0rem;
                 margin: 0rem;
-            }
-
-            .pictures-box {
-                 display: flex;
-                 flex-direction: column;
-                 margin: 0.220rem;
-
-
-                .picture1 {
-
-                   .secondary-tittle {
-                        text-align: center;
-                    }
-
-                    .img-center {
-                        height: 20.125rem;
-                        width: 27.125rem;
-                        margin: 0rem;
-                        padding: 0.313rem 0.75rem;
-                    }
-
-                    .tittle {
-                        font-size: 1rem;
-                        padding: 0.313rem;
-                        text-align: center;
-                    }
-                }
-
-                .picture2 {
-
-                    .secondary-tittle {
-                        text-align: center;
-                    }
-
-                    .img-center {
-                        height: 20.125rem;
-                        width: 27.125rem;
-                        margin: 0rem;
-                        padding: 0.313rem 0.75rem; 
-                    }
-
-                    .tittle {
-                        font-size: 1rem;
-                        padding: 0.313rem;
-                        text-align: center;
-                    }
-                }
-
-                .picture3 {
-
-                    .secondary-tittle {
-                        text-align: center;
-                    }
-
-                    .img-center {
-                        height: 20.125rem;
-                        width: 27.125rem;
-                        margin: 0rem;
-                        padding: 0.313rem 0.75rem; 
-                    }
-
-                    .tittle {
-                        font-size: 1rem;
-                        padding: 0.313rem;
-                        text-align: center;
-                    }
-                }
             }
         
             .bg-works-r {
