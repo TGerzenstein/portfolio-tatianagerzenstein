@@ -67,7 +67,7 @@ header {
   margin: 0rem; }
 
 .main-index .about-me {
-  height: 500px;
+  height: 450px;
   padding: 30px;
   margin-top: 30px;
   display: flex;
@@ -84,7 +84,8 @@ header {
       font-size: 1rem; }
 
 .main-index .experience {
-  padding: 40px 40px 60px 40px; }
+  padding: 40px 40px 60px 40px;
+  margin-bottom: 5rem; }
   .main-index .experience .experience-title {
     font-size: 25px;
     font-weight: bold;
@@ -118,7 +119,7 @@ header {
     margin-bottom: 40px; }
   .main-index .proj-recent .section-title {
     font-size: 2rem;
-    padding: 15px 0;
+    padding: 15px 0px 2px;
     font-family: 'Roboto', sans-serif;
     text-align: center; }
   .main-index .proj-recent .text-black {
