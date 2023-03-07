@@ -227,18 +227,19 @@
                 text-align: center;
 
                 p {
-                   font-size: 25px;
+                   font-size: 19px;
                    font-weight: bold;
                    margin-bottom: 0;
                 }
 
                 .icons-container {
                     display: flex;
+                    justify-content: center;
                 }
 
                 i {
                  color: #000;
-                 font-size: 60px;
+                 font-size: 50px;
                 }
             }
         }

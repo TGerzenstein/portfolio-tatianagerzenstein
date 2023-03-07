@@ -101,7 +101,18 @@
             
         
             .experience-title {
-                font-size: 1.20rem;
+                font-size: 1.10rem;
+            }
+
+            .section-title {
+                  font-size: 1.10rem;
+
+                .overlay {
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
             }
 
             .phrase {

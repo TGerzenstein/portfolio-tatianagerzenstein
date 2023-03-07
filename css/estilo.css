@@ -145,14 +145,15 @@ header {
       transform: translate(-50%, -50%);
       text-align: center; }
       .main-index .proj-recent .proj .overlay p {
-        font-size: 25px;
+        font-size: 19px;
         font-weight: bold;
         margin-bottom: 0; }
       .main-index .proj-recent .proj .overlay .icons-container {
-        display: flex; }
+        display: flex;
+        justify-content: center; }
       .main-index .proj-recent .proj .overlay i {
         color: #000;
-        font-size: 60px; }
+        font-size: 50px; }
 
 .main-index .phrase {
   background-color: #fff;
@@ -400,7 +401,11 @@ footer {
       .body-index .main-index .about-me .section-text {
         font-size: 0.90rem; }
     .body-index .main-index .experience-title {
-      font-size: 1.20rem; }
+      font-size: 1.10rem; }
+    .body-index .main-index .section-title {
+      font-size: 1.10rem; }
+      .body-index .main-index .section-title .overlay p {
+        font-size: 1rem; }
     .body-index .main-index .phrase {
       padding: 1.25rem 0.313rem 1.25rem;
       font-size: 1.20rem;
