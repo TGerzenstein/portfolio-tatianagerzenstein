@@ -1,32 +1,36 @@
 header {
-  background-color: #fffcec;
+  background-color: #2F3C7E;
   padding: 0.313rem;
   margin: 0rem;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans 3', sans-serif; }
   header h1 {
     padding: 1.60rem 2.5rem 0.625rem;
     font-size: 1rem;
-    color: #2a66ad; }
+    color: #FBEAEB; }
   header .bg-lig {
-    background-color: #fffcec;
-    color: #2a66ad; }
+    background-color: #2F3C7E;
+    color: #FBEAEB; }
   header .navbar-light .navbar-nav .nav-link.active,
   header .navbar-light .navbar-nav .show > .nav-link {
-    color: #2a66ad;
+    color: #FBEAEB;
     padding: 0rem 1.30rem 0.12rem;
-    font-size: 1.05rem; }
+    font-size: 1.05rem;
+    letter-spacing: .2vw;
+    text-transform: uppercase; }
   header .navbar-light .navbar-nav .nav-link {
-    color: #2a66ad;
+    color: #FBEAEB;
     padding: 0rem 1.30rem 0.12rem;
-    font-size: 1.05rem; }
+    font-size: 1.05rem;
+    letter-spacing: .2vw;
+    text-transform: uppercase; }
   header .color-i {
-    background-color: #2a66ad; }
+    background-color: #FBEAEB; }
 
 .main-index .front {
   display: flex;
   flex-direction: row; }
   .main-index .front .front-black {
-    background-color: #fffcec;
+    background-color: #2F3C7E;
     padding: 4.10rem 0.30rem 0rem 14rem; }
     .main-index .front .front-black .ball {
       margin: 2rem 0rem 0rem 6.95rem;
@@ -36,8 +40,8 @@ header {
       height: 15rem;
       border-radius: 51%; }
   .main-index .front .welcome {
-    background-color: #fffcec;
-    color: #2a66ad;
+    background-color: #2F3C7E;
+    color: #FBEAEB;
     font-family: 'Roboto', sans-serif;
     font-size: 2.60rem;
     letter-spacing: 0.069rem;
@@ -47,7 +51,7 @@ header {
     width: 100%;
     font-weight: 900; }
     .main-index .front .welcome .main-welcome {
-      color: #2a66ad;
+      color: #FBEAEB;
       width: 80%;
       padding: 0rem 1rem; }
     .main-index .front .welcome .but-res {
@@ -65,14 +69,15 @@ header {
 .main-index .about-me {
   height: 450px;
   padding: 30px;
-  margin-top: 30px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
-  color: #000;
-  background-color: #fff; }
+  color: #2F3C7E;
+  background-color: #FCF6F5; }
   .main-index .about-me .contenedor {
     max-width: 600px;
-    text-align: center; }
+    text-align: center;
+    padding-top: 80px; }
     .main-index .about-me .contenedor .section-title {
       font-size: 2rem;
       padding: 15px 0;
@@ -86,11 +91,12 @@ header {
   .main-index .experience .experience-title {
     font-size: 25px;
     font-weight: bold;
-    margin: 10px 0; }
+    margin: 10px 0;
+    color: #2f3c73; }
   .main-index .experience i {
     font-size: 2rem;
     color: white;
-    background-color: #000000;
+    background-color: #2F3C7E;
     padding: 8px 19px;
     border-radius: 50%; }
   .main-index .experience .badges-content {
@@ -98,7 +104,7 @@ header {
     font-weight: bold;
     margin: 10px 0; }
     .main-index .experience .badges-content .badge-1 {
-      color: #000;
+      color: #2F3C7E;
       margin: 5px; }
 
 .main-index .experience, .main-index .colum {
@@ -118,9 +124,10 @@ header {
     font-size: 2rem;
     padding: 15px 0px 2px;
     font-family: 'Roboto', sans-serif;
-    text-align: center; }
+    text-align: center;
+    color: #2F3C7E; }
   .main-index .proj-recent .text-black {
-    color: #000; }
+    color: #2F3C7E; }
   .main-index .proj-recent .proj {
     position: relative; }
     .main-index .proj-recent .proj:hover .overlay {
@@ -161,7 +168,8 @@ header {
   font-size: 2.100rem;
   padding: 7.4rem 1.875rem 3.75rem;
   margin: 2.5rem;
-  text-align: left; }
+  text-align: left;
+  color: #2F3C7E; }
 
 .main-resume .resum1 {
   display: flex; }
@@ -226,7 +234,7 @@ header {
       color: black; }
 
 .main-works {
-  color: #fffcec; }
+  color: #2F3C7E; }
   .main-works .w-subti {
     padding: 3.125rem 1.875rem 3.75rem 4rem;
     margin: 0.625rem 0rem;
@@ -254,7 +262,7 @@ header {
       text-align: center; }
 
 .main-contact {
-  color: #fffcec; }
+  color: #2F3C7E; }
   .main-contact .tittle {
     padding: 3.125rem 3.125rem 1.50rem;
     margin: 0.625rem 2.50rem;
@@ -290,7 +298,7 @@ header {
       margin: 1rem;
       font-weight: 600;
       font-size: 0.938rem;
-      color: #2a66ad;
+      color: #FBEAEB;
       background-color: #a239CA;
       border-radius: 0.625rem;
       border: 0.063rem solid #ffabeb;
@@ -302,14 +310,14 @@ header {
         cursor: pointer; }
 
 footer {
-  background-color: #fffcec;
+  background-color: #2F3C7E;
   letter-spacing: 0.031rem;
   font-size: 1.05rem;
   padding: 2rem 1.563rem;
   margin: 0rem;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans 3', sans-serif; }
   footer li {
-    color: #2a66ad;
+    color: #FBEAEB;
     list-style: none; }
   footer .social-media a {
     width: 50px;
@@ -336,7 +344,7 @@ footer {
     font-size: 0.938rem;
     padding: 1.25rem 1.25rem 0rem;
     margin: 0rem;
-    color: #2a66ad; }
+    color: #FBEAEB; }
 
 /* Responsive index */
 /* Very small devices */
@@ -345,7 +353,7 @@ footer {
     padding-left: 0.625rem;
     padding-right: 0.625rem; }
     .body-index header {
-      background-color: #fffcec;
+      background-color: #2F3C7E;
       color: white; }
       .body-index header h1 {
         font-size: 1rem; }
@@ -356,7 +364,7 @@ footer {
       display: flex;
       flex-direction: column; }
       .body-index .main-index .front .front-black {
-        background-color: #fffcec;
+        background-color: #2F3C7E;
         padding: 1rem 7rem 0rem 7rem; }
         .body-index .main-index .front .front-black .ball {
           background-image: url(../images/perfil.jpg);
@@ -422,7 +430,7 @@ footer {
     padding-left: 0.640rem;
     padding-right: 0.640rem; }
     .body-index header {
-      background-color: #fffcec;
+      background-color: #2F3C7E;
       color: white; }
       .body-index header h1 {
         font-size: 1.20rem;
@@ -434,7 +442,7 @@ footer {
       display: flex;
       flex-direction: row; }
       .body-index .main-index .front .front-black {
-        background-color: #fffcec;
+        background-color: #2F3C7E;
         padding: 2rem 0.30rem 0rem 8.50rem; }
         .body-index .main-index .front .front-black .ball {
           margin: 0rem auto;
@@ -484,7 +492,7 @@ footer {
       font-size: 1.30rem;
       text-align: center; }
     .body-index .footer {
-      background-color: #fffcec;
+      background-color: #2F3C7E;
       color: white;
       font-size: 0.90rem; }
       .body-index .footer .created {
@@ -498,7 +506,7 @@ footer {
     display: flex;
     flex-direction: row; }
     .body-index .main-index .front .front-black {
-      background-color: #fffcec;
+      background-color: #2F3C7E;
       padding: 2rem 0rem 0rem 8.50rem; }
       .body-index .main-index .front .front-black .ball {
         margin: 0rem;
@@ -865,5 +873,5 @@ footer {
     width: 50%; } }
 
 body {
-  background-color: white;
+  background-color: #FFF;
   font-family: 'Source Sans Pro', sans-serif; }

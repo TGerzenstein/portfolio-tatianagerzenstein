@@ -2,7 +2,7 @@ header {
   background-color: $bg;
   padding: 0.313rem;
   margin: 0rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans 3', sans-serif; 
   
   h1 {
     padding: 1.60rem 2.5rem 0.625rem;
@@ -20,12 +20,16 @@ header {
     color: $bg-headfot;
     padding: 0rem 1.30rem 0.12rem;
     font-size: 1.05rem;
+    letter-spacing: .2vw;
+    text-transform: uppercase;
   }
 
   .navbar-light .navbar-nav .nav-link {
     color: $bg-headfot;
     padding: 0rem 1.30rem 0.12rem;
     font-size: 1.05rem;
+    letter-spacing: .2vw;
+    text-transform: uppercase;
   }
 
   .color-i {

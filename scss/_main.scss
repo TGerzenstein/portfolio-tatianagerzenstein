@@ -86,7 +86,7 @@
             font-weight: 900;
 
             .main-welcome {
-                color: #2a66ad;
+                color: #FBEAEB;
                 width: 80%;
                 padding: 0rem 1rem;
             }
@@ -111,15 +111,16 @@
     .about-me {
         height: 450px;
         padding: 30px;
-        margin-top: 30px;
+        margin-top: 0px;
         display: flex;
         justify-content: center;
-        color: #000;
-        background-color: #fff;
+        color: #2F3C7E;
+        background-color: #FCF6F5;
 
         .contenedor {
             max-width: 600px;
             text-align: center;
+            padding-top: 80px;
 
             .section-title {
                 font-size: 2rem;
@@ -141,12 +142,13 @@
             font-size: 25px;
             font-weight: bold;
             margin: 10px 0;
+            color: #2f3c73;
         }
 
         i {
             font-size: 2rem;
             color: white;
-            background-color: #000000;
+            background-color: #2F3C7E;
             padding: 8px 19px;
             border-radius: 50%;
         }
@@ -157,7 +159,7 @@
             margin: 10px 0;
            
             .badge-1 {
-                color: #000;
+                color: #2F3C7E;
                 margin: 5px;
             } 
         }
@@ -185,10 +187,11 @@
             padding: 15px 0px 2px;
             font-family: 'Roboto', sans-serif;
             text-align: center;
+            color: #2F3C7E;
         }
 
         .text-black {
-            color: #000;
+            color: #2F3C7E;
         }
  
         .proj {
@@ -249,6 +252,7 @@
         padding: 7.4rem 1.875rem 3.75rem;
         margin: 2.5rem;
         text-align: left;
+        color: #2F3C7E;
     }
 }
 
