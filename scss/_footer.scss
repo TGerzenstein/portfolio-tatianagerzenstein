@@ -1,9 +1,10 @@
 footer {
-  background-color: #000;
+  background-color: $bg;
   letter-spacing: 0.031rem;
   font-size: 1.05rem;
   padding: 2rem 1.563rem;
   margin: 0rem;
+  font-family: 'Source Sans Pro', sans-serif;
 
   li {
     color: $bg-headfot;

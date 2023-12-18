@@ -1,31 +1,32 @@
 header {
-  background-color: #000;
+  background-color: #fffcec;
   padding: 0.313rem;
-  margin: 0rem; }
+  margin: 0rem;
+  font-family: 'Source Sans Pro', sans-serif; }
   header h1 {
     padding: 1.60rem 2.5rem 0.625rem;
-    font-size: 1.175rem;
-    color: #fff; }
+    font-size: 1rem;
+    color: #2a66ad; }
   header .bg-lig {
-    background-color: #000;
-    color: #fff; }
+    background-color: #fffcec;
+    color: #2a66ad; }
   header .navbar-light .navbar-nav .nav-link.active,
   header .navbar-light .navbar-nav .show > .nav-link {
-    color: #fff;
+    color: #2a66ad;
     padding: 0rem 1.30rem 0.12rem;
     font-size: 1.05rem; }
   header .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: #2a66ad;
     padding: 0rem 1.30rem 0.12rem;
     font-size: 1.05rem; }
   header .color-i {
-    background-color: #fff; }
+    background-color: #2a66ad; }
 
 .main-index .front {
   display: flex;
   flex-direction: row; }
   .main-index .front .front-black {
-    background-color: #000;
+    background-color: #fffcec;
     padding: 4.10rem 0.30rem 0rem 14rem; }
     .main-index .front .front-black .ball {
       margin: 2rem 0rem 0rem 6.95rem;
@@ -35,17 +36,18 @@ header {
       height: 15rem;
       border-radius: 51%; }
   .main-index .front .welcome {
-    background-color: #000;
-    color: #fff;
+    background-color: #fffcec;
+    color: #2a66ad;
     font-family: 'Roboto', sans-serif;
     font-size: 2.60rem;
     letter-spacing: 0.069rem;
     padding: 7.5rem 11rem 9rem 0.30rem;
     height: 82%;
     text-align: left;
-    width: 100%; }
+    width: 100%;
+    font-weight: 900; }
     .main-index .front .welcome .main-welcome {
-      color: #fff;
+      color: #2a66ad;
       width: 80%;
       padding: 0rem 1rem; }
     .main-index .front .welcome .but-res {
@@ -60,19 +62,14 @@ header {
         text-decoration: none;
         color: #000; }
 
-.main-index .what {
-  display: flex;
-  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
-  padding: 2rem;
-  margin: 0rem; }
-
 .main-index .about-me {
   height: 450px;
   padding: 30px;
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  color: #000; }
+  color: #000;
+  background-color: #fff; }
   .main-index .about-me .contenedor {
     max-width: 600px;
     text-align: center; }
@@ -229,7 +226,7 @@ header {
       color: black; }
 
 .main-works {
-  color: #000; }
+  color: #fffcec; }
   .main-works .w-subti {
     padding: 3.125rem 1.875rem 3.75rem 4rem;
     margin: 0.625rem 0rem;
@@ -257,7 +254,7 @@ header {
       text-align: center; }
 
 .main-contact {
-  color: #000; }
+  color: #fffcec; }
   .main-contact .tittle {
     padding: 3.125rem 3.125rem 1.50rem;
     margin: 0.625rem 2.50rem;
@@ -293,7 +290,7 @@ header {
       margin: 1rem;
       font-weight: 600;
       font-size: 0.938rem;
-      color: #fff;
+      color: #2a66ad;
       background-color: #a239CA;
       border-radius: 0.625rem;
       border: 0.063rem solid #ffabeb;
@@ -305,13 +302,14 @@ header {
         cursor: pointer; }
 
 footer {
-  background-color: #000;
+  background-color: #fffcec;
   letter-spacing: 0.031rem;
   font-size: 1.05rem;
   padding: 2rem 1.563rem;
-  margin: 0rem; }
+  margin: 0rem;
+  font-family: 'Source Sans Pro', sans-serif; }
   footer li {
-    color: #fff;
+    color: #2a66ad;
     list-style: none; }
   footer .social-media a {
     width: 50px;
@@ -338,7 +336,7 @@ footer {
     font-size: 0.938rem;
     padding: 1.25rem 1.25rem 0rem;
     margin: 0rem;
-    color: #fff; }
+    color: #2a66ad; }
 
 /* Responsive index */
 /* Very small devices */
@@ -347,7 +345,7 @@ footer {
     padding-left: 0.625rem;
     padding-right: 0.625rem; }
     .body-index header {
-      background-color: #000;
+      background-color: #fffcec;
       color: white; }
       .body-index header h1 {
         font-size: 1rem; }
@@ -358,7 +356,7 @@ footer {
       display: flex;
       flex-direction: column; }
       .body-index .main-index .front .front-black {
-        background-color: #000;
+        background-color: #fffcec;
         padding: 1rem 7rem 0rem 7rem; }
         .body-index .main-index .front .front-black .ball {
           background-image: url(../images/perfil.jpg);
@@ -424,7 +422,7 @@ footer {
     padding-left: 0.640rem;
     padding-right: 0.640rem; }
     .body-index header {
-      background-color: #000;
+      background-color: #fffcec;
       color: white; }
       .body-index header h1 {
         font-size: 1.20rem;
@@ -436,7 +434,7 @@ footer {
       display: flex;
       flex-direction: row; }
       .body-index .main-index .front .front-black {
-        background-color: #000;
+        background-color: #fffcec;
         padding: 2rem 0.30rem 0rem 8.50rem; }
         .body-index .main-index .front .front-black .ball {
           margin: 0rem auto;
@@ -486,7 +484,7 @@ footer {
       font-size: 1.30rem;
       text-align: center; }
     .body-index .footer {
-      background-color: #000;
+      background-color: #fffcec;
       color: white;
       font-size: 0.90rem; }
       .body-index .footer .created {
@@ -500,7 +498,7 @@ footer {
     display: flex;
     flex-direction: row; }
     .body-index .main-index .front .front-black {
-      background-color: #000;
+      background-color: #fffcec;
       padding: 2rem 0rem 0rem 8.50rem; }
       .body-index .main-index .front .front-black .ball {
         margin: 0rem;
