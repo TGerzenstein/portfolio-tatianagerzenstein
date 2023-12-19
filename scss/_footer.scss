@@ -26,14 +26,14 @@ footer {
   }
      
   .social-media i {
-    color: white;
+    color: $bg-headfot;
     font-size: 1.5rem;
     transition: all 0.2s ease-in;
   }
 
   .social-media a:hover {
-    background-color: white;
-    border: 2px solid rgb(13,110,253);
+    background-color: $bg-headfot;
+    border: 2px solid aliceblue;
   }
 
   .social-media a:hover i {
