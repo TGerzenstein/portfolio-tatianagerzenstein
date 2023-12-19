@@ -363,7 +363,7 @@ footer {
     padding-right: 0.625rem; }
     .body-index header {
       background-color: #2F3C7E;
-      color: white; }
+      color: #FBEAEB; }
       .body-index header h1 {
         font-size: 1rem; }
       .body-index header .navbar .container-fluid .nav-link,
@@ -371,7 +371,21 @@ footer {
         font-size: 0.80rem; }
     .body-index .main-index .front {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      /*   .but-res {
+                    font-size: 0.85rem;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    border: #fff;
+                    padding: 0.20rem 0.50rem;
+                    border-radius: 0.625rem;
+                    background-color: #fff;
+                    margin: 0rem 1rem;
+                
+                   a {
+                       text-decoration: none;
+                       color: #000;
+                    }
+                } */ }
       .body-index .main-index .front .front-black {
         background-color: #2F3C7E;
         padding: 1rem 7rem 0rem 7rem; }
@@ -388,25 +402,10 @@ footer {
         padding: 1.875rem 0rem;
         text-align: center; }
       .body-index .main-index .front .main-welcome {
-        color: #fff;
+        color: #FBEAEB;
         width: 90%;
         padding: 0rem 3rem;
         margin: 0rem auto 0.50rem; }
-      .body-index .main-index .front .but-res {
-        font-size: 0.85rem;
-        font-family: 'Source Sans Pro', sans-serif;
-        border: #fff;
-        padding: 0.20rem 0.50rem;
-        border-radius: 0.625rem;
-        background-color: #fff;
-        margin: 0rem 1rem; }
-        .body-index .main-index .front .but-res a {
-          text-decoration: none;
-          color: #000; }
-    .body-index .main-index .what {
-      font-size: 1.20rem;
-      padding: 0.80rem 5rem;
-      background-image: linear-gradient(to top, #df7fdf 0%, #97d9e1 100%); }
     .body-index .main-index .about-me {
       display: block;
       flex-direction: column;
@@ -427,8 +426,8 @@ footer {
       font-size: 1.20rem;
       text-align: center; }
     .body-index .footer {
-      background-color: #000;
-      color: white;
+      background-color: #2F3C7E;
+      color: #FBEAEB;
       font-size: 0.80rem; }
       .body-index .footer .created {
         font-size: 0.60rem; } }
@@ -440,7 +439,7 @@ footer {
     padding-right: 0.640rem; }
     .body-index header {
       background-color: #2F3C7E;
-      color: white; }
+      color: #FBEAEB; }
       .body-index header h1 {
         font-size: 1.20rem;
         margin-left: 0.25rem; }
@@ -449,7 +448,20 @@ footer {
         font-size: 0.90rem; }
     .body-index .main-index .front {
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      /*   .but-res {
+                    font-size: 1rem;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    border: #fff;
+                    padding: 0.20rem 0.50rem;
+                    border-radius: 0.625rem;
+                    background-color: #fff;
+                    margin: 0rem;
+                
+                    a {
+                       text-decoration: none;
+                       color: #000;
+                    } */ }
       .body-index .main-index .front .front-black {
         background-color: #2F3C7E;
         padding: 2rem 0.30rem 0rem 8.50rem; }
@@ -466,54 +478,53 @@ footer {
         padding: 3.50rem 0.10rem;
         text-align: left; }
       .body-index .main-index .front .main-welcome {
-        color: #fff;
+        color: #FBEAEB;
         width: 80%;
         padding: 0rem 1rem 0rem 0rem;
         margin: 0rem 0rem; }
-      .body-index .main-index .front .but-res {
-        font-size: 1rem;
-        font-family: 'Source Sans Pro', sans-serif;
-        border: #fff;
-        padding: 0.20rem 0.50rem;
-        border-radius: 0.625rem;
-        background-color: #fff;
-        margin: 0rem; }
-        .body-index .main-index .front .but-res a {
-          text-decoration: none;
-          color: #000; }
-    .body-index .main-index .what {
-      font-size: 1.40rem;
-      padding: 1.30rem 0rem;
-      margin: 0rem; }
-    .body-index .main-index .about-me {
+    .body-index .about-me {
       display: flex;
       justify-content: center;
       margin: 0.10rem; }
-      .body-index .main-index .about-me .section-title {
+      .body-index .about-me .section-title {
         font-size: 1.40rem;
         text-align: center; }
-      .body-index .main-index .about-me .section-text {
+      .body-index .about-me .section-text {
         font-size: 0.90rem; }
-    .body-index .main-index .experience-title {
+    .body-index .experience-title {
       font-size: 1.40rem; }
-    .body-index .main-index .phrase {
+    .body-index .phrase {
       padding: 1.25rem 0.313rem 1.25rem;
       font-size: 1.30rem;
       text-align: center; }
-    .body-index .footer {
-      background-color: #2F3C7E;
-      color: white;
-      font-size: 0.90rem; }
-      .body-index .footer .created {
-        font-size: 0.70rem; } }
+  .footer {
+    background-color: #2F3C7E;
+    color: #FBEAEB;
+    font-size: 0.90rem; }
+    .footer .created {
+      font-size: 0.70rem; } }
 
 @media screen and (min-width: 48.063rem) and (max-width: 75rem) {
   .body-index header {
-    background-color: #000;
-    color: white; }
+    background-color: #2F3C7E;
+    color: #FBEAEB; }
   .body-index .main-index .front {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    /*    .but-res {
+                    font-size: 1.20rem;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    border: #fff;
+                    padding: 0.40rem 0.60rem;
+                    border-radius: 0.625rem;
+                    background-color: #fff;
+                    margin: 0rem 1rem;
+                
+                   a {
+                       text-decoration: none;
+                       color: #000;
+                    }
+                } */ }
     .body-index .main-index .front .front-black {
       background-color: #2F3C7E;
       padding: 2rem 0rem 0rem 8.50rem; }
@@ -532,25 +543,10 @@ footer {
       height: auto;
       text-align: center; }
     .body-index .main-index .front .main-welcome {
-      color: #fff;
+      color: #FBEAEB;
       width: 80%;
       padding: 0rem;
       margin: 0rem auto 0.50rem; }
-    .body-index .main-index .front .but-res {
-      font-size: 1.20rem;
-      font-family: 'Source Sans Pro', sans-serif;
-      border: #fff;
-      padding: 0.40rem 0.60rem;
-      border-radius: 0.625rem;
-      background-color: #fff;
-      margin: 0rem 1rem; }
-      .body-index .main-index .front .but-res a {
-        text-decoration: none;
-        color: #000; }
-  .body-index .main-index .what {
-    font-size: 1.60rem;
-    padding: 2rem 0rem;
-    margin: 0rem; }
   .body-index .main-index .about-me {
     display: flex;
     justify-content: center;
@@ -567,8 +563,8 @@ footer {
     font-size: 1.70rem;
     text-align: left; }
   .body-index .footer {
-    background-color: #000;
-    color: white; } }
+    background-color: #2F3C7E;
+    color: #FBEAEB; } }
 
 /* Responsive contact */
 /* Very small devices */
@@ -577,8 +573,8 @@ footer {
     padding-left: 0.313rem;
     padding-right: 0.313rem; }
     .body-contact header {
-      background-color: #000;
-      color: white; }
+      background-color: #2F3C7E;
+      color: #FBEAEB; }
       .body-contact header h1 {
         font-size: 1rem; }
       .body-contact header .navbar .container-fluid .nav-link,
@@ -591,7 +587,7 @@ footer {
       font-size: 1.20rem; }
     .body-contact .main-contact .info {
       padding: 0.625rem 1.763rem;
-      color: black;
+      color: #2F3C7E;
       font-size: 0.80rem;
       margin: 0rem 1.40rem;
       width: 78%; }
@@ -600,25 +596,25 @@ footer {
       padding: 1.875rem 0.475rem;
       margin: 0.313rem 0rem 3.75rem; }
       .body-contact .main-contact .contact-form .fieldset-w .contact-div label {
-        color: #000;
+        color: #2F3C7E;
         font-size: 0.80rem;
         padding: 0.625rem; }
       .body-contact .main-contact .contact-form .fieldset-w .contact-div input, .body-contact .main-contact .contact-form .fieldset-w .contact-div textarea {
         font-size: 0.80rem; }
       .body-contact .main-contact .contact-form .fieldset-w .submit {
-        background: #a239CA;
+        background: #fff;
         display: block;
         width: 6.25rem;
         height: 1.875rem;
-        border: none;
-        color: #fff;
+        color: #2F3C7E;
         border-radius: 0.25rem;
+        border: 0.063rem solid #2F3C7E;
         font-size: 0.90rem;
         margin: 0.625rem auto;
         cursor: pointer; }
   .footer {
-    background-color: black;
-    color: white;
+    background-color: #2F3C7E;
+    color: #FBEAEB;
     font-size: 0.80rem; }
     .footer .createdby {
       font-size: 0.60rem; } }
@@ -629,8 +625,8 @@ footer {
     padding-left: 0.625rem;
     padding-right: 0.313rem; }
     .body-contact header {
-      background-color: #000;
-      color: white; }
+      background-color: #2F3C7E;
+      color: #FBEAEB; }
       .body-contact header h1 {
         font-size: 1.20rem;
         margin-left: 0.25rem; }
@@ -639,11 +635,11 @@ footer {
         font-size: 0.90rem; }
     .body-contact .main-contact .tittle {
       padding: 1.563rem 3.125rem;
-      color: #000;
+      color: #2F3C7E;
       font-size: 1.6rem; }
     .body-contact .main-contact .info {
       padding: 0.30rem 3.125rem;
-      color: #000;
+      color: #2F3C7E;
       font-size: 1rem;
       width: 70%; }
     .body-contact .main-contact .contact-form {
@@ -651,23 +647,24 @@ footer {
       padding: 1.875rem 1.875rem;
       margin: 0.313rem 0.313rem 3.75rem; }
       .body-contact .main-contact .contact-form .fieldset-w .contact-div label {
-        color: #000;
+        color: #2F3C7E;
         font-size: 1.1rem;
         padding: 0.625rem; }
       .body-contact .main-contact .contact-form .fieldset-w .submit {
-        background: #4717f6;
+        background: #fff;
         display: block;
+        padding: 0.413rem 1rem;
         width: 6.25rem;
         height: 1.875rem;
-        border: none;
-        color: #fff;
+        color: #2F3C7E;
         border-radius: 0.25rem;
+        border: 0.063rem solid #2F3C7E;
         font-size: 1rem;
         margin: 0.725rem auto;
         cursor: pointer; }
     .body-contact .footer {
-      background-color: black;
-      color: white;
+      background-color: #2F3C7E;
+      color: #FBEAEB;
       font-size: 0.80rem; }
       .body-contact .footer .createdby {
         font-size: 0.60rem; } }
@@ -676,8 +673,8 @@ footer {
 /* Very small devices */
 @media screen and (max-width: 36rem) {
   .body-resume header {
-    background-color: #000;
-    color: white; }
+    background-color: #2F3C7E;
+    color: #FBEAEB; }
     .body-resume header h1 {
       font-size: 1rem; }
     .body-resume header .navbar .container-fluid .nav-link,
@@ -736,8 +733,8 @@ footer {
     padding-left: 0.625rem;
     padding-right: 0.313rem; }
     .body-resume header {
-      background-color: #000;
-      color: white; }
+      background-color: #2F3C7E;
+      color: #FBEAEB; }
       .body-resume header h1 {
         font-size: 1rem;
         margin-left: 0.25rem; }

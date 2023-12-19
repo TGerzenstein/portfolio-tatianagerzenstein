@@ -9,7 +9,7 @@
    
         header {
           background-color: $bg;
-          color: rgb(255, 255, 255);
+          color: $bg-headfot;
 
             h1 {
                font-size: 1rem;
@@ -55,13 +55,13 @@
                 }
 
                 .main-welcome {
-                   color: #fff;
+                   color: $bg-headfot;
                    width: 90%;
                    padding: 0rem 3rem; 
                    margin: 0rem auto 0.50rem;
                 }
 
-                .but-res {
+            /*   .but-res {
                     font-size: 0.85rem;
                     font-family: 'Source Sans Pro', sans-serif;
                     border: #fff;
@@ -74,15 +74,9 @@
                        text-decoration: none;
                        color: #000;
                     }
-                }
+                } */
 
             }    
-            
-            .what {
-                font-size: 1.20rem;
-                padding: 0.80rem 5rem;
-                background-image: linear-gradient(to top, #df7fdf 0%, #97d9e1 100%);
-            }
 
             .about-me {
                display: block;
@@ -123,8 +117,8 @@
         }
     
         .footer {
-           background-color:#000;
-           color: rgb(255, 255, 255); 
+           background-color: $bg;
+           color: $bg-headfot; 
            font-size: 0.80rem;
 
            .created {
@@ -143,7 +137,7 @@
    
         header {
           background-color: $bg;
-          color: rgb(255, 255, 255);
+          color: $bg-headfot;
 
             h1 {
              font-size: 1.20rem;
@@ -191,13 +185,13 @@
                 }
 
                 .main-welcome {
-                   color: #fff;
+                   color: $bg-headfot;
                    width: 80%;
                    padding: 0rem 1rem 0rem 0rem; 
                    margin: 0rem 0rem;
                 }
 
-                .but-res {
+             /*   .but-res {
                     font-size: 1rem;
                     font-family: 'Source Sans Pro', sans-serif;
                     border: #fff;
@@ -209,14 +203,8 @@
                     a {
                        text-decoration: none;
                        color: #000;
-                    }
+                    } */
                 }        
-            }
-
-            .what {
-                font-size: 1.40rem;
-                padding: 1.30rem 0rem;
-                margin: 0rem;
             }
 
             .about-me {
@@ -247,23 +235,24 @@
 
         .footer {
             background-color: $bg;
-            color: rgb(255, 255, 255);
+            color: $bg-headfot;
             font-size: 0.90rem;
  
             .created {
              font-size: 0.70rem;
             }
         }
-    }
+
 }
+
 
 @media screen and (min-width: 48.063rem) and (max-width: 75rem) {
   
     .body-index {
    
         header {
-          background-color:#000;
-          color: rgb(255, 255, 255);
+          background-color: $bg;
+          color: $bg-headfot;
         }
 
         .main-index {
@@ -297,13 +286,13 @@
                 }
 
                 .main-welcome {
-                    color: #fff;
+                    color: $bg-headfot;
                     width: 80%;
                     padding: 0rem; 
                     margin: 0rem auto 0.50rem;
                 }
 
-                .but-res {
+            /*    .but-res {
                     font-size: 1.20rem;
                     font-family: 'Source Sans Pro', sans-serif;
                     border: #fff;
@@ -316,14 +305,9 @@
                        text-decoration: none;
                        color: #000;
                     }
-                }
+                } */
             }
 
-            .what {
-                font-size: 1.60rem;
-                padding: 2rem 0rem;
-                margin: 0rem;
-            }
 
             .about-me {
                 display: flex;
@@ -353,8 +337,8 @@
         }
     
         .footer {
-           background-color:#000;
-           color: rgb(255, 255, 255);
+           background-color: $bg;
+           color: $bg-headfot;
         }
     }
 } 
@@ -370,8 +354,8 @@
         padding-right: 0.313rem;
 
         header {
-            background-color:#000;
-            color: rgb(255, 255, 255);
+            background-color: $bg;
+            color: $bg-headfot;
   
             h1 {
                 font-size: 1rem;
@@ -400,7 +384,7 @@
            
             .info {
                 padding: 0.625rem 1.763rem;
-                color: rgb(0, 0, 0);
+                color: $bg;
                 font-size: 0.80rem;
                 margin: 0rem 1.40rem;
                 width: 78%;
@@ -416,7 +400,7 @@
                     .contact-div {
 
                         label {
-                            color: #000;
+                            color: $bg;
                             font-size: 0.80rem;
                             padding: 0.625rem;
                         }
@@ -427,13 +411,13 @@
                     }
 
                     .submit {
-                        background: $tit-violet;
+                        background: #fff;
                         display: block;
                         width: 6.25rem;
                         height: 1.875rem;
-                        border:none;
-                        color:#fff; 
+                        color: $bg; 
                         border-radius: 0.25rem;
+                        border: 0.063rem solid #2F3C7E;
                         font-size: 0.90rem;
                         margin: 0.625rem auto;
                         cursor: pointer;
@@ -444,8 +428,8 @@
     }
 
     .footer {
-        background-color: black;
-        color: rgb(255, 255, 255);
+        background-color: $bg;
+        color: $bg-headfot;
         font-size: 0.80rem;
 
         .createdby {
@@ -454,6 +438,8 @@
     }
 }
   
+
+
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
     
@@ -462,8 +448,8 @@
         padding-right: 0.313rem;
 
         header {
-            background-color:#000;
-            color: rgb(255, 255, 255);
+            background-color: $bg;
+            color: $bg-headfot;
   
             h1 {
                font-size: 1.20rem;
@@ -487,13 +473,13 @@
            
             .tittle {
                 padding: 1.563rem 3.125rem;
-                color: #000;
+                color: $bg;
                 font-size: 1.6rem;
             }
            
             .info {
                 padding: 0.30rem 3.125rem;
-                color: #000;
+                color: $bg;
                 font-size: 1rem;
                 width: 70%;
             }
@@ -508,20 +494,21 @@
                     .contact-div {
 
                         label {
-                            color: #000;
+                            color: $bg;
                             font-size: 1.1rem;
                             padding: 0.625rem;
                         }
                     }
 
                     .submit {
-                        background: #4717f6;
+                        background: #fff;
                         display: block;
+                        padding: 0.413rem 1rem;
                         width: 6.25rem;
                         height: 1.875rem;
-                        border:none;
-                        color:#fff; 
+                        color: $bg; 
                         border-radius: 0.25rem;
+                        border: 0.063rem solid #2F3C7E;
                         font-size: 1rem;
                         margin: 0.725rem auto;
                         cursor: pointer;
@@ -531,8 +518,8 @@
         }
         
         .footer {
-            background-color: black;
-            color: rgb(255, 255, 255);
+            background-color: $bg;
+            color: $bg-headfot;
             font-size: 0.80rem;
     
             .createdby {
@@ -551,8 +538,8 @@
     .body-resume {
         
         header {
-            background-color:#000;
-            color: rgb(255, 255, 255);
+            background-color: $bg;
+            color: $bg-headfot;
   
             h1 {
                 font-size: 1rem;
@@ -664,8 +651,8 @@
         padding-right: 0.313rem;
         
         header {
-            background-color:#000;
-            color: rgb(255, 255, 255);
+            background-color: $bg;
+            color: $bg-headfot;
   
             h1 {
                 font-size: 1rem;
@@ -767,9 +754,8 @@
 }
 
 
-/* Responsive works */
+/* Responsive works 
 
-/* Very small devices */
 @media screen and (max-width: 36rem) {
 
     .body-works {
@@ -847,7 +833,7 @@
     }  
 }
 
-/* Mobile devices */
+/* 
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
     
     .body-works {
@@ -917,7 +903,10 @@
         }
     }
 }
+*/
 
+
+/*
 @media screen and (min-width: 48.063rem) and (max-width: 75rem) {
   
     .body-works {
@@ -943,3 +932,5 @@
         }
     }
 } 
+
+/*
