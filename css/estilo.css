@@ -368,24 +368,10 @@ footer {
         font-size: 1rem; }
       .body-index header .navbar .container-fluid .nav-link,
       .body-index header .navbar .container-fluid .active {
-        font-size: 0.80rem; }
+        font-size: 1rem; }
     .body-index .main-index .front {
       display: flex;
-      flex-direction: column;
-      /*   .but-res {
-                    font-size: 0.85rem;
-                    font-family: 'Source Sans Pro', sans-serif;
-                    border: #fff;
-                    padding: 0.20rem 0.50rem;
-                    border-radius: 0.625rem;
-                    background-color: #fff;
-                    margin: 0rem 1rem;
-                
-                   a {
-                       text-decoration: none;
-                       color: #000;
-                    }
-                } */ }
+      flex-direction: column; }
       .body-index .main-index .front .front-black {
         background-color: #2F3C7E;
         padding: 1rem 7rem 0rem 7rem; }
@@ -414,7 +400,7 @@ footer {
         font-size: 1.10rem;
         text-align: center; }
       .body-index .main-index .about-me .section-text {
-        font-size: 0.90rem; }
+        font-size: 1rem; }
     .body-index .main-index .experience-title {
       font-size: 1.10rem; }
     .body-index .main-index .section-title {
@@ -428,9 +414,9 @@ footer {
     .body-index .footer {
       background-color: #2F3C7E;
       color: #FBEAEB;
-      font-size: 0.80rem; }
+      font-size: 1rem; }
       .body-index .footer .created {
-        font-size: 0.60rem; } }
+        font-size: 1rem; } }
 
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
@@ -445,23 +431,10 @@ footer {
         margin-left: 0.25rem; }
       .body-index header .navbar .container-fluid .nav-link,
       .body-index header .navbar .container-fluid .active {
-        font-size: 0.90rem; }
+        font-size: 1rem; }
     .body-index .main-index .front {
       display: flex;
-      flex-direction: row;
-      /*   .but-res {
-                    font-size: 1rem;
-                    font-family: 'Source Sans Pro', sans-serif;
-                    border: #fff;
-                    padding: 0.20rem 0.50rem;
-                    border-radius: 0.625rem;
-                    background-color: #fff;
-                    margin: 0rem;
-                
-                    a {
-                       text-decoration: none;
-                       color: #000;
-                    } */ }
+      flex-direction: row; }
       .body-index .main-index .front .front-black {
         background-color: #2F3C7E;
         padding: 2rem 0.30rem 0rem 8.50rem; }
@@ -487,12 +460,12 @@ footer {
       justify-content: center;
       margin: 0.10rem; }
       .body-index .about-me .section-title {
-        font-size: 1.40rem;
+        font-size: 1.20rem;
         text-align: center; }
       .body-index .about-me .section-text {
-        font-size: 0.90rem; }
+        font-size: 1rem; }
     .body-index .experience-title {
-      font-size: 1.40rem; }
+      font-size: 1.20rem; }
     .body-index .phrase {
       padding: 1.25rem 0.313rem 1.25rem;
       font-size: 1.30rem;
@@ -500,9 +473,9 @@ footer {
   .footer {
     background-color: #2F3C7E;
     color: #FBEAEB;
-    font-size: 0.90rem; }
+    font-size: 1rem; }
     .footer .created {
-      font-size: 0.70rem; } }
+      font-size: 1rem; } }
 
 @media screen and (min-width: 48.063rem) and (max-width: 75rem) {
   .body-index header {
@@ -579,7 +552,7 @@ footer {
         font-size: 1rem; }
       .body-contact header .navbar .container-fluid .nav-link,
       .body-contact header .navbar .container-fluid .active {
-        font-size: 0.80rem; }
+        font-size: 1rem; }
     .body-contact .main-contact .tittle {
       padding: 2rem 2.10rem 0.80rem;
       margin: 0rem 1rem;
@@ -588,7 +561,7 @@ footer {
     .body-contact .main-contact .info {
       padding: 0.625rem 1.763rem;
       color: #2F3C7E;
-      font-size: 0.80rem;
+      font-size: 1rem;
       margin: 0rem 1.40rem;
       width: 78%; }
     .body-contact .main-contact .contact-form {
@@ -597,10 +570,10 @@ footer {
       margin: 0.313rem 0rem 3.75rem; }
       .body-contact .main-contact .contact-form .fieldset-w .contact-div label {
         color: #2F3C7E;
-        font-size: 0.80rem;
+        font-size: 1rem;
         padding: 0.625rem; }
       .body-contact .main-contact .contact-form .fieldset-w .contact-div input, .body-contact .main-contact .contact-form .fieldset-w .contact-div textarea {
-        font-size: 0.80rem; }
+        font-size: 1rem; }
       .body-contact .main-contact .contact-form .fieldset-w .submit {
         background: #fff;
         display: block;
@@ -609,15 +582,15 @@ footer {
         color: #2F3C7E;
         border-radius: 0.25rem;
         border: 0.063rem solid #2F3C7E;
-        font-size: 0.90rem;
+        font-size: 1rem;
         margin: 0.625rem auto;
         cursor: pointer; }
   .footer {
     background-color: #2F3C7E;
     color: #FBEAEB;
-    font-size: 0.80rem; }
+    font-size: 1rem; }
     .footer .createdby {
-      font-size: 0.60rem; } }
+      font-size: 1rem; } }
 
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
@@ -632,7 +605,7 @@ footer {
         margin-left: 0.25rem; }
       .body-contact header .navbar .container-fluid .nav-link,
       .body-contact header .navbar .container-fluid .active {
-        font-size: 0.90rem; }
+        font-size: 1rem; }
     .body-contact .main-contact .tittle {
       padding: 1.563rem 3.125rem;
       color: #2F3C7E;
@@ -665,9 +638,9 @@ footer {
     .body-contact .footer {
       background-color: #2F3C7E;
       color: #FBEAEB;
-      font-size: 0.80rem; }
+      font-size: 1rem; }
       .body-contact .footer .createdby {
-        font-size: 0.60rem; } }
+        font-size: 1rem; } }
 
 /* Responsive resume */
 /* Very small devices */
@@ -679,7 +652,7 @@ footer {
       font-size: 1rem; }
     .body-resume header .navbar .container-fluid .nav-link,
     .body-resume header .navbar .container-fluid .active {
-      font-size: 0.80rem; }
+      font-size: 1rem; }
   .body-resume .main-resume {
     display: flex;
     flex-direction: column;
@@ -694,22 +667,22 @@ footer {
           font-size: 1.10rem;
           text-align: center; }
         .body-resume .main-resume .resum1 .content-resume1 .rol {
-          font-size: 0.80rem; }
+          font-size: 1rem; }
         .body-resume .main-resume .resum1 .content-resume1 .years {
-          font-size: 0.80rem; }
+          font-size: 1rem; }
         .body-resume .main-resume .resum1 .content-resume1 .task {
-          font-size: 0.80rem; }
+          font-size: 1rem; }
       .body-resume .main-resume .resum1 .content-resume2 {
         width: 90%; }
         .body-resume .main-resume .resum1 .content-resume2 h2 {
           font-size: 1.10rem;
           text-align: center; }
         .body-resume .main-resume .resum1 .content-resume2 .rol {
-          font-size: 0.80rem; }
+          font-size: 1rem; }
         .body-resume .main-resume .resum1 .content-resume2 .years {
-          font-size: 0.80rem; }
+          font-size: 1rem; }
         .body-resume .main-resume .resum1 .content-resume2 .task {
-          font-size: 0.80rem; }
+          font-size: 1rem; }
     .body-resume .main-resume .resum2 {
       display: flex;
       flex-direction: column; }
@@ -719,14 +692,14 @@ footer {
           font-size: 1.10rem;
           text-align: center; }
         .body-resume .main-resume .resum2 .content-certificates1 .courses {
-          font-size: 0.80rem; }
+          font-size: 1rem; }
       .body-resume .main-resume .resum2 .content-certificates2 {
         width: 90%; }
         .body-resume .main-resume .resum2 .content-certificates2 h2 {
           font-size: 1.10rem;
           text-align: center; }
         .body-resume .main-resume .resum2 .content-certificates2 .courses {
-          font-size: 0.80rem; } }
+          font-size: 1rem; } }
 
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
   .body-resume {
@@ -740,7 +713,7 @@ footer {
         margin-left: 0.25rem; }
       .body-resume header .navbar .container-fluid .nav-link,
       .body-resume header .navbar .container-fluid .active {
-        font-size: 0.90rem; }
+        font-size: 1rem; }
     .body-resume .main-resume {
       display: flex;
       flex-direction: column;
@@ -754,130 +727,32 @@ footer {
           font-size: 1rem;
           text-align: center; }
         .body-resume .main-resume .resum1 .content-resume1 .rol {
-          font-size: 0.90rem; }
+          font-size: 1rem; }
         .body-resume .main-resume .resum1 .content-resume1 .years {
-          font-size: 0.90rem; }
+          font-size: 1rem; }
         .body-resume .main-resume .resum1 .content-resume1 .task {
-          font-size: 0.90rem; }
+          font-size: 1rem; }
         .body-resume .main-resume .resum1 .content-resume2 h2 {
           font-size: 1rem;
           text-align: center; }
         .body-resume .main-resume .resum1 .content-resume2 .rol {
-          font-size: 0.90rem; }
+          font-size: 1rem; }
         .body-resume .main-resume .resum1 .content-resume2 .years {
-          font-size: 0.90rem; }
+          font-size: 1rem; }
         .body-resume .main-resume .resum1 .content-resume2 .task {
-          font-size: 0.90rem; }
+          font-size: 1rem; }
       .body-resume .main-resume .resum2 {
         display: flex;
         flex-direction: column; }
         .body-resume .main-resume .resum2 .content-certificates1 h2 {
           font-size: 1rem; }
         .body-resume .main-resume .resum2 .content-certificates1 .courses {
-          font-size: 0.80rem; }
+          font-size: 1rem; }
         .body-resume .main-resume .resum2 .content-certificates2 h2 {
           font-size: 1rem; }
         .body-resume .main-resume .resum2 .content-certificates2 .courses {
-          font-size: 0.80rem; } }
-
-/* Responsive works */
-/* Very small devices */
-@media screen and (max-width: 36rem) {
-  .body-works {
-    padding-left: 0.625rem;
-    padding-right: 0.625rem; }
-    .body-works header {
-      background-color: #000;
-      color: white; }
-      .body-works header h1 {
-        font-size: 1rem; }
-      .body-works header .navbar .container-fluid .nav-link,
-      .body-works header .navbar .container-fluid .active {
-        font-size: 0.80rem; }
-    .body-works .main-works {
-      display: flex;
-      flex-direction: column; }
-      .body-works .main-works .w-subti {
-        font-size: 1.20rem;
-        padding: 2rem 2.10rem 0.80rem;
-        margin: 0rem 1rem;
-        text-align: left; }
-      .body-works .main-works .w-img-section {
-        margin: 0rem 1rem;
-        padding: 1rem 2rem;
-        display: block;
-        flex-direction: column;
-        width: 90%; }
-        .body-works .main-works .w-img-section .w-secondary {
-          font-size: 1rem;
-          padding: 0rem 3rem;
-          width: 50%; }
-        .body-works .main-works .w-img-section .img-center {
-          height: 8.625rem;
-          width: 12.625rem; }
-        .body-works .main-works .w-img-section .w-text {
-          font-size: 0.80rem;
-          width: 65%;
-          text-align: justify;
-          padding: 0rem;
-          margin: 0rem 0.80rem; }
-    .body-works .footer {
-      background-color: #000;
-      color: white;
-      font-size: 0.80rem; }
-      .body-works .footer .created {
-        font-size: 0.60rem; } }
-
-/* Mobile devices */
-@media screen and (min-width: 36.063rem) and (max-width: 48rem) {
-  .body-works {
-    padding-left: 0.640rem;
-    padding-right: 0.640rem; }
-    .body-works header {
-      background-color: #000;
-      color: white; }
-      .body-works header h1 {
-        font-size: 1.20rem;
-        margin-left: 0.25rem; }
-      .body-works header .navbar .container-fluid .nav-link,
-      .body-works header .navbar .container-fluid .active {
-        font-size: 0.90rem; }
-    .body-works .main-works {
-      display: flex;
-      flex-direction: column; }
-      .body-works .main-works .w-subti {
-        font-size: 1.9rem; }
-      .body-works .main-works .w-img-section {
-        display: flex;
-        text-align: center;
-        margin: 0rem 3rem;
-        padding: 1rem 0rem; }
-        .body-works .main-works .w-img-section .w-secondary {
-          font-size: 1.40rem; }
-        .body-works .main-works .w-img-section .img-center {
-          height: 12.125rem;
-          width: 18.125rem; }
-        .body-works .main-works .w-img-section .w-text {
-          font-size: 1rem;
-          text-align: center;
-          width: 70%; }
-    .body-works .footer {
-      background-color: #000;
-      color: white;
-      font-size: 0.90rem; }
-      .body-works .footer .created {
-        font-size: 0.70rem; } }
-
-@media screen and (min-width: 48.063rem) and (max-width: 75rem) {
-  .body-works .main-works .w-subti {
-    font-size: 1.9rem; }
-  .body-works .main-works .w-img-section .w-secondary {
-    font-size: 1.60rem; }
-  .body-works .main-works .w-img-section .w-text {
-    font-size: 1rem;
-    text-align: center;
-    width: 50%; } }
+          font-size: 1rem; } }
 
 body {
-  background-color: #FFF;
+  background-color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif; }
