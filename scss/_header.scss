@@ -1,37 +1,31 @@
 header {
-  background-color: $bg;
-  padding: 0.313rem;
-  margin: 0rem;
+  background-color: $bg-basic;
   font-family: 'Source Sans 3', sans-serif;
   text-transform: uppercase;
   letter-spacing: .2vw;
-
   
   h1 {
-    padding: 0.60rem 2.5rem 0rem;
     font-size: 1.05rem;
-    color: $bg-headfot;
+    color: $bg-custom;
   }
   
   .bg-lig {
-    background-color: $bg;
-    color: $bg-headfot;
+    background-color: $bg-basic;
+    color: $bg-custom;
   }
   
   .navbar-light .navbar-nav .nav-link.active,
    .navbar-light .navbar-nav .show > .nav-link {
-    color: $bg-headfot;
-    padding: 0rem 1.30rem 0.12rem;
+    color: $bg-custom;
     font-size: 1.05rem;
   }
 
   .navbar-light .navbar-nav .nav-link {
-    color: $bg-headfot;
-    padding: 0rem 1.30rem 0.12rem;
+    color: $bg-custom;
     font-size: 1.05rem;
   }
 
   .color-i {
-    background-color: $bg-headfot;
+    background-color: $bg-custom;
   }
 }

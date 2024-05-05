@@ -1,14 +1,13 @@
 footer {
-  background-color: $bg;
+  background-color: $bg-basic;
   letter-spacing: 0.031rem;
   font-size: 1.05rem;
-  padding: 2rem 1.563rem;
-  margin: 0rem;
   font-family: 'Source Sans 3', sans-serif; 
+  min-height: 150px;
 
 
   li {
-    color: $bg-headfot;
+    color: $bg-custom;
     list-style: none;
   } 
 
@@ -26,13 +25,13 @@ footer {
   }
      
   .social-media i {
-    color: $bg-headfot;
+    color: $bg-custom;
     font-size: 1.5rem;
     transition: all 0.2s ease-in;
   }
 
   .social-media a:hover {
-    background-color: $bg-headfot;
+    background-color: $bg-custom;
     border: 2px solid aliceblue;
   }
 
@@ -43,8 +42,7 @@ footer {
   .copyright {
     text-align: center;
     font-size: 0.938rem;
-    padding: 1.25rem 1.25rem 0rem;
-    margin: 0rem;
-    color: $bg-headfot;
+    padding: 1.25rem 0rem 1rem;
+    color: $bg-custom;
   }
 }

@@ -4,12 +4,10 @@
 @media screen and (max-width: 36rem) {
 
     .body-index {
-        padding-left: 0.625rem;
-        padding-right: 0.625rem;
    
         header {
-          background-color: $bg;
-          color: $bg-headfot;
+          background-color: $bg-basic;
+          color: $bg-custom;
 
             h1 {
                font-size: 1rem;
@@ -29,44 +27,46 @@
 
         .main-index {
 
-            .front {
-                display: flex;
-                flex-direction: column;
-        
-                .front-black {
-                    background-color: $bg;
-                    padding: 1rem 7rem 0rem 7rem;                      
-                    
-                    .ball {
-                        background-image: url(../images/perfil.jpg);
-                        background-size: cover;
-                        width: 6.5rem;
-                        height: 6.5rem;
-                        border-radius: 50%;
+          .intro {
+
+              .front {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+          
+                  .front-black {
+                      background-color: $bg-basic;
+                      padding-top: 6rem;
+                      
+                      .ball {
+                          background-image: url(../images/perfil.jpg);
+                          background-size: cover;
+                          width: 9rem;
+                          height: 9rem;
+                          border-radius: 50%;
+                          margin: 0rem auto;
+                      }
+                  }
+          
+                  .welcome {
+                      font-size: 1.20rem;
+                      letter-spacing: 0.056rem;
+                      height: 350px;
+
+                      .main-welcome {
+                        color: $bg-custom;
                         margin: 0rem auto;
-                    }
-                }
-        
-                .welcome {
-                    font-size: 1.20rem;
-                    letter-spacing: 0.056rem;
-                    padding: 1.875rem 0rem;
-                    text-align: center;
-                }
-
-                .main-welcome {
-                   color: $bg-headfot;
-                   width: 90%;
-                   padding: 0rem 3rem; 
-                   margin: 0rem auto 0.50rem;
-                }
-
-            }    
+                      }
+                  }    
+              }
+            }      
 
             .about-me {
-               display: block;
+               display: flex;
                flex-direction: column;
-               margin: 0.10rem;
+               margin: 0rem;
+               padding: 0rem 2rem;
 
                 .section-title {
                     font-size: 1.10rem;
@@ -94,16 +94,20 @@
                 }
             }
 
+            .proj-recent {
+              padding: 0rem 1.90rem;
+            }
+
             .phrase {
-                padding: 1.25rem 0.313rem 1.25rem;
                 font-size: 1.20rem;
                 text-align: center;
+                padding: 0rem 2rem;
             }
         }
     
         .footer {
-           background-color: $bg;
-           color: $bg-headfot; 
+           background-color: $bg-basic;
+           color: $bg-custom; 
            font-size: 1rem;
 
            .created {
@@ -113,20 +117,18 @@
     }  
 }
 
+
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
     
     .body-index {
-        padding-left: 0.640rem;
-        padding-right: 0.640rem;
    
         header {
-          background-color: $bg;
-          color: $bg-headfot;
+          background-color: $bg-basic;
+          color: $bg-custom;
 
             h1 {
              font-size: 1.20rem;
-             margin-left: 0.25rem;
             }
 
             .navbar {
@@ -148,42 +150,34 @@
                 flex-direction: row;
         
                 .front-black {
-                    background-color: $bg;
-                    padding: 2rem 0.30rem 0rem 8.50rem;                      
+                    background-color: $bg-basic;
                     
                     .ball {
-                        margin: 0rem auto;
                         background-image: url(../images/perfil.jpg);
                         background-size: cover;
-                        width: 8.5rem;
-                        height: 8.5rem;
+                        width: 9rem;
+                        height: 9rem;
                         border-radius: 50%;
                     }
-
                 }
 
                 .welcome {
                     font-size: 1.40rem;
                     letter-spacing: 0.056rem;
-                    padding: 3.50rem 0.10rem;
-                    text-align: left;
+                    justify-content: center;
+
+
+                  .main-welcome {
+                      color: $bg-custom;
+                  }
                 }
 
-                .main-welcome {
-                   color: $bg-headfot;
-                   width: 80%;
-                   padding: 0rem 1rem 0rem 0rem; 
-                   margin: 0rem 0rem;
-                }
-
-
-                }        
             }
 
             .about-me {
                 display: flex;
                 justify-content: center;
-                margin: 0.10rem;
+                padding: 0rem 5rem;
  
                  .section-title {
                      font-size: 1.20rem;
@@ -198,24 +192,33 @@
             .experience-title {
                 font-size: 1.20rem;
             }
+
+            .proj-recent {
+            
+              .section-title {
+                  font-size: 1.20rem;
+                  text-align: center;
+              }
+
+            }
  
             .phrase {
-                padding: 1.25rem 0.313rem 1.25rem;
                 font-size: 1.30rem;
                 text-align: center;
+                justify-content: center;
             }
         }
 
         .footer {
-            background-color: $bg;
-            color: $bg-headfot;
+            background-color: $bg-basic;
+            color: $bg-custom;
             font-size: 1rem;
  
             .created {
              font-size: 1rem;
             }
         }
-
+    }   
 }
 
 
@@ -224,20 +227,24 @@
     .body-index {
    
         header {
-          background-color: $bg;
-          color: $bg-headfot;
+           background-color: $bg-basic;
+           color: $bg-custom;
         }
 
         .main-index {
              
             .front {
                 display: flex;
-                flex-direction: row;
+                justify-content: center;
+                align-items: center;
         
                 .front-black {
-                    background-color: $bg;
-                    padding: 2rem 0rem 0rem 8.50rem;                      
-                    
+                    background-color: $bg-basic;
+                    min-height: 450px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
                     .ball {
                         margin: 0rem;
                         background-image: url(../images/perfil.jpg);
@@ -247,45 +254,26 @@
                         border-radius: 50%;
                         padding-top: 5rem;
                     }
-
                 }
 
                 .welcome {
                     font-size: 1.70rem;
                     letter-spacing: 0.056rem;
-                    padding: 4rem 0rem 6rem 0.50rem;
                     height: auto;
                     text-align: center;
-                }
+                    padding: 0rem 1rem;
 
-                .main-welcome {
-                    color: $bg-headfot;
-                    width: 80%;
-                    padding: 0rem; 
-                    margin: 0rem auto 0.50rem;
+                  .main-welcome {
+                      color: $bg-custom;
+                      width: 100%;
+                  }  
                 }
-
-            /*    .but-res {
-                    font-size: 1.20rem;
-                    font-family: 'Source Sans Pro', sans-serif;
-                    border: #fff;
-                    padding: 0.40rem 0.60rem;
-                    border-radius: 0.625rem;
-                    background-color: #fff;
-                    margin: 0rem 1rem;
-                
-                   a {
-                       text-decoration: none;
-                       color: #000;
-                    }
-                } */
             }
 
 
             .about-me {
                 display: flex;
                 justify-content: center;
-                margin: 0.10rem;
  
                  .section-title {
                      font-size: 1.60rem;
@@ -303,15 +291,14 @@
             }
 
             .phrase {
-                padding: 1.25rem 0.313rem 1.25rem;
                 font-size: 1.70rem;
-                text-align: left;
+                justify-content: center;
             }
         }
     
         .footer {
-           background-color: $bg;
-           color: $bg-headfot;
+           background-color: $bg-basic;
+           color: $bg-custom;
         }
     }
 } 
@@ -327,8 +314,8 @@
         padding-right: 0.313rem;
 
         header {
-            background-color: $bg;
-            color: $bg-headfot;
+            background-color: $bg-basic;
+            color: $bg-custom;
   
             h1 {
                 font-size: 1rem;
@@ -351,13 +338,13 @@
             .tittle {
                 padding: 2rem 2.10rem 0.80rem;
                 margin: 0rem 1rem;
-                color: $tittle;
+                color: $title;
                 font-size: 1.20rem;
             }
            
             .info {
                 padding: 0.625rem 1.763rem;
-                color: $bg;
+                color: $bg-basic;
                 font-size: 1rem;
                 margin: 0rem 1.40rem;
                 width: 78%;
@@ -373,7 +360,7 @@
                     .contact-div {
 
                         label {
-                            color: $bg;
+                            color: $bg-basic;
                             font-size: 1rem;
                             padding: 0.625rem;
                         }
@@ -388,7 +375,7 @@
                         display: block;
                         width: 6.25rem;
                         height: 1.875rem;
-                        color: $bg; 
+                        color: $bg-basic; 
                         border-radius: 0.25rem;
                         border: 0.063rem solid #2F3C7E;
                         font-size: 1rem;
@@ -401,8 +388,8 @@
     }
 
     .footer {
-        background-color: $bg;
-        color: $bg-headfot;
+        background-color: $bg-basic;
+        color: $bg-custom;
         font-size: 1rem;
 
         .createdby {
@@ -421,8 +408,8 @@
         padding-right: 0.313rem;
 
         header {
-            background-color: $bg;
-            color: $bg-headfot;
+            background-color: $bg-basic;
+            color: $bg-custom;
   
             h1 {
                font-size: 1.20rem;
@@ -440,19 +427,18 @@
                 }  
             }
         }
-  
     
         .main-contact {
            
             .tittle {
                 padding: 1.563rem 3.125rem;
-                color: $bg;
+                color: $bg-basic;
                 font-size: 1.6rem;
             }
            
             .info {
                 padding: 0.30rem 3.125rem;
-                color: $bg;
+                color: $bg-basic;
                 font-size: 1rem;
                 width: 70%;
             }
@@ -467,7 +453,7 @@
                     .contact-div {
 
                         label {
-                            color: $bg;
+                            color: $bg-basic;
                             font-size: 1.1rem;
                             padding: 0.625rem;
                         }
@@ -479,7 +465,7 @@
                         padding: 0.413rem 1rem;
                         width: 6.25rem;
                         height: 1.875rem;
-                        color: $bg; 
+                        color: $bg-basic; 
                         border-radius: 0.25rem;
                         border: 0.063rem solid #2F3C7E;
                         font-size: 1rem;
@@ -491,8 +477,8 @@
         }
         
         .footer {
-            background-color: $bg;
-            color: $bg-headfot;
+            background-color: $bg-basic;
+            color: $bg-custom;
             font-size: 1rem;
     
             .createdby {
@@ -511,8 +497,8 @@
     .body-resume {
         
         header {
-            background-color: $bg;
-            color: $bg-headfot;
+            background-color: $bg-basic;
+            color: $bg-custom;
   
             h1 {
                 font-size: 1rem;
@@ -624,8 +610,8 @@
         padding-right: 0.313rem;
         
         header {
-            background-color: $bg;
-            color: $bg-headfot;
+            background-color: $bg-basic;
+            color: $bg-custom;
   
             h1 {
                 font-size: 1rem;
