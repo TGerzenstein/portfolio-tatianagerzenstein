@@ -462,8 +462,8 @@ footer {
 /* Very small devices */
 @media screen and (max-width: 36rem) {
   .body-contact {
-    padding-left: 0.313rem;
-    padding-right: 0.313rem; }
+    padding: 0rem 0rem;
+    margin: 0rem; }
     .body-contact header {
       background-color: #2F3C7E;
       color: #FBEAEB; }
@@ -472,72 +472,66 @@ footer {
       .body-contact header .navbar .container-fluid .nav-link,
       .body-contact header .navbar .container-fluid .active {
         font-size: 1rem; }
-    .body-contact .main-contact .tittle {
-      padding: 2rem 2.10rem 0.80rem;
-      margin: 0rem 1rem;
-      color: 1.25rem;
-      font-size: 1.20rem; }
-    .body-contact .main-contact .info {
-      padding: 0.625rem 1.763rem;
-      color: #2F3C7E;
-      font-size: 1rem;
-      margin: 0rem 1.40rem;
-      width: 78%; }
-    .body-contact .main-contact .contact-form {
-      width: 90%;
-      padding: 1.875rem 0.475rem;
-      margin: 0.313rem 0rem 3.75rem; }
-      .body-contact .main-contact .contact-form .fieldset-w .contact-div label {
+    .body-contact .main-contact {
+      display: flex;
+      text-align: center; }
+      .body-contact .main-contact .tittle {
+        color: 1.25rem;
+        font-size: 1.20rem;
+        text-align: center; }
+      .body-contact .main-contact .info {
         color: #2F3C7E;
-        font-size: 1rem;
-        padding: 0.625rem; }
-      .body-contact .main-contact .contact-form .fieldset-w .contact-div input, .body-contact .main-contact .contact-form .fieldset-w .contact-div textarea {
         font-size: 1rem; }
-      .body-contact .main-contact .contact-form .fieldset-w .submit {
-        background: #fff;
-        display: block;
-        width: 6.25rem;
-        height: 1.875rem;
-        color: #2F3C7E;
-        border-radius: 0.25rem;
-        border: 0.063rem solid #2F3C7E;
-        font-size: 1rem;
-        margin: 0.625rem auto;
-        cursor: pointer; }
-  .footer {
-    background-color: #2F3C7E;
-    color: #FBEAEB;
-    font-size: 1rem; }
-    .footer .createdby {
-      font-size: 1rem; } }
+      .body-contact .main-contact .contact-form {
+        padding: 0rem;
+        margin: 0 auto;
+        width: 70%; }
+        .body-contact .main-contact .contact-form .fieldset-w .contact-div label {
+          color: #2F3C7E;
+          font-size: 1rem;
+          padding: 0.625rem; }
+        .body-contact .main-contact .contact-form .fieldset-w .contact-div input, .body-contact .main-contact .contact-form .fieldset-w .contact-div textarea {
+          font-size: 1rem; }
+        .body-contact .main-contact .contact-form .fieldset-w .submit {
+          background: #fff;
+          display: block;
+          width: 6.25rem;
+          height: 1.875rem;
+          color: #2F3C7E;
+          border-radius: 0.25rem;
+          border: 0.063rem solid #2F3C7E;
+          font-size: 1rem;
+          margin: 0.625rem auto;
+          cursor: pointer; }
+    .body-contact .footer {
+      background-color: #2F3C7E;
+      color: #FBEAEB;
+      font-size: 1rem; }
+      .body-contact .footer .createdby {
+        font-size: 1rem; } }
 
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
   .body-contact {
-    padding-left: 0.625rem;
-    padding-right: 0.313rem; }
+    padding: 0rem 0rem; }
     .body-contact header {
       background-color: #2F3C7E;
       color: #FBEAEB; }
       .body-contact header h1 {
-        font-size: 1.20rem;
+        font-size: 1rem;
         margin-left: 0.25rem; }
       .body-contact header .navbar .container-fluid .nav-link,
       .body-contact header .navbar .container-fluid .active {
         font-size: 1rem; }
-    .body-contact .main-contact .tittle {
-      padding: 1.563rem 3.125rem;
-      color: #2F3C7E;
-      font-size: 1.6rem; }
-    .body-contact .main-contact .info {
-      padding: 0.30rem 3.125rem;
-      color: #2F3C7E;
-      font-size: 1rem;
-      width: 70%; }
-    .body-contact .main-contact .contact-form {
-      width: 60%;
-      padding: 1.875rem 1.875rem;
-      margin: 0.313rem 0.313rem 3.75rem; }
+    .body-contact .main-contact {
+      text-align: center; }
+      .body-contact .main-contact .tittle {
+        color: #2F3C7E;
+        font-size: 1.6rem; }
+      .body-contact .main-contact .info {
+        color: #2F3C7E;
+        font-size: 1rem;
+        width: auto; }
       .body-contact .main-contact .contact-form .fieldset-w .contact-div label {
         color: #2F3C7E;
         font-size: 1.1rem;

@@ -310,13 +310,13 @@
 @media screen and (max-width: 36rem) {
   
     .body-contact {
-        padding-left: 0.313rem;
-        padding-right: 0.313rem;
+        padding: 0rem 0rem;
+        margin: 0rem;
 
         header {
             background-color: $bg-basic;
             color: $bg-custom;
-  
+ 
             h1 {
                 font-size: 1rem;
             }
@@ -334,26 +334,24 @@
         } 
     
         .main-contact {
-           
+            display: flex;
+            text-align: center; 
+
             .tittle {
-                padding: 2rem 2.10rem 0.80rem;
-                margin: 0rem 1rem;
                 color: $title;
                 font-size: 1.20rem;
+                text-align: center; 
             }
            
             .info {
-                padding: 0.625rem 1.763rem;
                 color: $bg-basic;
                 font-size: 1rem;
-                margin: 0rem 1.40rem;
-                width: 78%;
             }
            
             .contact-form {
-                width: 90%;
-                padding: 1.875rem 0.475rem;
-                margin: 0.313rem 0rem 3.75rem;
+                padding: 0rem;
+                margin: 0 auto;
+                width: 70%;
 
                 .fieldset-w {
                         
@@ -384,19 +382,20 @@
                     }
                 }
             }   
-        }    
-    }
-
-    .footer {
-        background-color: $bg-basic;
-        color: $bg-custom;
-        font-size: 1rem;
-
-        .createdby {
-           font-size: 1rem;
         }
+        
+        .footer {
+          background-color: $bg-basic;
+          color: $bg-custom;
+          font-size: 1rem;
+  
+          .createdby {
+             font-size: 1rem;
+          }
+      }
     }
-}
+}  
+
   
 
 
@@ -404,15 +403,14 @@
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
     
     .body-contact {
-        padding-left: 0.625rem;
-        padding-right: 0.313rem;
+        padding: 0rem 0rem;
 
         header {
             background-color: $bg-basic;
             color: $bg-custom;
   
             h1 {
-               font-size: 1.20rem;
+               font-size: 1rem;
                margin-left: 0.25rem;
             }
   
@@ -429,24 +427,20 @@
         }
     
         .main-contact {
+            text-align: center;
            
             .tittle {
-                padding: 1.563rem 3.125rem;
                 color: $bg-basic;
                 font-size: 1.6rem;
             }
            
             .info {
-                padding: 0.30rem 3.125rem;
                 color: $bg-basic;
                 font-size: 1rem;
-                width: 70%;
+                width: auto;
             }
            
             .contact-form {
-                width: 60%;
-                padding: 1.875rem 1.875rem;
-                margin: 0.313rem 0.313rem 3.75rem;
 
                 .fieldset-w {
                         
