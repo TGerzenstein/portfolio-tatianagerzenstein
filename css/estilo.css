@@ -323,7 +323,7 @@ footer {
         border-radius: 50%;
         margin: 0rem auto; }
     .body-index .main-index .intro .front .welcome {
-      font-size: 1.20rem;
+      font-size: 1.40rem;
       letter-spacing: 0.056rem;
       height: 350px; }
       .body-index .main-index .intro .front .welcome .main-welcome {
@@ -433,7 +433,7 @@ footer {
         border-radius: 50%;
         padding-top: 5rem; }
     .body-index .main-index .front .welcome {
-      font-size: 1.70rem;
+      font-size: 1.80rem;
       letter-spacing: 0.056rem;
       height: auto;
       text-align: center;
@@ -566,105 +566,73 @@ footer {
     .body-resume header .navbar .container-fluid .nav-link,
     .body-resume header .navbar .container-fluid .active {
       font-size: 1rem; }
-  .body-resume .main-resume {
+  .body-resume .main-resume .resum1 {
     display: flex;
-    flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 1rem; }
-    .body-resume .main-resume .resum1 {
-      display: flex;
-      flex-direction: column; }
-      .body-resume .main-resume .resum1 .content-resume1 {
-        width: 90%; }
-        .body-resume .main-resume .resum1 .content-resume1 h2 {
-          font-size: 1.10rem;
-          text-align: center; }
-        .body-resume .main-resume .resum1 .content-resume1 .rol {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum1 .content-resume1 .years {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum1 .content-resume1 .task {
-          font-size: 1rem; }
-      .body-resume .main-resume .resum1 .content-resume2 {
-        width: 90%; }
-        .body-resume .main-resume .resum1 .content-resume2 h2 {
-          font-size: 1.10rem;
-          text-align: center; }
-        .body-resume .main-resume .resum1 .content-resume2 .rol {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum1 .content-resume2 .years {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum1 .content-resume2 .task {
-          font-size: 1rem; }
-    .body-resume .main-resume .resum2 {
-      display: flex;
-      flex-direction: column; }
-      .body-resume .main-resume .resum2 .content-certificates1 {
-        width: 90%; }
-        .body-resume .main-resume .resum2 .content-certificates1 h2 {
-          font-size: 1.10rem;
-          text-align: center; }
-        .body-resume .main-resume .resum2 .content-certificates1 .courses {
-          font-size: 1rem; }
-      .body-resume .main-resume .resum2 .content-certificates2 {
-        width: 90%; }
-        .body-resume .main-resume .resum2 .content-certificates2 h2 {
-          font-size: 1.10rem;
-          text-align: center; }
-        .body-resume .main-resume .resum2 .content-certificates2 .courses {
-          font-size: 1rem; } }
+    flex-direction: column; }
+    .body-resume .main-resume .resum1 .content-resume1 h2 {
+      font-size: 1.10rem;
+      text-align: center; }
+    .body-resume .main-resume .resum1 .content-resume1 .rol {
+      font-size: 1rem; }
+    .body-resume .main-resume .resum1 .content-resume1 .years {
+      font-size: 1rem; }
+    .body-resume .main-resume .resum1 .content-resume1 .task {
+      font-size: 1rem; }
+    .body-resume .main-resume .resum1 .content-resume2 h2 {
+      font-size: 1.10rem;
+      text-align: center; }
+    .body-resume .main-resume .resum1 .content-resume2 .rol {
+      font-size: 1rem; }
+    .body-resume .main-resume .resum1 .content-resume2 .years {
+      font-size: 1rem; }
+    .body-resume .main-resume .resum1 .content-resume2 .task {
+      font-size: 1rem; }
+  .body-resume .main-resume .resum2 .content-certificates1 h2 {
+    font-size: 1.10rem;
+    text-align: center; }
+  .body-resume .main-resume .resum2 .content-certificates1 .courses {
+    font-size: 1rem; }
+  .body-resume .main-resume .resum2 .content-certificates2 h2 {
+    font-size: 1.10rem;
+    text-align: center; }
+  .body-resume .main-resume .resum2 .content-certificates2 .courses {
+    font-size: 1rem; } }
 
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
-  .body-resume {
-    padding-left: 0.625rem;
-    padding-right: 0.313rem; }
-    .body-resume header {
-      background-color: #2F3C7E;
-      color: #FBEAEB; }
-      .body-resume header h1 {
-        font-size: 1rem;
-        margin-left: 0.25rem; }
-      .body-resume header .navbar .container-fluid .nav-link,
-      .body-resume header .navbar .container-fluid .active {
-        font-size: 1rem; }
-    .body-resume .main-resume {
-      display: flex;
-      flex-direction: column;
-      padding-left: 1rem;
-      padding-right: 0.50rem;
-      margin: 0rem auto; }
-      .body-resume .main-resume .resum1 {
-        display: flex;
-        flex-direction: column; }
-        .body-resume .main-resume .resum1 .content-resume1 h2 {
-          font-size: 1rem;
-          text-align: center; }
-        .body-resume .main-resume .resum1 .content-resume1 .rol {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum1 .content-resume1 .years {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum1 .content-resume1 .task {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum1 .content-resume2 h2 {
-          font-size: 1rem;
-          text-align: center; }
-        .body-resume .main-resume .resum1 .content-resume2 .rol {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum1 .content-resume2 .years {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum1 .content-resume2 .task {
-          font-size: 1rem; }
-      .body-resume .main-resume .resum2 {
-        display: flex;
-        flex-direction: column; }
-        .body-resume .main-resume .resum2 .content-certificates1 h2 {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum2 .content-certificates1 .courses {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum2 .content-certificates2 h2 {
-          font-size: 1rem; }
-        .body-resume .main-resume .resum2 .content-certificates2 .courses {
-          font-size: 1rem; } }
+  .body-resume header {
+    background-color: #2F3C7E;
+    color: #FBEAEB; }
+    .body-resume header h1 {
+      font-size: 1rem; }
+    .body-resume header .navbar .container-fluid .nav-link,
+    .body-resume header .navbar .container-fluid .active {
+      font-size: 1rem; }
+  .body-resume .main-resume .resum1 .content-resume1 h2 {
+    font-size: 1rem;
+    text-align: center; }
+  .body-resume .main-resume .resum1 .content-resume1 .rol {
+    font-size: 1rem; }
+  .body-resume .main-resume .resum1 .content-resume1 .years {
+    font-size: 1rem; }
+  .body-resume .main-resume .resum1 .content-resume1 .task {
+    font-size: 1rem; }
+  .body-resume .main-resume .resum1 .content-resume2 h2 {
+    font-size: 1rem;
+    text-align: center; }
+  .body-resume .main-resume .resum1 .content-resume2 .rol {
+    font-size: 1rem; }
+  .body-resume .main-resume .resum1 .content-resume2 .years {
+    font-size: 1rem; }
+  .body-resume .main-resume .resum1 .content-resume2 .task {
+    font-size: 1rem; }
+  .body-resume .main-resume .resum2 .content-certificates1 h2 {
+    font-size: 1rem; }
+  .body-resume .main-resume .resum2 .content-certificates1 .courses {
+    font-size: 1rem; }
+  .body-resume .main-resume .resum2 .content-certificates2 h2 {
+    font-size: 1rem; }
+  .body-resume .main-resume .resum2 .content-certificates2 .courses {
+    font-size: 1rem; } }
 
 body {
   background-color: #ffffff;
