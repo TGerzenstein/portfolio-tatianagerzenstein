@@ -1,5 +1,7 @@
+@use "var" as *;
+
 footer {
-  background-color: $bg-basic;
+  background-color: #1e375a;
   letter-spacing: 0.031rem;
   font-size: 1.05rem;
   font-family: 'Source Sans 3', sans-serif; 
@@ -7,7 +9,7 @@ footer {
 
 
   li {
-    color: $bg-custom;
+    color: white;
     list-style: none;
   } 
 
@@ -25,7 +27,7 @@ footer {
   }
      
   .social-media i {
-    color: $bg-custom;
+    color: white;
     font-size: 1.5rem;
     transition: all 0.2s ease-in;
   }
@@ -43,6 +45,6 @@ footer {
     text-align: center;
     font-size: 0.938rem;
     padding: 1.25rem 0rem 1rem;
-    color: $bg-custom;
+    color: white;
   }
 }

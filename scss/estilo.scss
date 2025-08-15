@@ -1,9 +1,8 @@
-@import "var";
-@import "header";
-@import "main";
-@import "footer";
-@import "media";
-
+@use "var";
+@use "header";
+@use "main";
+@use "footer";
+@use "media";
 
 body {
    background-color: #ffffff;

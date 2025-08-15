@@ -1,13 +1,13 @@
 /* Responsive index */
-
+@use "var" as *;
 /* Very small devices */
 @media screen and (max-width: 36rem) {
 
     .body-index {
    
         header {
-          background-color: $bg-basic;
-          color: $bg-custom;
+          background-color: #E9F1FA;
+          color: #1e375a;
 
             h1 {
                font-size: 1rem;
@@ -20,6 +20,8 @@
                     .nav-link, 
                     .active {
                         font-size: 1rem;
+                        background-color: #E9F1FA;
+                        color: #1e375a;
                     }
                 }  
             }
@@ -36,7 +38,7 @@
                   align-items: center;
           
                   .front-black {
-                      background-color: $bg-basic;
+                      background-color: #E9F1FA;
                       padding-top: 6rem;
                       
                       .ball {
@@ -55,7 +57,7 @@
                       height: 350px;
 
                       .main-welcome {
-                        color: $bg-custom;
+                        color: #1e375a;
                         margin: 0rem auto;
                       }
                   }    
@@ -106,7 +108,7 @@
         }
     
         .footer {
-           background-color: $bg-basic;
+           background-color: #1e375a;
            color: $bg-custom; 
            font-size: 1rem;
 
@@ -124,8 +126,8 @@
     .body-index {
    
         header {
-          background-color: $bg-basic;
-          color: $bg-custom;
+          background-color: #1e375a;
+          color: #1e375a;
 
             h1 {
              font-size: 1.20rem;

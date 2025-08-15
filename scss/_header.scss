@@ -1,27 +1,29 @@
+@use "var" as *;
+
 header {
-  background-color: $bg-basic;
+  background-color:   #E9F1FA;
   font-family: 'Source Sans 3', sans-serif;
   text-transform: uppercase;
   letter-spacing: .2vw;
   
   h1 {
-    font-size: 1.05rem;
-    color: $bg-custom;
+    font-size: 1.10rem;
+    color:  #1e375a;
   }
   
   .bg-lig {
-    background-color: $bg-basic;
-    color: $bg-custom;
+    background-color: #E9F1FA;
+    color: #1e375a;
   }
   
   .navbar-light .navbar-nav .nav-link.active,
    .navbar-light .navbar-nav .show > .nav-link {
-    color: $bg-custom;
+    color: #1e375a;
     font-size: 1.05rem;
   }
 
   .navbar-light .navbar-nav .nav-link {
-    color: $bg-custom;
+    color: #1e375a;
     font-size: 1.05rem;
   }
 

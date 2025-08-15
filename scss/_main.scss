@@ -1,3 +1,6 @@
+@use "var" as *;
+
+
 @mixin picture-index {
     background-color: $bg-custom;
     padding: 5rem 1rem;
@@ -47,7 +50,7 @@
 .main-index {
 
     .intro {
-        background-color: $bg-basic;
+        background-color: #E9F1FA;
 
            
         .front {
@@ -68,19 +71,20 @@
             }
 
             .welcome {
-                color: $bg-custom;
+                color:c;
                 font-family: 'Roboto', sans-serif;
                 font-size: 2.60rem;
                 letter-spacing: 0.069rem;
                 height: 540px;
                 font-weight: 900;
-                text-align: center;
+                text-align: left;
                 display: flex;
                 align-items: center;
+                padding-left: 8rem;
                 
 
                 .main-welcome {
-                    color: #FBEAEB;
+                    color: #1e375a;
                     width: 80%;
                 }
 
@@ -103,8 +107,8 @@
     }
 
     .about-me {
-        color: #2F3C7E;
-        background-color: #FCF6F5;
+        color: #1e375a;
+        background-color: #E9F1FA;
         min-height: 450px;
         display: flex;
         justify-content: center;
@@ -113,7 +117,7 @@
 
         .contenedor {
             max-width: 800px;
-            text-align: center;
+            text-align: left;
 
             .section-title {
                 font-size: 2rem;
@@ -122,7 +126,8 @@
             }
 
             .section-text {
-                font-size: 1rem;
+                font-size: 1.10rem;
+                color:  #36344d;
             }
         }  
     } 
@@ -135,13 +140,13 @@
             font-size: 25px;
             font-weight: bold;
             margin: 10px 0;
-            color: #2f3c73;
+            color: #1e375a;
         }
 
         i {
             font-size: 2rem;
             color: white;
-            background-color: #2F3C7E;
+            background-color: #1e375a;
             padding: 8px 19px;
             border-radius: 50%;
         }
@@ -152,7 +157,7 @@
             margin: 10px 0;
            
             .badge-1 {
-                color: #2F3C7E;
+                color: #36344d;
                 margin: 5px;
             } 
         }
@@ -173,12 +178,12 @@
             font-size: 2rem;
             font-family: 'Roboto', sans-serif;
             text-align: center;
-            color: #2F3C7E;
+            color: #1e375a;
             padding-bottom: $paddingb-titles;
         }
 
         .text-black {
-            color: #2F3C7E;
+            color: #1e375a;
         }
  
         .proj {
@@ -240,7 +245,7 @@
         display: flex;
         align-items: center;
         text-align: left;
-        color: #2F3C7E;
+        color: #1e375a;
     }
 }
 

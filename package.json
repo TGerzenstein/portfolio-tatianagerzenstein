@@ -5,9 +5,8 @@
   "main": "wow.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
-  },
+    "build-css": "sass -I scss scss/estilo.scss css/estilo.css",
+    "watch-css": "sass --watch -I scss scss/estilo.scss:css/estilo.css"},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TGerzenstein/portfolio-tatianagerzenstein.git"
@@ -19,8 +18,7 @@
   },
   "homepage": "https://github.com/TGerzenstein/portfolio-tatianagerzenstein#readme",
   "devDependencies": {
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "sass": "^1.89.2"
   }
 }
-
