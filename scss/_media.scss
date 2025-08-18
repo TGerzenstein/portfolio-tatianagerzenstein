@@ -1,6 +1,6 @@
 /* Responsive index */
 @use "var" as *;
-/* Very small devices */
+/* Mobile */
 @media screen and (max-width: 36rem) {
   .body-index {
     header {
@@ -8,7 +8,7 @@
       color: #1e375a;
 
       h1 {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
 
       .navbar {
@@ -47,7 +47,7 @@
 
           .welcome {
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 1.25rem;
             letter-spacing: 0.056rem;
             height: 350px;
 
@@ -93,7 +93,7 @@
       }
 
       .phrase {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         text-align: center;
         padding: 0rem 2rem;
       }
@@ -111,7 +111,6 @@
   }
 }
 
-/* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
   .body-index {
     header {
@@ -119,7 +118,7 @@
       color: #1e375a;
 
       h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
       }
 
       .navbar {
@@ -152,11 +151,10 @@
         }
 
         .welcome {
-          font-size: 1.4rem;
+          font-size: 1.6rem;
           letter-spacing: 0.056rem;
           justify-content: center;
           color: #1e375a;
-
 
           .main-welcome {
             color: #1e375a;
@@ -170,12 +168,12 @@
         padding: 0rem 5rem;
 
         .section-title {
-          font-size: 1.2rem;
+          font-size: 1.3rem;
           text-align: center;
         }
 
         .section-text {
-          font-size: 1rem;
+          font-size: 1.05rem;
         }
       }
 
@@ -191,7 +189,7 @@
       }
 
       .phrase {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         text-align: center;
         justify-content: center;
       }
@@ -214,6 +212,11 @@
     header {
       background-color: #e9f1fa;
       color: #1e375a;
+
+
+      h1 {
+        font-size: 2rem;
+      }
     }
 
     .main-index {
@@ -245,7 +248,7 @@
         }
 
         .welcome {
-          font-size: 1.8rem;
+          font-size: 2rem;
           letter-spacing: 0.056rem;
           height: auto;
           text-align: center;
@@ -269,7 +272,7 @@
         }
 
         .section-text {
-          font-size: 1rem;
+          font-size: 1.1rem;
         }
       }
 
