@@ -348,7 +348,7 @@ footer .copyright {
 /* Very small devices */
 @media screen and (max-width: 36rem) {
   .body-index header {
-    background-color: #E9F1FA;
+    background-color: #e9f1fa;
     color: #1e375a;
   }
   .body-index header h1 {
@@ -357,17 +357,17 @@ footer .copyright {
   .body-index header .navbar .container-fluid .nav-link,
   .body-index header .navbar .container-fluid .active {
     font-size: 1rem;
-    background-color: #E9F1FA;
+    background-color: #e9f1fa;
     color: #1e375a;
   }
   .body-index .main-index .intro .front {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0rem auto;
+    text-align: center;
   }
   .body-index .main-index .intro .front .front-black {
-    background-color: #E9F1FA;
+    background-color: #e9f1fa;
     padding-top: 6rem;
   }
   .body-index .main-index .intro .front .front-black .ball {
@@ -379,13 +379,13 @@ footer .copyright {
     margin: 0rem auto;
   }
   .body-index .main-index .intro .front .welcome {
-    font-size: 1.4rem;
+    text-align: center;
+    font-size: 1.2rem;
     letter-spacing: 0.056rem;
     height: 350px;
   }
   .body-index .main-index .intro .front .welcome .main-welcome {
     color: #1e375a;
-    margin: 0rem auto;
   }
   .body-index .main-index .about-me {
     display: flex;
@@ -429,7 +429,7 @@ footer .copyright {
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
   .body-index header {
-    background-color: #1e375a;
+    background-color: #e9f1fa;
     color: #1e375a;
   }
   .body-index header h1 {
@@ -444,9 +444,10 @@ footer .copyright {
     flex-direction: row;
   }
   .body-index .main-index .front .front-black {
-    background-color: #1e375a;
+    background-color: #e9f1fa;
   }
   .body-index .main-index .front .front-black .ball {
+    background-color: #e9f1fa;
     background-image: url(../images/perfil.jpg);
     background-size: cover;
     width: 9rem;
@@ -457,9 +458,10 @@ footer .copyright {
     font-size: 1.4rem;
     letter-spacing: 0.056rem;
     justify-content: center;
+    color: #1e375a;
   }
   .body-index .main-index .front .welcome .main-welcome {
-    color: #FBEAEB;
+    color: #1e375a;
   }
   .body-index .main-index .about-me {
     display: flex;
@@ -496,22 +498,25 @@ footer .copyright {
 }
 @media screen and (min-width: 48.063rem) and (max-width: 75rem) {
   .body-index header {
-    background-color: #1e375a;
-    color: #FBEAEB;
+    background-color: #e9f1fa;
+    color: #1e375a;
   }
   .body-index .main-index .front {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #1e375a;
   }
   .body-index .main-index .front .front-black {
-    background-color: #1e375a;
+    background-color: #e9f1fa;
     min-height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #1e375a;
   }
   .body-index .main-index .front .front-black .ball {
+    background-color: #e9f1fa;
     margin: 0rem;
     background-image: url(../images/perfil.jpg);
     background-size: cover;
@@ -526,10 +531,11 @@ footer .copyright {
     height: auto;
     text-align: center;
     padding: 0rem 1rem;
+    color: #1e375a;
   }
   .body-index .main-index .front .welcome .main-welcome {
-    color: #FBEAEB;
     width: 100%;
+    color: #1e375a;
   }
   .body-index .main-index .about-me {
     display: flex;
@@ -562,8 +568,8 @@ footer .copyright {
     margin: 0rem;
   }
   .body-contact header {
-    background-color: #1e375a;
-    color: #FBEAEB;
+    background-color: #e9f1fa;
+    color: #1e375a;
   }
   .body-contact header h1 {
     font-size: 1rem;
@@ -595,7 +601,8 @@ footer .copyright {
     font-size: 1rem;
     padding: 0.625rem;
   }
-  .body-contact .main-contact .contact-form .fieldset-w .contact-div input, .body-contact .main-contact .contact-form .fieldset-w .contact-div textarea {
+  .body-contact .main-contact .contact-form .fieldset-w .contact-div input,
+  .body-contact .main-contact .contact-form .fieldset-w .contact-div textarea {
     font-size: 1rem;
   }
   .body-contact .main-contact .contact-form .fieldset-w .submit {
@@ -605,7 +612,7 @@ footer .copyright {
     height: 1.875rem;
     color: #1e375a;
     border-radius: 0.25rem;
-    border: 0.063rem solid #2F3C7E;
+    border: 0.063rem solid #2f3c7e;
     font-size: 1rem;
     margin: 0.625rem auto;
     cursor: pointer;
@@ -625,8 +632,8 @@ footer .copyright {
     padding: 0rem 0rem;
   }
   .body-contact header {
-    background-color: #1e375a;
-    color: #FBEAEB;
+    background-color: #e9f1fa;
+    color: #1e375a;
   }
   .body-contact header h1 {
     font-size: 1rem;
@@ -661,7 +668,7 @@ footer .copyright {
     height: 1.875rem;
     color: #1e375a;
     border-radius: 0.25rem;
-    border: 0.063rem solid #2F3C7E;
+    border: 0.063rem solid #2f3c7e;
     font-size: 1rem;
     margin: 0.725rem auto;
     cursor: pointer;

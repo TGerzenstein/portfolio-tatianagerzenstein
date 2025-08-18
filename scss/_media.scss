@@ -2,687 +2,635 @@
 @use "var" as *;
 /* Very small devices */
 @media screen and (max-width: 36rem) {
+  .body-index {
+    header {
+      background-color: #e9f1fa;
+      color: #1e375a;
 
-    .body-index {
-   
-        header {
-          background-color: #E9F1FA;
-          color: #1e375a;
+      h1 {
+        font-size: 1rem;
+      }
 
-            h1 {
-               font-size: 1rem;
+      .navbar {
+        .container-fluid {
+          .nav-link,
+          .active {
+            font-size: 1rem;
+            background-color: #e9f1fa;
+            color: #1e375a;
+          }
+        }
+      }
+    }
+
+    .main-index {
+      .intro {
+        .front {
+          display: flex;
+          flex-direction: column;
+          margin: 0rem auto;
+          text-align: center;
+
+          .front-black {
+            background-color: #e9f1fa;
+            padding-top: 6rem;
+
+            .ball {
+              background-image: url(../images/perfil.jpg);
+              background-size: cover;
+              width: 9rem;
+              height: 9rem;
+              border-radius: 50%;
+              margin: 0rem auto;
             }
+          }
 
-            .navbar {
-               
-                .container-fluid {
+          .welcome {
+            text-align: center;
+            font-size: 1.2rem;
+            letter-spacing: 0.056rem;
+            height: 350px;
 
-                    .nav-link, 
-                    .active {
-                        font-size: 1rem;
-                        background-color: #E9F1FA;
-                        color: #1e375a;
-                    }
-                }  
+            .main-welcome {
+              color: #1e375a;
             }
+          }
+        }
+      }
+
+      .about-me {
+        display: flex;
+        flex-direction: column;
+        margin: 0rem;
+        padding: 0rem 2rem;
+
+        .section-title {
+          font-size: 1.1rem;
+          text-align: center;
         }
 
-        .main-index {
-
-          .intro {
-
-              .front {
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: center;
-                  align-items: center;
-          
-                  .front-black {
-                      background-color: #E9F1FA;
-                      padding-top: 6rem;
-                      
-                      .ball {
-                          background-image: url(../images/perfil.jpg);
-                          background-size: cover;
-                          width: 9rem;
-                          height: 9rem;
-                          border-radius: 50%;
-                          margin: 0rem auto;
-                      }
-                  }
-          
-                  .welcome {
-                      font-size: 1.40rem;
-                      letter-spacing: 0.056rem;
-                      height: 350px;
-
-                      .main-welcome {
-                        color: #1e375a;
-                        margin: 0rem auto;
-                      }
-                  }    
-              }
-            }      
-
-            .about-me {
-               display: flex;
-               flex-direction: column;
-               margin: 0rem;
-               padding: 0rem 2rem;
-
-                .section-title {
-                    font-size: 1.10rem;
-                    text-align: center;
-                }
-
-                .section-text {
-                    font-size: 1rem;
-                }
-            }
-            
-        
-            .experience-title {
-                font-size: 1.10rem;
-            }
-
-            .section-title {
-                  font-size: 1.10rem;
-
-                .overlay {
-
-                    p {
-                        font-size: 1rem;
-                    }
-                }
-            }
-
-            .proj-recent {
-              padding: 0rem 1.90rem;
-            }
-
-            .phrase {
-                font-size: 1.20rem;
-                text-align: center;
-                padding: 0rem 2rem;
-            }
+        .section-text {
+          font-size: 1rem;
         }
-    
-        .footer {
-           background-color: #1e375a;
-           color: $bg-custom; 
-           font-size: 1rem;
+      }
 
-           .created {
-               font-size: 1rem;
-           }
+      .experience-title {
+        font-size: 1.1rem;
+      }
+
+      .section-title {
+        font-size: 1.1rem;
+
+        .overlay {
+          p {
+            font-size: 1rem;
+          }
         }
-    }  
+      }
+
+      .proj-recent {
+        padding: 0rem 1.9rem;
+      }
+
+      .phrase {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0rem 2rem;
+      }
+    }
+
+    .footer {
+      background-color: #1e375a;
+      color: $bg-custom;
+      font-size: 1rem;
+
+      .created {
+        font-size: 1rem;
+      }
+    }
+  }
 }
-
 
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
-    
-    .body-index {
-   
-        header {
-          background-color: #1e375a;
+  .body-index {
+    header {
+      background-color: #e9f1fa;
+      color: #1e375a;
+
+      h1 {
+        font-size: 1.2rem;
+      }
+
+      .navbar {
+        .container-fluid {
+          .nav-link,
+          .active {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .main-index {
+      .front {
+        display: flex;
+        flex-direction: row;
+
+        .front-black {
+          background-color: #e9f1fa;
+
+          .ball {
+            background-color: #e9f1fa;
+
+            background-image: url(../images/perfil.jpg);
+            background-size: cover;
+            width: 9rem;
+            height: 9rem;
+            border-radius: 50%;
+          }
+        }
+
+        .welcome {
+          font-size: 1.4rem;
+          letter-spacing: 0.056rem;
+          justify-content: center;
           color: #1e375a;
 
-            h1 {
-             font-size: 1.20rem;
-            }
 
-            .navbar {
-               
-                .container-fluid {
+          .main-welcome {
+            color: #1e375a;
+          }
+        }
+      }
 
-                    .nav-link, 
-                    .active {
-                        font-size: 1rem;
-                    }
-                }  
-            }
+      .about-me {
+        display: flex;
+        justify-content: center;
+        padding: 0rem 5rem;
+
+        .section-title {
+          font-size: 1.2rem;
+          text-align: center;
         }
 
-        .main-index {
-            
-            .front {
-                display: flex;
-                flex-direction: row;
-        
-                .front-black {
-                    background-color: $bg-basic;
-                    
-                    .ball {
-                        background-image: url(../images/perfil.jpg);
-                        background-size: cover;
-                        width: 9rem;
-                        height: 9rem;
-                        border-radius: 50%;
-                    }
-                }
-
-                .welcome {
-                    font-size: 1.40rem;
-                    letter-spacing: 0.056rem;
-                    justify-content: center;
-
-
-                  .main-welcome {
-                      color: $bg-custom;
-                  }
-                }
-
-            }
-
-            .about-me {
-                display: flex;
-                justify-content: center;
-                padding: 0rem 5rem;
- 
-                 .section-title {
-                     font-size: 1.20rem;
-                     text-align: center;
-                 }
- 
-                 .section-text {
-                     font-size: 1rem;
-                 }
-            }
-         
-            .experience-title {
-                font-size: 1.20rem;
-            }
-
-            .proj-recent {
-            
-              .section-title {
-                  font-size: 1.20rem;
-                  text-align: center;
-              }
-
-            }
- 
-            .phrase {
-                font-size: 1.30rem;
-                text-align: center;
-                justify-content: center;
-            }
+        .section-text {
+          font-size: 1rem;
         }
+      }
 
-        .footer {
-            background-color: $bg-basic;
-            color: $bg-custom;
-            font-size: 1rem;
- 
-            .created {
-             font-size: 1rem;
-            }
+      .experience-title {
+        font-size: 1.2rem;
+      }
+
+      .proj-recent {
+        .section-title {
+          font-size: 1.2rem;
+          text-align: center;
         }
-    }   
+      }
+
+      .phrase {
+        font-size: 1.3rem;
+        text-align: center;
+        justify-content: center;
+      }
+    }
+
+    .footer {
+      background-color: $bg-basic;
+      color: $bg-custom;
+      font-size: 1rem;
+
+      .created {
+        font-size: 1rem;
+      }
+    }
+  }
 }
 
-
 @media screen and (min-width: 48.063rem) and (max-width: 75rem) {
-  
-    .body-index {
-   
-        header {
-           background-color: $bg-basic;
-           color: $bg-custom;
-        }
-
-        .main-index {
-             
-            .front {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-        
-                .front-black {
-                    background-color: $bg-basic;
-                    min-height: 450px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    .ball {
-                        margin: 0rem;
-                        background-image: url(../images/perfil.jpg);
-                        background-size: cover;
-                        width: 10.30rem;
-                        height: 10.30rem;
-                        border-radius: 50%;
-                        padding-top: 5rem;
-                    }
-                }
-
-                .welcome {
-                    font-size: 1.80rem;
-                    letter-spacing: 0.056rem;
-                    height: auto;
-                    text-align: center;
-                    padding: 0rem 1rem;
-
-                  .main-welcome {
-                      color: $bg-custom;
-                      width: 100%;
-                  }  
-                }
-            }
-
-
-            .about-me {
-                display: flex;
-                justify-content: center;
- 
-                 .section-title {
-                     font-size: 1.60rem;
-                     text-align: center;
-                 }
- 
-                 .section-text {
-                     font-size: 1rem;
-                 }
-            }
-
-
-            .experience-title {
-                font-size: 1.60rem;
-            }
-
-            .phrase {
-                font-size: 1.70rem;
-                justify-content: center;
-            }
-        }
-    
-        .footer {
-           background-color: $bg-basic;
-           color: $bg-custom;
-        }
+  .body-index {
+    header {
+      background-color: #e9f1fa;
+      color: #1e375a;
     }
-} 
 
+    .main-index {
+      .front {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1e375a;
+
+        .front-black {
+          background-color: #e9f1fa;
+          min-height: 450px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #1e375a;
+
+          .ball {
+            background-color: #e9f1fa;
+
+            margin: 0rem;
+            background-image: url(../images/perfil.jpg);
+            background-size: cover;
+            width: 10.3rem;
+            height: 10.3rem;
+            border-radius: 50%;
+            padding-top: 5rem;
+          }
+        }
+
+        .welcome {
+          font-size: 1.8rem;
+          letter-spacing: 0.056rem;
+          height: auto;
+          text-align: center;
+          padding: 0rem 1rem;
+          color: #1e375a;
+
+          .main-welcome {
+            width: 100%;
+            color: #1e375a;
+          }
+        }
+      }
+
+      .about-me {
+        display: flex;
+        justify-content: center;
+
+        .section-title {
+          font-size: 1.6rem;
+          text-align: center;
+        }
+
+        .section-text {
+          font-size: 1rem;
+        }
+      }
+
+      .experience-title {
+        font-size: 1.6rem;
+      }
+
+      .phrase {
+        font-size: 1.7rem;
+        justify-content: center;
+      }
+    }
+
+    .footer {
+      background-color: $bg-basic;
+      color: $bg-custom;
+    }
+  }
+}
 
 /* Responsive contact */
 
 /* Very small devices */
 @media screen and (max-width: 36rem) {
-  
-    .body-contact {
-        padding: 0rem 0rem;
-        margin: 0rem;
+  .body-contact {
+    padding: 0rem 0rem;
+    margin: 0rem;
 
-        header {
-            background-color: $bg-basic;
-            color: $bg-custom;
- 
-            h1 {
-                font-size: 1rem;
-            }
-  
-            .navbar {
-                 
-                .container-fluid {
-  
-                    .nav-link, 
-                    .active {
-                          font-size: 1rem;
-                    }
-                }  
-            }
-        } 
-    
-        .main-contact {
-            display: flex;
-            text-align: center; 
+    header {
+      background-color: #e9f1fa;
+      color: #1e375a;
 
-            .tittle {
-                color: $title;
-                font-size: 1.20rem;
-                text-align: center; 
-            }
-           
-            .info {
-                color: $bg-basic;
-                font-size: 1rem;
-            }
-           
-            .contact-form {
-                padding: 0rem;
-                margin: 0 auto;
-                width: 70%;
+      h1 {
+        font-size: 1rem;
+      }
 
-                .fieldset-w {
-                        
-                    .contact-div {
-
-                        label {
-                            color: $bg-basic;
-                            font-size: 1rem;
-                            padding: 0.625rem;
-                        }
-
-                        input, textarea {
-                            font-size: 1rem;
-                        }
-                    }
-
-                    .submit {
-                        background: #fff;
-                        display: block;
-                        width: 6.25rem;
-                        height: 1.875rem;
-                        color: $bg-basic; 
-                        border-radius: 0.25rem;
-                        border: 0.063rem solid #2F3C7E;
-                        font-size: 1rem;
-                        margin: 0.625rem auto;
-                        cursor: pointer;
-                    }
-                }
-            }   
-        }
-        
-        .footer {
-          background-color: $bg-basic;
-          color: $bg-custom;
-          font-size: 1rem;
-  
-          .createdby {
-             font-size: 1rem;
+      .navbar {
+        .container-fluid {
+          .nav-link,
+          .active {
+            font-size: 1rem;
           }
+        }
       }
     }
-}  
 
-  
+    .main-contact {
+      display: flex;
+      text-align: center;
 
+      .tittle {
+        color: $title;
+        font-size: 1.2rem;
+        text-align: center;
+      }
+
+      .info {
+        color: $bg-basic;
+        font-size: 1rem;
+      }
+
+      .contact-form {
+        padding: 0rem;
+        margin: 0 auto;
+        width: 70%;
+
+        .fieldset-w {
+          .contact-div {
+            label {
+              color: $bg-basic;
+              font-size: 1rem;
+              padding: 0.625rem;
+            }
+
+            input,
+            textarea {
+              font-size: 1rem;
+            }
+          }
+
+          .submit {
+            background: #fff;
+            display: block;
+            width: 6.25rem;
+            height: 1.875rem;
+            color: $bg-basic;
+            border-radius: 0.25rem;
+            border: 0.063rem solid #2f3c7e;
+            font-size: 1rem;
+            margin: 0.625rem auto;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .footer {
+      background-color: $bg-basic;
+      color: $bg-custom;
+      font-size: 1rem;
+
+      .createdby {
+        font-size: 1rem;
+      }
+    }
+  }
+}
 
 /* Mobile devices */
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
-    
-    .body-contact {
-        padding: 0rem 0rem;
+  .body-contact {
+    padding: 0rem 0rem;
 
-        header {
-            background-color: $bg-basic;
-            color: $bg-custom;
-  
-            h1 {
-               font-size: 1rem;
-               margin-left: 0.25rem;
-            }
-  
-            .navbar {
-                 
-                .container-fluid {
-  
-                    .nav-link, 
-                    .active {
-                        font-size: 1rem;
-                    }
-                }  
-            }
-        }
-    
-        .main-contact {
-            text-align: center;
-           
-            .tittle {
-                color: $bg-basic;
-                font-size: 1.6rem;
-            }
-           
-            .info {
-                color: $bg-basic;
-                font-size: 1rem;
-                width: auto;
-            }
-           
-            .contact-form {
+    header {
+      background-color: #e9f1fa;
+      color: #1e375a;
 
-                .fieldset-w {
-                        
-                    .contact-div {
+      h1 {
+        font-size: 1rem;
+        margin-left: 0.25rem;
+      }
 
-                        label {
-                            color: $bg-basic;
-                            font-size: 1.1rem;
-                            padding: 0.625rem;
-                        }
-                    }
-
-                    .submit {
-                        background: #fff;
-                        display: block;
-                        padding: 0.413rem 1rem;
-                        width: 6.25rem;
-                        height: 1.875rem;
-                        color: $bg-basic; 
-                        border-radius: 0.25rem;
-                        border: 0.063rem solid #2F3C7E;
-                        font-size: 1rem;
-                        margin: 0.725rem auto;
-                        cursor: pointer;
-                    }
-                }
-            }   
-        }
-        
-        .footer {
-            background-color: $bg-basic;
-            color: $bg-custom;
+      .navbar {
+        .container-fluid {
+          .nav-link,
+          .active {
             font-size: 1rem;
-    
-            .createdby {
-               font-size: 1rem;
-            }
+          }
         }
+      }
     }
-}
 
+    .main-contact {
+      text-align: center;
+
+      .tittle {
+        color: $bg-basic;
+        font-size: 1.6rem;
+      }
+
+      .info {
+        color: $bg-basic;
+        font-size: 1rem;
+        width: auto;
+      }
+
+      .contact-form {
+        .fieldset-w {
+          .contact-div {
+            label {
+              color: $bg-basic;
+              font-size: 1.1rem;
+              padding: 0.625rem;
+            }
+          }
+
+          .submit {
+            background: #fff;
+            display: block;
+            padding: 0.413rem 1rem;
+            width: 6.25rem;
+            height: 1.875rem;
+            color: $bg-basic;
+            border-radius: 0.25rem;
+            border: 0.063rem solid #2f3c7e;
+            font-size: 1rem;
+            margin: 0.725rem auto;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .footer {
+      background-color: $bg-basic;
+      color: $bg-custom;
+      font-size: 1rem;
+
+      .createdby {
+        font-size: 1rem;
+      }
+    }
+  }
+}
 
 /* Responsive resume */
 
 /* Very small devices */
 @media screen and (max-width: 36rem) {
+  .body-resume {
+    header {
+      background-color: $bg-basic;
+      color: $bg-custom;
 
-    .body-resume {
-        
-        header {
-            background-color: $bg-basic;
-            color: $bg-custom;
-  
-            h1 {
-                font-size: 1rem;
-            }
+      h1 {
+        font-size: 1rem;
+      }
 
-            .navbar {
-               
-                .container-fluid {
-
-                    .nav-link, 
-                    .active {
-                        font-size: 1rem;
-                    }
-                }  
-            }
+      .navbar {
+        .container-fluid {
+          .nav-link,
+          .active {
+            font-size: 1rem;
+          }
         }
-
-        .main-resume {
-
-            .resum1 {
-                display: flex;
-                flex-direction: column;
-
-                .content-resume1 {
-
-                    h2 {
-                       font-size: 1.10rem;
-                       text-align: center; 
-                    }
-
-                    .rol {
-                        font-size: 1rem;
-                    }
-
-                    .years {
-                        font-size: 1rem;
-                    }
-
-                    .task {
-                        font-size: 1rem;
-                    }
-                }
-
-                .content-resume2 {
-
-                    h2 {
-                        font-size: 1.10rem;
-                        text-align: center; 
-                    }
-
-                    .rol {
-                        font-size: 1rem;
-                    }
-
-                    .years {
-                        font-size: 1rem;
-                    }
-
-                    .task {
-                        font-size: 1rem;
-                    }
-                }
-            }
-        
-            .resum2 {
-
-                .content-certificates1 {
-    
-                    h2 {
-                        font-size: 1.10rem;
-                        text-align: center; 
-                    }
-    
-                    .courses {
-                        font-size: 1rem;
-                    }
-                }
-    
-                .content-certificates2 {
-                    
-                    h2 {
-                        font-size: 1.10rem;
-                        text-align: center; 
-                    }
-    
-                    .courses {
-                        font-size: 1rem;
-                    }
-                }
-            }
-        }
+      }
     }
+
+    .main-resume {
+      .resum1 {
+        display: flex;
+        flex-direction: column;
+
+        .content-resume1 {
+          h2 {
+            font-size: 1.1rem;
+            text-align: center;
+          }
+
+          .rol {
+            font-size: 1rem;
+          }
+
+          .years {
+            font-size: 1rem;
+          }
+
+          .task {
+            font-size: 1rem;
+          }
+        }
+
+        .content-resume2 {
+          h2 {
+            font-size: 1.1rem;
+            text-align: center;
+          }
+
+          .rol {
+            font-size: 1rem;
+          }
+
+          .years {
+            font-size: 1rem;
+          }
+
+          .task {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .resum2 {
+        .content-certificates1 {
+          h2 {
+            font-size: 1.1rem;
+            text-align: center;
+          }
+
+          .courses {
+            font-size: 1rem;
+          }
+        }
+
+        .content-certificates2 {
+          h2 {
+            font-size: 1.1rem;
+            text-align: center;
+          }
+
+          .courses {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 36.063rem) and (max-width: 48rem) {
-   
-    .body-resume {
-        
-        header {
-            background-color: $bg-basic;
-            color: $bg-custom;
-  
-            h1 {
-                font-size: 1rem;
-            }
+  .body-resume {
+    header {
+      background-color: $bg-basic;
+      color: $bg-custom;
 
-            .navbar {
-                     
-                .container-fluid {
-      
-                    .nav-link, 
-                    .active {
-                        font-size: 1rem;
-                    }
-                }  
-            }
+      h1 {
+        font-size: 1rem;
+      }
+
+      .navbar {
+        .container-fluid {
+          .nav-link,
+          .active {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .main-resume {
+      .resum1 {
+        .content-resume1 {
+          h2 {
+            font-size: 1rem;
+            text-align: center;
+          }
+
+          .rol {
+            font-size: 1rem;
+          }
+
+          .years {
+            font-size: 1rem;
+          }
+
+          .task {
+            font-size: 1rem;
+          }
         }
 
-        .main-resume {
+        .content-resume2 {
+          h2 {
+            font-size: 1rem;
+            text-align: center;
+          }
 
-            .resum1 {
+          .rol {
+            font-size: 1rem;
+          }
 
-                .content-resume1 {
+          .years {
+            font-size: 1rem;
+          }
 
-                    h2 {
-                       font-size: 1rem;
-                       text-align: center; 
-                    }
+          .task {
+            font-size: 1rem;
+          }
+        }
+      }
 
-                    .rol {
-                       font-size: 1rem;
-                    }
+      .resum2 {
+        .content-certificates1 {
+          h2 {
+            font-size: 1rem;
+          }
 
-                    .years {
-                        font-size: 1rem;
-                    }
+          .courses {
+            font-size: 1rem;
+          }
+        }
 
-                    .task {
-                        font-size: 1rem;
-                    }
-                }
+        .content-certificates2 {
+          h2 {
+            font-size: 1rem;
+          }
 
-                .content-resume2 {
-
-                    h2 {
-                        font-size: 1rem;
-                        text-align: center; 
-                    }
-
-                    .rol {
-                        font-size: 1rem;
-                    }
-
-                    .years {
-                        font-size: 1rem;
-                    }
-
-                    .task {
-                        font-size: 1rem;
-                    }
-                }
-            }
-        
-            .resum2 {
-
-                .content-certificates1 {
-
-                    h2 {
-                      font-size: 1rem;
-                    }
-
-                    .courses {
-                      font-size: 1rem;
-                    }
-                }
-
-                .content-certificates2 {
-
-                    h2 {
-                      font-size: 1rem;
-                    }
-
-                    .courses {
-                      font-size: 1rem;  
-                    }
-                }
-            }
-        }    
+          .courses {
+            font-size: 1rem;
+          }
+        }
+      }
     }
+  }
 }
-
